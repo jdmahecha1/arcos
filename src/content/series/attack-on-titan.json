@@ -1,0 +1,1145 @@
+{
+  "id": "attack-on-titan",
+  "title": "Attack on Titan",
+  "tagline": "La lucha desesperada de la humanidad por sobrevivir frente a la amenaza de los titanes.",
+  "studio": "Wit Studio y MAPPA",
+  "genre": "Acción y fantasía oscura",
+  "accent": "#a31d1d",
+  "synopsis": "Durante cien años, los últimos vestigios de la civilización humana han vivido resguardados tras tres inmensas murallas para protegerse de colosos devoradores conocidos como titanes. La frágil paz se quiebra súbitamente cuando un titán colosal destruye el muro exterior y desata una sangrienta invasión en el distrito de Shiganshina. Tras presenciar la ruina de su hogar, el joven Eren Yeager decide unirse al ejército con la firme resolución de erradicar a todos los titanes del planeta.",
+  "seasons": [
+    {
+      "id": "aot-t1",
+      "title": "Temporada 1",
+      "year": 2013,
+      "format": "anime",
+      "arcs": [
+        "La caída de Shiganshina",
+        "La batalla de Trost",
+        "La Titán Hembra"
+      ]
+    },
+    {
+      "id": "aot-t2",
+      "title": "Temporada 2",
+      "year": 2017,
+      "format": "anime",
+      "arcs": [
+        "El choque de los titanes"
+      ]
+    },
+    {
+      "id": "aot-t3",
+      "title": "Temporada 3",
+      "year": 2018,
+      "format": "anime",
+      "arcs": [
+        "La rebelión",
+        "Regreso a Shiganshina"
+      ]
+    },
+    {
+      "id": "aot-final",
+      "title": "Temporada final",
+      "year": 2020,
+      "format": "anime",
+      "arcs": [
+        "Marley",
+        "La guerra por Paradis",
+        "El Retumbar",
+        "La batalla de cielo y tierra"
+      ],
+      "until": 2023
+    }
+  ],
+  "characters": [
+    {
+      "id": "eren-yeager",
+      "name": "Eren Yeager",
+      "role": "Joven que anhela la libertad y sueña con ver el mundo exterior.",
+      "intro": "Habita en el distrito de Shiganshina y sufre la repentina devastación de su hogar a manos de los titanes.",
+      "reveals": [
+        {
+          "text": "Descubre que puede transformarse en un titán de quince metros tras ser devorado durante la defensa de Trost.",
+          "at": {
+            "season": "aot-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Activa involuntariamente una misteriosa habilidad que le permite controlar a otros titanes al tocar al titán que mató a su madre.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Averigua en el sótano de su antigua casa que la humanidad prospera al otro lado del mar y que su pueblo proviene de la nación de Eldia.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Devora a la poseedora del Titán Martillo de Guerra durante la incursión sorpresa en la zona de Liberio.",
+          "at": {
+            "season": "aot-final",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Inicia el Retumbar de la Tierra al liberar a millones de titanes colosales durmientes para destruir toda vida fuera de Paradis.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "mikasa-ackerman",
+      "name": "Mikasa Ackerman",
+      "role": "Hermana adoptiva y tenaz protectora de Eren.",
+      "intro": "Fue acogida por la familia Yeager tras una dura tragedia infantil y se mantiene siempre alerta para cuidar a Eren.",
+      "reveals": [
+        {
+          "text": "Descubre que su extraordinaria destreza física proviene de una modificación genética transmitida por su linaje familiar Ackerman.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Participa en la alianza de soldados y guerreros para detener el avance apocalíptico del Retumbar.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "armin-arlert",
+      "name": "Armin Arlert",
+      "role": "Amigo leal de Eren y Mikasa, apasionado por el saber.",
+      "intro": "Posee un libro prohibido que describe paisajes más allá de los muros y comparte el anhelo de Eren de explorar el exterior.",
+      "reveals": [
+        {
+          "text": "Diseña la táctica que permite identificar y acorralar a Annie Leonhart en el distrito de Stohess.",
+          "at": {
+            "season": "aot-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Hereda el Titán Colosal tras sufrir graves quemaduras en Shiganshina y recibir la inyección del suero de titán.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Asume el puesto de decimoquinto comandante del Cuerpo de Exploración tras la caída de Hange Zoë.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "hannes",
+      "name": "Hannes",
+      "role": "Guardia de la Guarnición encargado de vigilar las murallas.",
+      "intro": "Pasa sus días patrullando Shiganshina y siente una gran deuda moral con la familia Yeager.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Muere en combate intentando defender a Eren y Mikasa frente al titán sonriente que destruyó su pasado.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "reiner-braun",
+      "name": "Reiner Braun",
+      "role": "Cadete destacado de la tropa 104 y subcampeón de su clase.",
+      "intro": "Sobresale por su imponente físico y su liderazgo protector durante los combates en el distrito de Trost.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Confiesa ser el Titán Acorazado y haber provocado la caída inicial de la Muralla Maria junto a Bertholdt.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Se une a los supervivientes del Cuerpo de Exploración para formar un frente común y detener la catástrofe mundial.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "annie-leonhart",
+      "name": "Annie Leonhart",
+      "role": "Cadete solitaria experta en técnicas de combate cuerpo a cuerpo.",
+      "intro": "Egresó en el cuarto lugar de la promoción 104 y mantiene una actitud distante frente al entusiasmo de sus pares.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Se revela como la identidad humana tras la Titán Hembra que emboscó a los exploradores en el exterior.",
+          "at": {
+            "season": "aot-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Se encierra dentro de un cristal indestructible para evitar ser interrogada tras su captura en Stohess.",
+          "at": {
+            "season": "aot-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Despierta de su estado de hibernación cristalina cuando Eren anula todo el endurecimiento de la isla.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "jean-kirstein",
+      "name": "Jean Kirstein",
+      "role": "Cadete pragmático que aspira a ingresar en la Policía Militar.",
+      "intro": "Ocupó el sexto puesto en la tropa 104 y suele chocar con Eren por su visión realista sobre la supervivencia humana.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Decide renunciar a la cómoda Policía Militar para alistarse en el Cuerpo de Exploración tras la muerte de su compañero Marco.",
+          "at": {
+            "season": "aot-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Comanda las tropas en tierra durante el ataque nocturno contra las instalaciones enemigas en Liberio.",
+          "at": {
+            "season": "aot-final",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "erwin-smith",
+      "name": "Erwin Smith",
+      "role": "Decimotercer comandante general del Cuerpo de Exploración.",
+      "intro": "Comanda las expediciones fuera de los muros y concibe planes tácticos audaces para cambiar el rumbo de la guerra.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Organiza una rebelión incruenta para destituir a la falsa monarquía y colocar a Historia en el trono legítimo.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Lidera una carga suicida contra el Titán Bestia en Shiganshina para crear una distracción que permita el contraataque de Levi.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "levi",
+      "name": "Levi",
+      "role": "Capitán del escuadrón de operaciones especiales de exploración.",
+      "intro": "Reconocido como el guerrero más letal de la humanidad, combina una técnica impecable con una estricta disciplina.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Su apellido es Ackerman: fue criado por su tío Kenny en la ciudad subterránea.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Derrota y mutila de gravedad al Titán Bestia durante la emboscada táctica en Shiganshina.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Cumple su promesa final a Erwin Smith al decapitar a Zeke durante la confrontación definitiva.",
+          "at": {
+            "season": "aot-final",
+            "arc": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "hange-zoe",
+      "name": "Hange Zoë",
+      "role": "Líder de escuadrón y científica principal de la exploración.",
+      "intro": "Muestra una fascinación desbordante por capturar y analizar titanes para desentrañar sus misterios biológicos.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Desarrolla las lanzas trueno, una nueva arma explosiva diseñada para perforar el blindaje de titanes acorazados.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Asume el mando como decimocuarta comandante del Cuerpo de Exploración tras la pérdida de Erwin Smith.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Sacrifica su vida combatiendo a los titanes colosales para que el hidroavión de la alianza pueda despegar.",
+          "at": {
+            "season": "aot-final",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "krista-lenz",
+      "name": "Krista Lenz",
+      "role": "Amable cadete de la tropa 104.",
+      "intro": "Ocupó el décimo lugar de su promoción y es admirada por sus compañeros por su dulzura y bondad incondicional.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Revela que su verdadero nombre es Historia Reiss y que pertenece a la familia noble de los Reiss.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Rechaza el plan de su padre para absorber al Titán Fundador y es proclamada reina coronada tras vencerlo.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ymir",
+      "name": "Ymir",
+      "role": "Cadete independiente y reservada de la tropa 104.",
+      "intro": "Muestra un temperamento sarcástico e indiferente ante casi todos sus compañeros, excepto hacia Krista Lenz.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Demuestra la capacidad de transformarse en un titán ágil para rescatar a sus camaradas en el castillo Utgard.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Elige entregarse a Reiner para saldar su deuda con ellos tras haber devorado a su antiguo compañero en el pasado.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "zeke",
+      "name": "Zeke",
+      "role": "Misterioso atacante que comanda el poder del Titán Bestia.",
+      "intro": "Surge en las inmediaciones de la Muralla Rose con la insólita habilidad de comunicarse verbalmente y arrojar proyectiles.",
+      "appears": {
+        "season": "aot-t2",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Se revela como el primer hijo de Grisha Yeager y medio hermano mayor de Eren criado en Marley.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Promueve un plan secreto para privar a la estirpe eldiana de descendencia mediante el poder del Titán Fundador.",
+          "at": {
+            "season": "aot-final",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kenny-ackerman",
+      "name": "Kenny Ackerman",
+      "role": "Capitán del escuadrón antipersona de la Policía Interior.",
+      "intro": "Legendario pistolero conocido en los bajos fondos que lidera operativos armados al servicio de la corona clandestina.",
+      "appears": {
+        "season": "aot-t3",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Revela antes de fallecer que es el tío materno de Levi y le obsequia la jeringa con suero de titán.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "gabi-braun",
+      "name": "Gabi Braun",
+      "role": "Aspirante eldiana a guerrera en el ejército de Marley.",
+      "intro": "Compensa su juventud con audacia y devoción patriótica con el objetivo de heredar el poder del Titán Acorazado.",
+      "appears": {
+        "season": "aot-final",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Se infiltra armada en la aeronave de retirada enemiga y abate a una soldado del Cuerpo de Exploración.",
+          "at": {
+            "season": "aot-final",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Abandona sus prejuicios hacia los habitantes de Paradis tras recibir el perdón y la compasión de civiles locales.",
+          "at": {
+            "season": "aot-final",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "falco-grice",
+      "name": "Falco Grice",
+      "role": "Recluta eldiano de Marley con un noble sentido del deber.",
+      "intro": "Recluta compasivo que busca heredar el Titán Acorazado con el fin de librar a Gabi de ese trágico destino.",
+      "appears": {
+        "season": "aot-final",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Es utilizado inconscientemente por Eren como mensajero encubierto antes del ataque a Liberio.",
+          "at": {
+            "season": "aot-final",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Obtiene el poder del Titán Mandíbula durante la batalla de Shiganshina, tras ingerir fluido espinal sin saberlo.",
+          "at": {
+            "season": "aot-final",
+            "arc": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "caida-muralla-maria",
+      "title": "La caída de la Muralla Maria",
+      "date": "Año 845",
+      "order": 10,
+      "at": {
+        "season": "aot-t1",
+        "arc": 0
+      },
+      "text": "Un titán descomunal aparece de la nada y destruye la compuerta exterior del distrito de Shiganshina. La brecha permite el ingreso masivo de criaturas que devoran a los habitantes locales y fuerzan una caótica evacuación.",
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "hannes"
+      ],
+      "major": true
+    },
+    {
+      "id": "evacuacion-hacia-la-muralla-rose",
+      "title": "Evacuación hacia la Muralla Rose",
+      "date": "Año 845",
+      "order": 20,
+      "at": {
+        "season": "aot-t1",
+        "arc": 0
+      },
+      "text": "Los sobrevivientes abordan barcos de transporte para refugiarse tras el segundo muro mientras la retaguardia colapsa. En medio de la angustia colectiva, los jóvenes refugiados enfrentan la pérdida de sus hogares y deciden alistarse en el ejército.",
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ],
+      "major": false
+    },
+    {
+      "id": "segunda-aparicion-del-titan-colosal",
+      "title": "Invasión en el distrito de Trost",
+      "date": "Año 850",
+      "order": 30,
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "text": "Cinco años después del primer asedio, el Titán Colosal reaparece sorpresivamente y pulveriza el portón frontal de Trost. Los cadetes recién graduados de la promoción 104 son movilizados de urgencia a la primera línea para contener a los intrusos.",
+      "characters": [
+        "eren-yeager",
+        "armin-arlert",
+        "jean-kirstein"
+      ],
+      "major": false
+    },
+    {
+      "id": "despertar-titan-eren",
+      "title": "El surgimiento de un titán aliado",
+      "date": "Año 850",
+      "order": 40,
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "text": "Tras ser engullido al salvar a Armin, Eren despierta en el interior de una colosal criatura que ataca con furia a otros titanes. La intervención de este misterioso titán permite rescatar a las escuadras acorraladas y reabrir el cuartel de suministros.",
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "armin-arlert"
+      ],
+      "major": true
+    },
+    {
+      "id": "sellado-de-la-puerta-de-trost",
+      "title": "El sellado del acceso de Trost",
+      "date": "Año 850",
+      "order": 50,
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "text": "Eren utiliza su forma de titán para transportar una inmensa roca y taponar la brecha de la muralla bajo la protección de las tropas. La maniobra concluye con éxito gracias a la oportuna llegada del capitán Levi, marcando la primera victoria militar de la humanidad.",
+      "characters": [
+        "eren-yeager",
+        "levi",
+        "jean-kirstein"
+      ],
+      "major": false
+    },
+    {
+      "id": "expedicion-cincuenta-y-siete",
+      "title": "La quincuagésima séptima expedición exterior",
+      "date": "Año 850",
+      "order": 60,
+      "at": {
+        "season": "aot-t1",
+        "arc": 2
+      },
+      "text": "El Cuerpo de Exploración parte a campo abierto implementando la formación de exploración a larga distancia diseñada por Erwin Smith. Durante el trayecto, una veloz y resistente Titán Hembra dotada de inteligencia diezma las líneas laterales de la formación.",
+      "characters": [
+        "erwin-smith",
+        "levi",
+        "eren-yeager"
+      ],
+      "major": false
+    },
+    {
+      "id": "masacre-del-escuadron-levi",
+      "title": "Emboscada en el bosque de árboles gigantes",
+      "date": "Año 850",
+      "order": 70,
+      "at": {
+        "season": "aot-t1",
+        "arc": 2
+      },
+      "text": "Tras escapar de una trampa mecánica orquestada por Erwin, la Titán Hembra se regenera y aniquila al escuadrón especial de Levi. Eren combate encolerizado pero es derrotado, siendo rescatado a último momento gracias a la coordinación de Mikasa y Levi.",
+      "characters": [
+        "eren-yeager",
+        "levi",
+        "mikasa-ackerman"
+      ],
+      "major": false
+    },
+    {
+      "id": "captura-titan-hembra",
+      "title": "Duelo y captura en Stohess",
+      "date": "Año 850",
+      "order": 80,
+      "at": {
+        "season": "aot-t1",
+        "arc": 2
+      },
+      "text": "Armin deduce la identidad de Annie Leonhart y le tiende una trampa en el interior de la Muralla Sina. Luego de un feroz combate urbano contra Eren, Annie intenta escalar el muro pero es derribada, cristalizando su propio cuerpo para eludir el interrogatorio.",
+      "characters": [
+        "armin-arlert",
+        "annie-leonhart",
+        "eren-yeager",
+        "mikasa-ackerman"
+      ],
+      "major": true
+    },
+    {
+      "id": "asedio-al-castillo-utgard",
+      "title": "Asedio nocturno al castillo Utgard",
+      "date": "Año 850",
+      "order": 90,
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      },
+      "text": "Varios soldados quedan atrapados en unas ruinas abandonadas ante una horda de titanes activos bajo la luz de la luna. Para proteger a Krista y evitar una masacre, Ymir revela su poder de titán y salta al combate hasta la llegada de refuerzos.",
+      "characters": [
+        "ymir",
+        "krista-lenz",
+        "reiner-braun"
+      ],
+      "major": false
+    },
+    {
+      "id": "traicion-reiner-bertholdt",
+      "title": "Revelación sobre la Muralla Rose",
+      "date": "Año 850",
+      "order": 100,
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      },
+      "text": "Reiner Braun confiesa repentinamente a Eren su identidad como Titán Acorazado y la de su socio como Titán Colosal. Ante la negativa de Eren de cooperar, ambos se transforman sobre la muralla y lo raptan junto a Ymir tras un encarnizado choque.",
+      "characters": [
+        "reiner-braun",
+        "eren-yeager",
+        "mikasa-ackerman"
+      ],
+      "major": true
+    },
+    {
+      "id": "activacion-de-la-coordenada",
+      "title": "Despertar del poder de la Coordenada",
+      "date": "Año 850",
+      "order": 110,
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      },
+      "text": "Durante la desesperada persecución para rescatar a Eren, Hannes muere en combate enfrentando al titán sonriente. En un arranque de furia, Eren golpea al monstruo y desata involuntariamente un grito que comanda a los titanes puros a devorarlo, obligando a Reiner a huir.",
+      "characters": [
+        "eren-yeager",
+        "hannes",
+        "reiner-braun",
+        "mikasa-ackerman"
+      ],
+      "major": false
+    },
+    {
+      "id": "persecucion-del-escuadron-antipersona",
+      "title": "Duelo armado en la capital",
+      "date": "Año 850",
+      "order": 120,
+      "at": {
+        "season": "aot-t3",
+        "arc": 0
+      },
+      "text": "La Policía Militar Interior despliega equipos de maniobras con armas de fuego bajo las órdenes de Kenny Ackerman. El escuadrón de Levi debe aprender a combatir contra adversarios humanos para proteger a Eren e Historia del secuestro gubernamental.",
+      "characters": [
+        "levi",
+        "kenny-ackerman",
+        "krista-lenz"
+      ],
+      "major": false
+    },
+    {
+      "id": "golpe-de-estado-de-erwin",
+      "title": "Derrocamiento del gobierno corrupto",
+      "date": "Año 850",
+      "order": 130,
+      "at": {
+        "season": "aot-t3",
+        "arc": 0
+      },
+      "text": "Erwin Smith orquesta una hábil maniobra política junto a la Guarnición que desenmascara la indiferencia de los falsos gobernantes hacia los civiles. El régimen nobiliario es desmantelado sin derramamiento de sangre para restaurar la verdad ante el pueblo.",
+      "characters": [
+        "erwin-smith",
+        "hange-zoe"
+      ],
+      "major": false
+    },
+    {
+      "id": "coronacion-de-historia",
+      "title": "Coronación de la legítima soberana",
+      "date": "Año 850",
+      "order": 140,
+      "at": {
+        "season": "aot-t3",
+        "arc": 0
+      },
+      "text": "Historia rechaza la orden de su padre de absorber a Eren y corta al colosal titán deforme en el que Rod Reiss se convierte. Tras asestar el golpe definitivo frente a los habitantes del distrito de Orvud, es proclamada reina soberana de los muros.",
+      "characters": [
+        "krista-lenz",
+        "eren-yeager",
+        "levi"
+      ],
+      "major": false
+    },
+    {
+      "id": "carga-suicida-de-erwin",
+      "title": "La última carga de los novatos",
+      "date": "Año 850",
+      "order": 150,
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      },
+      "text": "Acorralados por la lluvia de proyectiles arrojados por el Titán Bestia, Erwin encabeza una ofensiva frontal con los reclutas para servir de distracción. La táctica permite a Levi rodear a los titanes y despedazar al comandante enemigo en un asalto sorpresa.",
+      "characters": [
+        "erwin-smith",
+        "levi",
+        "zeke"
+      ],
+      "major": false
+    },
+    {
+      "id": "sacrificio-y-resurgimiento-de-armin",
+      "title": "La caída del Titán Colosal",
+      "date": "Año 850",
+      "order": 160,
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      },
+      "text": "Armin resiste las ráfagas ardientes de vapor del enemigo para permitir que Eren derribe al Titán Colosal por la espalda. Ante las quemaduras letales del joven, Levi decide utilizar el suero en Armin, quien revive transformado tras absorber el poder colosal.",
+      "characters": [
+        "armin-arlert",
+        "eren-yeager",
+        "levi"
+      ],
+      "major": false
+    },
+    {
+      "id": "revelacion-del-sotano",
+      "title": "La verdad oculta en el sótano",
+      "date": "Año 850",
+      "order": 170,
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      },
+      "text": "Eren y sus compañeros alcanzan la residencia de su infancia y abren el cajón secreto del escritorio de Grisha Yeager. Los tres diarios y una fotografía revelan que la humanidad vive en una civilización avanzada más allá de los muros y que su gente es parte de la etnia eldiana.",
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "levi",
+        "hange-zoe"
+      ],
+      "major": true
+    },
+    {
+      "id": "asalto-a-liberio",
+      "title": "Declaración de guerra y asalto a Liberio",
+      "date": "Año 854",
+      "order": 180,
+      "at": {
+        "season": "aot-final",
+        "arc": 0
+      },
+      "text": "Willy Tybur proclama un discurso internacional declarando a Paradis como una amenaza global, instante en que Eren emerge transformado sembrando la destrucción. Con el respaldo del Cuerpo de Exploración, Eren devora al Titán Martillo de Guerra ante la mirada atónita del mundo.",
+      "characters": [
+        "eren-yeager",
+        "mikasa-ackerman",
+        "gabi-braun",
+        "falco-grice"
+      ],
+      "major": true
+    },
+    {
+      "id": "retirada-y-tragedia-aerea",
+      "title": "Infiltración y huida en la aeronave",
+      "date": "Año 854",
+      "order": 190,
+      "at": {
+        "season": "aot-final",
+        "arc": 0
+      },
+      "text": "Durante la evacuación en dirigible de las tropas de Paradis, Gabi y Falco logran subir a bordo utilizando un equipo de maniobras. Tras un disparo fatal que cobra una baja en la cabina, ambos jóvenes son apresados y trasladados a la isla.",
+      "characters": [
+        "gabi-braun",
+        "falco-grice",
+        "jean-kirstein"
+      ],
+      "major": false
+    },
+    {
+      "id": "motin-jaegerista",
+      "title": "Sublevación de la facción rebelde",
+      "date": "Año 854",
+      "order": 200,
+      "at": {
+        "season": "aot-final",
+        "arc": 1
+      },
+      "text": "Soldados afines a Eren detonan un atentado contra los altos mandos y toman el control de los cuarteles principales de Paradis. Eren escapa de su celda para reunirse con sus partidarios, desconociendo la autoridad militar tradicional.",
+      "characters": [
+        "eren-yeager",
+        "hange-zoe",
+        "armin-arlert"
+      ],
+      "major": false
+    },
+    {
+      "id": "invasion-aerea-de-marley",
+      "title": "Invasión aérea a Shiganshina",
+      "date": "Año 854",
+      "order": 210,
+      "at": {
+        "season": "aot-final",
+        "arc": 1
+      },
+      "text": "Las fuerzas armadas de Marley despliegan una flota de aeronaves sobre Shiganshina en una arremetida sorpresa contra Eren. Reiner desciende en paracaídas para entablar un violento duelo mientras Zeke interviene arrojando metralla desde lo alto de los muros.",
+      "characters": [
+        "reiner-braun",
+        "eren-yeager",
+        "zeke"
+      ],
+      "major": false
+    },
+    {
+      "id": "inicio-del-retumbar",
+      "title": "Despertar del Retumbar de la Tierra",
+      "date": "Año 854",
+      "order": 220,
+      "at": {
+        "season": "aot-final",
+        "arc": 2
+      },
+      "text": "Eren entra en contacto físico con Zeke para acceder a la dimensión de los Caminos y convencer al espíritu de Ymir Fritz de apoyarlo. Al desestimar el plan de esterilización de su hermano, Eren derrumba las murallas y pone en marcha a millones de titanes colosales hacia el resto del mundo.",
+      "characters": [
+        "eren-yeager",
+        "zeke",
+        "armin-arlert"
+      ],
+      "major": true
+    },
+    {
+      "id": "liberacion-de-annie",
+      "title": "Ruptura del endurecimiento",
+      "date": "Año 854",
+      "order": 230,
+      "at": {
+        "season": "aot-final",
+        "arc": 2
+      },
+      "text": "La activación del poder del Titán Fundador disuelve todo el material endurecido creado en la isla, fracturando la coraza que contenía a Annie. Al quedar libre de su confinamiento, Annie decide cooperar con los antiguos reclutas para buscar una salida a la hecatombe.",
+      "characters": [
+        "annie-leonhart",
+        "armin-arlert"
+      ],
+      "major": false
+    },
+    {
+      "id": "sacrificio-de-hange",
+      "title": "El último vuelo de la comandante",
+      "date": "Año 854",
+      "order": 240,
+      "at": {
+        "season": "aot-final",
+        "arc": 2
+      },
+      "text": "Para retrasar la marcha implacable de los colosales y permitir que la aeronave de la alianza despegue hacia el continente, Hange se lanza en solitario al combate. Antes de perecer consumida por el calor extremo, traspasa formalmente el liderazgo del cuerpo a Armin.",
+      "characters": [
+        "hange-zoe",
+        "armin-arlert",
+        "levi"
+      ],
+      "major": false
+    },
+    {
+      "id": "confrontacion-sobre-el-fundador",
+      "title": "Asalto aéreo sobre el Titán Fundador",
+      "date": "Año 854",
+      "order": 250,
+      "at": {
+        "season": "aot-final",
+        "arc": 3
+      },
+      "text": "Los integrantes de la alianza saltan en paracaídas directamente sobre el espinazo óseo de la descomunal forma de Eren. Allí deben resistir las réplicas de los antiguos titanes mientras Falco arriba transformado para rescatar a sus camaradas en pleno vuelo.",
+      "characters": [
+        "armin-arlert",
+        "mikasa-ackerman",
+        "reiner-braun",
+        "falco-grice"
+      ],
+      "major": false
+    },
+    {
+      "id": "fin-del-poder-de-los-titanes",
+      "title": "El desenlace y la caída de los titanes",
+      "date": "Año 854",
+      "order": 260,
+      "at": {
+        "season": "aot-final",
+        "arc": 3
+      },
+      "text": "Levi decapita a Zeke para frenar el avance de las bestias y Mikasa ingresa en la cavidad del titán para acabar definitivamente con la vida de Eren. Con su deceso, la fuente de vida milenaria se extingue por completo, desvaneciendo la maldición de los titanes de la faz de la tierra.",
+      "characters": [
+        "mikasa-ackerman",
+        "levi",
+        "zeke",
+        "eren-yeager"
+      ],
+      "major": false
+    }
+  ],
+  "relations": [
+    {
+      "from": "eren-yeager",
+      "to": "mikasa-ackerman",
+      "kind": "familia",
+      "detail": "Crecieron bajo el mismo techo y comparten un vínculo inquebrantable forjado en la infancia.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "eren-yeager",
+      "to": "armin-arlert",
+      "kind": "aliado",
+      "detail": "Son amigos íntimos que se apoyan mutuamente para superar las dificultades y soñar con la libertad.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "hannes",
+      "to": "eren-yeager",
+      "kind": "aliado",
+      "detail": "Protege a Eren como muestra de gratitud hacia el doctor Yeager por salvar a su familia en el pasado.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "jean-kirstein",
+      "to": "eren-yeager",
+      "kind": "rival",
+      "detail": "Mantienen constantes desacuerdos sobre la conveniencia de enfrentarse a los titanes en el frente.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "krista-lenz",
+      "to": "ymir",
+      "kind": "aliado",
+      "detail": "Establecen una profunda cercanía en la tropa 104 basada en la confianza y el cuidado mutuo.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "levi",
+      "to": "eren-yeager",
+      "kind": "mentor",
+      "detail": "Supervisa de cerca a Eren en el escuadrón especial para orientar su potencial y evitar riesgos.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "erwin-smith",
+      "to": "levi",
+      "kind": "aliado",
+      "detail": "Erwin deposita plena fe táctica en Levi para ejecutar las misiones más complejas del cuerpo.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "eren-yeager",
+      "to": "annie-leonhart",
+      "kind": "enemigo",
+      "detail": "Se enfrentan a muerte en la capital tras confirmarse que ella es la infiltrada Titán Hembra.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "reiner-braun",
+      "to": "eren-yeager",
+      "kind": "enemigo",
+      "detail": "Pasan de ser camaradas a rivales encarnizados tras la confesión sobre la Muralla Rose.",
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "ymir",
+      "to": "krista-lenz",
+      "kind": "romance",
+      "detail": "Siente un amor incondicional por ella y busca protegerla incluso a costa de su propia vida.",
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "zeke",
+      "to": "eren-yeager",
+      "kind": "enemigo",
+      "detail": "Comanda desde fuera de los muros el ataque contra las tropas de la isla.",
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kenny-ackerman",
+      "to": "levi",
+      "kind": "familia",
+      "detail": "Es el tío que lo crio y le enseñó a sobrevivir en la ciudad subterránea antes de separarse.",
+      "at": {
+        "season": "aot-t3",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kenny-ackerman",
+      "to": "krista-lenz",
+      "kind": "enemigo",
+      "detail": "Sirve como ejecutor militar para retener por la fuerza a la heredera de la familia Reiss.",
+      "at": {
+        "season": "aot-t3",
+        "arc": 0
+      }
+    },
+    {
+      "from": "erwin-smith",
+      "to": "hange-zoe",
+      "kind": "aliado",
+      "detail": "Erwin confía en el juicio de Hange y la designa como su sucesora directa en el mando militar.",
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      }
+    },
+    {
+      "from": "zeke",
+      "to": "levi",
+      "kind": "rival",
+      "detail": "Entablan una feroz enemistad marcada por la promesa de Levi de vengar la muerte de Erwin.",
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      }
+    },
+    {
+      "from": "falco-grice",
+      "to": "gabi-braun",
+      "kind": "romance",
+      "detail": "Guarda un profundo afecto por Gabi y se esfuerza por evitar que sea elegida como guerrera.",
+      "at": {
+        "season": "aot-final",
+        "arc": 0
+      }
+    },
+    {
+      "from": "gabi-braun",
+      "to": "reiner-braun",
+      "kind": "familia",
+      "detail": "Es la prima menor de Reiner y se inspira en su trayectoria militar para enorgullecer a su familia.",
+      "at": {
+        "season": "aot-final",
+        "arc": 0
+      }
+    },
+    {
+      "from": "zeke",
+      "to": "eren-yeager",
+      "kind": "familia",
+      "detail": "Medio hermanos por parte de su padre, Grisha, con planes opuestos para el mundo.",
+      "at": {
+        "season": "aot-t3",
+        "arc": 1
+      }
+    },
+    {
+      "from": "reiner-braun",
+      "to": "jean-kirstein",
+      "kind": "aliado",
+      "detail": "Dejan atrás los rencores del pasado para unirse en una coalición que detenga la destrucción global.",
+      "at": {
+        "season": "aot-final",
+        "arc": 2
+      }
+    },
+    {
+      "from": "mikasa-ackerman",
+      "to": "eren-yeager",
+      "kind": "romance",
+      "detail": "Alberga un amor incondicional por Eren que persiste a pesar de tener que poner fin a sus acciones.",
+      "at": {
+        "season": "aot-final",
+        "arc": 3
+      }
+    }
+  ]
+}

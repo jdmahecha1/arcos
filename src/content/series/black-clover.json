@@ -1,0 +1,1223 @@
+{
+  "id": "black-clover",
+  "title": "Black Clover",
+  "tagline": "En un mundo donde la magia lo define todo, el esfuerzo supera cualquier destino.",
+  "studio": "Studio Pierrot",
+  "genre": "Acción y fantasía",
+  "accent": "#1b7a3e",
+  "synopsis": "En un mundo donde la magia determina la posición social de cada individuo, dos huérfanos criados en la remota aldea de Hage crecen como hermanos y forjan una profunda rivalidad. Mientras que Yuno es considerado un prodigio con un inmenso talento para el viento, Asta nació completamente desprovisto de poder mágico y debe confiar en su riguroso entrenamiento físico. Tras la ceremonia donde ambos reciben sus grimorios, los dos jóvenes parten rumbo a la capital con el ambicioso sueño de convertirse en el próximo Rey Mago.",
+  "seasons": [
+    {
+      "id": "bc-t1",
+      "title": "Temporada 1",
+      "year": 2017,
+      "format": "anime",
+      "arcs": [
+        "Ingreso a los Caballeros Mágicos",
+        "Exploración de la mazmorra",
+        "Ataque a la capital",
+        "Encuentro con el Ojo del Sol de Medianoche",
+        "Templo submarino",
+        "Bosque de las Brujas",
+        "Caballeros Reales",
+        "Reencarnación de los elfos",
+        "Alianza con el Reino Corazón",
+        "Preparación para el Reino Espada"
+      ],
+      "until": 2021
+    },
+    {
+      "id": "bc-pelicula",
+      "title": "La espada del Rey Mago",
+      "year": 2023,
+      "format": "pelicula",
+      "optional": true,
+      "arcs": [
+        "La espada del Rey Mago"
+      ]
+    },
+    {
+      "id": "bc-t2",
+      "title": "Temporada 2 (en emisión)",
+      "year": 2026,
+      "format": "anime",
+      "arcs": [
+        "Incursión al Reino Espada, primeros episodios"
+      ]
+    },
+    {
+      "id": "bc-manga",
+      "title": "Manga: lo que aún no se anima",
+      "year": 2015,
+      "format": "manga",
+      "arcs": [
+        "Incursión al Reino Espada, el resto",
+        "Arco final"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "asta",
+      "name": "Asta",
+      "role": "Joven huérfano sin magia que aspira a convertirse en el Rey Mago",
+      "intro": "Creció en la iglesia de la aldea de Hage junto a Yuno. Al cumplir quince años, recibe un misterioso grimorio de cinco hojas que le permite empuñar espadas antimagia.",
+      "reveals": [
+        {
+          "text": "Es aceptado en la orden de los Toros Negros tras superar las pruebas del capitán Yami.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Obtiene una segunda espada mágica en las profundidades de la mazmorra con la que puede absorber hechizos.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Despierta una transformación demoníaca de antimagia en su cuerpo tras el combate en el Bosque de las Brujas.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 5
+          }
+        },
+        {
+          "text": "Derrota al demonio Zagred en el Palacio de las Sombras cortando su corazón con su espada antimagia.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Descubre que el demonio de su grimorio se llama Liebe y pacta con él como un hermano adoptivo.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuno",
+      "name": "Yuno",
+      "role": "Joven prodigio de la magia de viento y rival de la infancia de Asta",
+      "intro": "Creció junto a Asta en la iglesia de Hage como su hermano adoptivo. Es bendecido por un legendario grimorio de cuatro hojas que refleja su inmenso poder mágico.",
+      "reveals": [
+        {
+          "text": "Ingresa a la prestigiosa orden Amanecer Dorado como el novato más prometedor del reino.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Encuentra un pergamino antiguo en la mazmorra que le otorga el poder del espíritu del viento, Sylph.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Alberga en su interior el alma reencarnada del hijo no nacido de Licht sin perder el control de su propia mente.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Se entera de que su apellido real es Grinberryall: es el príncipe heredero de la familia real del Reino Espada.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Despierta un segundo grimorio con su magia estelar innata para derrotar a Zenon en el Reino Espada.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "lily-aquaria",
+      "name": "Lily Aquaria",
+      "role": "Monja bondadosa y cuidadora de la iglesia de la aldea de Hage",
+      "intro": "Es la religiosa bondadosa encargada de criar a los huérfanos de la aldea de Hage. Suele recurrir a su magia de agua para ponerle un freno a las insistentes propuestas de matrimonio de Asta.",
+      "reveals": [
+        {
+          "text": "Ayuda a proteger a los aldeanos de Hage del ataque de caballeros poseídos por almas de elfos.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Es convertida a la fuerza en una Paladín bajo el influjo de Lucius Zogratis mediante la purificación de un demonio.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "noelle-silva",
+      "name": "Noelle Silva",
+      "role": "Noble de la realeza y recluta novata de los Toros Negros",
+      "intro": "Perteneciente a la distinguida Casa Silva, posee un inmenso caudal de magia de agua pero carece de precisión y control. Es menospreciada por sus hermanos nobles y busca demostrar su valía.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Desarrolla el hechizo Cuna del Dragón Acuático para transportar a sus camaradas a través de fuertes corrientes marinas.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 4
+          }
+        },
+        {
+          "text": "Despierta el Hechizo de Creación: Armadura de Valquiria durante la invasión de los elfos a la capital.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Entrena en el Reino Corazón con el espíritu del agua Undine para vengar la muerte de su madre Acier.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 8
+          }
+        },
+        {
+          "text": "Forja un pacto con el dios marino Leviatán para alcanzar una nueva forma de armadura de dragón.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "yami-sukehiro",
+      "name": "Yami Sukehiro",
+      "role": "Capitán de los Toros Negros y maestro del ki",
+      "intro": "Extranjero fornido procedente del País del Sol que empuña una katana con magia de oscuridad. Lidera con rudeza a su escuadrón bajo la premisa de superar siempre sus propios límites.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Emplea su corte dimensional para acabar con la amenaza de Vetto en el templo marino.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 4
+          }
+        },
+        {
+          "text": "Revela haber sido reclutado en su juventud por Julius Novachrono debido a la singularidad de su magia.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Es capturado por la Tríada Oscura debido a que su magia de oscuridad es vital para abrir el árbol de Qliphoth.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 8
+          }
+        },
+        {
+          "text": "Se reencuentra con su hermana menor Ichika y descubre la verdad sobre la tragedia del clan Yami.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "julius-novachrono",
+      "name": "Julius Novachrono",
+      "role": "Vigésimo octavo Rey Mago del Reino del Trébol",
+      "intro": "Máxima autoridad mágica del reino que domina la magia temporal con un grimorio sin cubierta. Suele recorrer el reino de incógnito fascinado por descubrir magias poco convencionales.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Es asesinado por Patry mientras usaba todo su poder para salvaguardar a los ciudadanos de la capital real.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Consigue resucitar mediante el tiempo que tenía almacenado en un artefacto mágico, reduciendo su cuerpo al de un adolescente.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Descubre que comparte su cuerpo con Lucius Zogratis, el hermano mayor de la Tríada Oscura que termina suprimiéndolo.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "lider-del-ojo",
+      "name": "«Licht»",
+      "role": "Líder del Ojo del Sol de Medianoche que usa magia de luz",
+      "intro": "Misterioso líder de la organización terrorista que ataca el reino portando un grimorio de cuatro hojas y magia de luz. Declara su odio hacia los humanos.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Su verdadero nombre es Patry: un elfo reencarnado que se hacía pasar por su líder, el auténtico Licht.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Reúne las piedras mágicas para activar el ritual de reencarnación masiva de las almas de los elfos.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Cae en la desesperación al descubrir que los elfos fueron engañados por el demonio Zagred, convirtiéndose en un elfo oscuro.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "kahono",
+      "name": "Kahono",
+      "role": "Sacerdotisa y cantante del Templo Submarino",
+      "intro": "Joven alegre que domina la magia de canto para atacar y curar, soñando con subir a la superficie para ser cantante junto a su hermano Kiato. Se vuelve amiga cercana de Noelle y la ayuda a dominar su magia de agua.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 4
+      },
+      "reveals": [
+        {
+          "text": "Sufre graves heridas en sus cuerdas vocales a manos de Vetto durante la invasión al templo.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 4
+          }
+        },
+        {
+          "text": "Recupera la voz gracias a la magia de sangre de la Reina de las Brujas durante el festival de estrellas.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 5
+          }
+        },
+        {
+          "text": "Ayuda a Noelle a vincularse con el dios marino Leviatán para la batalla final contra los paladines.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "witch-queen",
+      "name": "Reina de las Brujas",
+      "role": "Gobernante milenaria del Bosque de las Brujas",
+      "intro": "Poderosa hechicera que domina la magia de sangre y las maldiciones desde su trono en un territorio neutral. Es la madre de Vanessa Enoteca y busca controlar a aquellos que poseen poderes excepcionales.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 5
+      },
+      "reveals": [
+        {
+          "text": "Cura las extremidades malditas de Asta con su magia de sangre para usar su espada antimagia a su favor.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 5
+          }
+        },
+        {
+          "text": "Entrega una piedra mágica a los Toros Negros tras ser conmovida por el nuevo poder del destino de Vanessa.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "mereoleona-vermillion",
+      "name": "Mereoleona Vermillion",
+      "role": "Capitana interina de los Reyes Leones Carmesí",
+      "intro": "Hermana mayor de Fuegoleon apodada la Leona Invicta, quien prefiere vivir en la naturaleza entrenando con mana salvaje. Asume el mando del escuadrón y dirige la selección de los Caballeros Reales.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 6
+      },
+      "reveals": [
+        {
+          "text": "Lidera el asalto a la base del Ojo del Sol de Medianoche y combate en desventaja contra múltiples elfos reencarnados.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 7
+          }
+        },
+        {
+          "text": "Enfrenta junto a los Leones Carmesí al paladín Moris durante el Día del Juicio.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "lolopechka",
+      "name": "Lolopechka",
+      "role": "Reina y suma sacerdotisa del Reino Corazón",
+      "intro": "Soberana jovial y despistada que custodia el Reino Corazón en comunión con el espíritu elemental del agua, Undine. Establece una alianza con el Reino del Trébol para hacer frente a la inminente amenaza exterior.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 8
+      },
+      "reveals": [
+        {
+          "text": "Revela que carga con una maldición mortal impuesta por el demonio Megicula que le deja poco tiempo de vida.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 8
+          }
+        },
+        {
+          "text": "Es secuestrada por Vanica Zogratis para potenciar el advenimiento del árbol del inframundo.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es rescatada y liberada de la maldición de Megicula gracias al trabajo conjunto de Noelle y Nozel.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "conrad-leto",
+      "name": "Conrad Leto",
+      "role": "Vigésimo séptimo Rey Mago portador de magia de llaves",
+      "intro": "Antiguo gobernante del Trébol que fue respetado por el pueblo pero terminó sellado por Julius Novachrono tras rebelarse contra el reino. Regresa empuñando la Espada Imperial con la intención de destruir el orden establecido.",
+      "appears": {
+        "season": "bc-pelicula",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Resucita a tres Reyes Magos del pasado para que lo asistan en la purificación total del Reino del Trébol.",
+          "at": {
+            "season": "bc-pelicula",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es vencido por Asta en un enfrentamiento decisivo donde se confrontan sus ideales sobre el verdadero deber de un Rey Mago.",
+          "at": {
+            "season": "bc-pelicula",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "nacht-faust",
+      "name": "Nacht Faust",
+      "role": "Vicecapitán de los Toros Negros y anfitrión de demonios",
+      "intro": "Mago sombrío que estuvo infiltrado en el Reino Espada espiando a los gobernantes enemigos. Posee contratos con cuatro demonios menores y regresa ante los capitanes para guiar la incursión de rescate.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 9
+      },
+      "reveals": [
+        {
+          "text": "Somete a Asta a un ritual de subordinación demoníaca para que aprenda la Unión Demoníaca con Liebe.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 9
+          }
+        },
+        {
+          "text": "Revela que la muerte de su hermano gemelo Morgen ocurrió en un fallido intento familiar por invocar a un demonio supremo.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Derrota junto a Yami a la versión resucitada de Morgen durante la invasión de los paladines de Lucius.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "liebe",
+      "name": "Liebe",
+      "role": "Demonio menor desprovisto de magia que reside en el grimorio de Asta",
+      "intro": "Ser del inframundo nacido sin poder mágico que fue criado en el mundo humano por Licita antes de ser sellado en el grimorio de cinco hojas. Otorga las propiedades de la antimagia a través de las espadas que blande Asta.",
+      "appears": {
+        "season": "bc-t1",
+        "arc": 9
+      },
+      "reveals": [
+        {
+          "text": "Firma un pacto de igualdad y hermandad con Asta en lugar de una sumisión forzada durante el entrenamiento con Nacht.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 9
+          }
+        },
+        {
+          "text": "Perfecciona la Unión Demoníaca junto a Asta para derrotar al rey de los demonios Lucifero.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Jura ayudar a Asta hasta convertirlo en el Rey Mago para honrar el sacrificio de su madre adoptiva Licita.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucius-zogratis",
+      "name": "Lucius Zogratis",
+      "role": "Líder de los hermanos Zogratis y artífice del Día del Juicio",
+      "intro": "Hermano mayor de la Tríada Oscura que posee magia de alma y un pacto con el demonio temporal Astaroth. Comparte cuerpo con Julius Novachrono y busca crear un mundo perfecto donde todos los humanos renazcan como seres puros.",
+      "appears": {
+        "season": "bc-manga",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Transforma a guerreros caídos en paladines purificados implantándoles almas de demonios para someter al reino.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Es derrotado por Asta y Yuno. El corte de Asta lo alcanza solo a él, y Julius recupera su cuerpo por un breve momento.",
+          "at": {
+            "season": "bc-manga",
+            "arc": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ceremonia-de-grimorios",
+      "title": "La entrega de los grimorios en Hage",
+      "date": "Comienzo del viaje",
+      "order": 10,
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      },
+      "text": "Durante la ceremonia anual en la torre local, Yuno recibe un legendario grimorio de cuatro hojas ante la admiración de todos. Asta no es elegido por ningún libro en un inicio, pero poco después despierta un extraño grimorio negro de cinco hojas para defender a su amigo de un ladrón.",
+      "characters": [
+        "asta",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "examen-caballeros-magicos",
+      "title": "El examen de ingreso a las órdenes mágicas",
+      "date": "Llegada a la capital real",
+      "order": 20,
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      },
+      "text": "Los aspirantes de todo el reino se reúnen en la capital para demostrar sus talentos ante los capitanes de las nueve órdenes. Yuno es disputado por todos los líderes y escoge unirse a Amanecer Dorado, mientras que Asta impresiona al capitán Yami y es reclutado por los Toros Negros, donde conoce a Noelle.",
+      "characters": [
+        "asta",
+        "noelle-silva",
+        "yami-sukehiro"
+      ],
+      "major": false
+    },
+    {
+      "id": "mision-en-la-mazmorra",
+      "title": "La expedición a la mazmorra ancestral",
+      "date": "Primera misión conjunta",
+      "order": 30,
+      "at": {
+        "season": "bc-t1",
+        "arc": 1
+      },
+      "text": "Miembros de los Toros Negros y de Amanecer Dorado son enviados a investigar una mazmorra mágica recién descubierta en la frontera. En la cámara del tesoro, Asta y Yuno deben coordinar sus fuerzas para derrotar a los magos invasores del Reino Diamante.",
+      "characters": [
+        "asta",
+        "noelle-silva",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "despertar-del-espiritu-del-viento",
+      "title": "El hallazgo del espíritu del viento y la espada absorbente",
+      "date": "Cámara secreta de la mazmorra",
+      "order": 40,
+      "at": {
+        "season": "bc-t1",
+        "arc": 1
+      },
+      "text": "En el corazón del tesoro ancestral, Yuno descubre un pergamino sellado que libera al espíritu elemental del viento, Sylph. Al mismo tiempo, Asta encuentra una misteriosa segunda espada capaz de absorber y proyectar magia enemiga.",
+      "characters": [
+        "asta",
+        "yuno"
+      ],
+      "major": true
+    },
+    {
+      "id": "asalto-a-la-capital-real",
+      "title": "La invasión de la capital real",
+      "date": "Durante la condecoración de caballeros",
+      "order": 50,
+      "at": {
+        "season": "bc-t1",
+        "arc": 2
+      },
+      "text": "Un numeroso ejército invasor despliega cadáveres mágicos y transportes espaciales para asediar las calles de la capital del reino. Los caballeros mágicos novatos y de élite se movilizan de inmediato para proteger a los habitantes indefensos.",
+      "characters": [
+        "asta",
+        "noelle-silva",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "intervencion-de-julius",
+      "title": "La demostración de fuerza del Rey Mago",
+      "date": "Culminación del asedio a la capital",
+      "order": 60,
+      "at": {
+        "season": "bc-t1",
+        "arc": 2
+      },
+      "text": "Julius Novachrono interviene personalmente en el conflicto y demuestra el abrumador alcance de su magia temporal para neutralizar a los cabecillas enemigos. Tras el combate, el gobernante salva a Asta de ser capturado y analiza la singular naturaleza de su antimagia.",
+      "characters": [
+        "asta",
+        "julius-novachrono"
+      ],
+      "major": false
+    },
+    {
+      "id": "emboscada-en-nean",
+      "title": "El rescate en la aldea Nean",
+      "date": "Secuestro en la zona periférica",
+      "order": 70,
+      "at": {
+        "season": "bc-t1",
+        "arc": 3
+      },
+      "text": "Magos rebeldes raptan a los niños de la aldea Nean con el propósito de drenar sus reservas mágicas. El capitán Yami y Asta acuden a las cavernas subterráneas y entablan un feroz combate contra Licht, el misterioso líder de la organización terrorista.",
+      "characters": [
+        "asta",
+        "lider-del-ojo",
+        "yami-sukehiro"
+      ],
+      "major": false
+    },
+    {
+      "id": "llegada-del-tercer-ojo",
+      "title": "La aparición del Tercer Ojo",
+      "date": "Confrontación en las cavernas de Nean",
+      "order": 80,
+      "at": {
+        "season": "bc-t1",
+        "arc": 3
+      },
+      "text": "Cuando Licht es arrinconado por la magia de oscuridad de Yami, los tres guerreros más poderosos de la organización irrumpen para auxiliarlo. La llegada oportuna de otros capitanes de orden equilibra la contienda y obliga a los rebeldes a retirarse.",
+      "characters": [
+        "lider-del-ojo",
+        "yami-sukehiro"
+      ],
+      "major": false
+    },
+    {
+      "id": "llegada-al-templo-submarino",
+      "title": "El descenso al santuario oceánico",
+      "date": "Misión secreta bajo el mar",
+      "order": 90,
+      "at": {
+        "season": "bc-t1",
+        "arc": 4
+      },
+      "text": "Los Toros Negros viajan a las profundidades marinas usando el control de agua de Noelle para superar una peligrosa corriente mágica. Al llegar al templo, entablan amistad con Kahono y su familia antes de participar en un juego para obtener una piedra mágica.",
+      "characters": [
+        "asta",
+        "kahono",
+        "noelle-silva"
+      ],
+      "major": false
+    },
+    {
+      "id": "batalla-contra-vetto",
+      "title": "La defensa desesperada frente a Vetto",
+      "date": "Invasión al Templo Submarino",
+      "order": 100,
+      "at": {
+        "season": "bc-t1",
+        "arc": 4
+      },
+      "text": "Vetto irrumpe en el santuario marino provocando estragos e hiriendo gravemente a Kahono y a los defensores. Tras un extenuante esfuerzo colectivo de los novatos, Yami logra romper las barreras del templo y corta al enemigo con su magia de oscuridad, aunque los brazos de Asta terminan con una grave maldición.",
+      "characters": [
+        "asta",
+        "kahono",
+        "yami-sukehiro"
+      ],
+      "major": true
+    },
+    {
+      "id": "audiencia-con-la-reina-de-las-brujas",
+      "title": "El pacto en el Bosque de las Brujas",
+      "date": "Búsqueda de sanación",
+      "order": 110,
+      "at": {
+        "season": "bc-t1",
+        "arc": 5
+      },
+      "text": "Los caballeros viajan a los dominios de la Reina de las Brujas en busca de una cura para los brazos marchitos de Asta. La monarca acepta sanarlo a cambio de su cooperación cuando dos ejércitos invasores convergen para asaltar el bosque.",
+      "characters": [
+        "asta",
+        "noelle-silva",
+        "witch-queen"
+      ],
+      "major": false
+    },
+    {
+      "id": "despertar-de-la-antimagia-negra",
+      "title": "La manifestación de la forma negra",
+      "date": "Batalla campal en el Bosque de las Brujas",
+      "order": 120,
+      "at": {
+        "season": "bc-t1",
+        "arc": 5
+      },
+      "text": "Durante el clímax de la batalla contra los invasores, el flujo de antimagia recorre el cuerpo de Asta y despierta su transformación negra por primera vez. Aunque la soberana intenta manipularlo con su magia de sangre, el lazo de los Toros Negros la persuade de liberarlo y entregarles una piedra mágica.",
+      "characters": [
+        "asta",
+        "witch-queen"
+      ],
+      "major": true
+    },
+    {
+      "id": "torneo-de-seleccion-real",
+      "title": "El examen de selección de los Caballeros Reales",
+      "date": "Torneo clasificatorio del reino",
+      "order": 130,
+      "at": {
+        "season": "bc-t1",
+        "arc": 6
+      },
+      "text": "Los mejores magos de las distintas órdenes compiten en un torneo por equipos para integrar la fuerza de asalto de élite del reino. Mereoleona Vermillion asume la capitanía del contingente seleccionado y somete a los reclutas a un extenuante entrenamiento.",
+      "characters": [
+        "asta",
+        "mereoleona-vermillion",
+        "noelle-silva",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "incursion-a-la-guarida-flotante",
+      "title": "El asalto a la base del Ojo del Sol de Medianoche",
+      "date": "Apertura del ataque de los Caballeros Reales",
+      "order": 140,
+      "at": {
+        "season": "bc-t1",
+        "arc": 6
+      },
+      "text": "El recién formado cuerpo de Caballeros Reales lanza un ataque relámpago contra la base flotante de la organización enemiga. Mereoleona lidera la vanguardia con una fuerza implacable, arrasando con los defensores mientras Asta y sus compañeros aseguran el avance.",
+      "characters": [
+        "asta",
+        "mereoleona-vermillion"
+      ],
+      "major": false
+    },
+    {
+      "id": "sacrificio-de-julius",
+      "title": "El duelo en la cumbre de la capital y la caída de Julius",
+      "date": "Activación del plan final de Patry",
+      "order": 150,
+      "at": {
+        "season": "bc-t1",
+        "arc": 7
+      },
+      "text": "Patry confronta a Julius en lo alto de la capital y lanza un hechizo de luz a gran escala para aniquilar a todos los habitantes. El Rey Mago opta por gastar toda su reserva temporal para salvar a su pueblo, recibiendo una estocada mortal que le permite al líder rebelde apoderarse de las últimas piedras mágicas.",
+      "characters": [
+        "julius-novachrono",
+        "lider-del-ojo"
+      ],
+      "major": true
+    },
+    {
+      "id": "manifestacion-del-demonio-zagred",
+      "title": "La revelación de Zagred en el Palacio de las Sombras",
+      "date": "Clímax de la reencarnación de los elfos",
+      "order": 160,
+      "at": {
+        "season": "bc-t1",
+        "arc": 7
+      },
+      "text": "En el interior del Palacio de las Sombras se revela que el demonio Zagred orquestó la matanza de los elfos hace cinco siglos para obtener un cuerpo físico y un grimorio de cinco hojas. Al conocer la verdad, Patry cae en la desesperación pero es rescatado por Asta, uniendo fuerzas con los caballeros para aniquilar al demonio.",
+      "characters": [
+        "asta",
+        "lider-del-ojo",
+        "yami-sukehiro",
+        "yuno"
+      ],
+      "major": true
+    },
+    {
+      "id": "audiencia-en-el-reino-corazon",
+      "title": "El pacto defensivo con la Reina Lolopechka",
+      "date": "Misión diplomática y de exploración",
+      "order": 170,
+      "at": {
+        "season": "bc-t1",
+        "arc": 8
+      },
+      "text": "Asta y Noelle viajan al Reino Corazón para investigar el origen de las maldiciones demoníacas y son recibidos por la reina Lolopechka. Al descubrir que la soberana sufre una afección mortal causada por Megicula, ambas naciones formalizan una alianza militar estratégica.",
+      "characters": [
+        "asta",
+        "lolopechka",
+        "noelle-silva"
+      ],
+      "major": false
+    },
+    {
+      "id": "entrenamiento-del-metodo-de-mana",
+      "title": "El inicio del adiestramiento en magia natural",
+      "date": "Preparación para el conflicto venidero",
+      "order": 180,
+      "at": {
+        "season": "bc-t1",
+        "arc": 8
+      },
+      "text": "Los caballeros mágicos seleccionados comienzan un exigente entrenamiento bajo la tutela de los guardianes espirituales y la soberana del Reino Corazón. Noelle y sus compañeros perfeccionan el uso de las runas y la magia elemental con el fin de enfrentar a las entidades del inframundo.",
+      "characters": [
+        "lolopechka",
+        "noelle-silva"
+      ],
+      "major": false
+    },
+    {
+      "id": "resurreccion-de-conrad-leto",
+      "title": "El regreso de Conrad Leto y los antiguos reyes",
+      "date": "Insurrección durante el festival del reino",
+      "order": 190,
+      "at": {
+        "season": "bc-pelicula",
+        "arc": 0
+      },
+      "text": "Conrad Leto rompe su confinamiento empuñando la Espada Imperial y resucita a tres antiguos gobernantes mágicos para destruir el Reino del Trébol. Asta y Yuno lideran la primera línea de resistencia para salvaguardar a la población de los asaltantes.",
+      "characters": [
+        "asta",
+        "conrad-leto",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "choque-de-ideales-con-la-espada-imperial",
+      "title": "La batalla definitiva por el destino del reino",
+      "date": "Confrontación final contra Conrad",
+      "order": 200,
+      "at": {
+        "season": "bc-pelicula",
+        "arc": 0
+      },
+      "text": "Asta confronta directamente a Conrad Leto en un combate que desafía la visión de lo que significa ser el soberano mágico protector. Con el apoyo de la magia combinada de sus compañeros, Asta supera el poder de la Espada Imperial y sella definitivamente las ambiciones de su predecesor.",
+      "characters": [
+        "asta",
+        "conrad-leto"
+      ],
+      "major": false
+    },
+    {
+      "id": "revelacion-de-nacht-faust",
+      "title": "La aparición del vicecapitán de las sombras",
+      "date": "Regreso de los Toros Negros a la capital",
+      "order": 210,
+      "at": {
+        "season": "bc-t1",
+        "arc": 9
+      },
+      "text": "Nacht Faust se presenta ante la reunión de capitanes como el vicecapitán infiltrado de los Toros Negros portando información crítica del enemigo. El enigmático mago se ofrece a entrenar a Asta para dominar el poder demoníaco antes de que comience el asalto formal.",
+      "characters": [
+        "asta",
+        "nacht-faust"
+      ],
+      "major": false
+    },
+    {
+      "id": "ritual-de-union-demoniaca",
+      "title": "El pacto de hermandad con Liebe",
+      "date": "Víspera de la incursión de rescate",
+      "order": 220,
+      "at": {
+        "season": "bc-t1",
+        "arc": 9
+      },
+      "text": "Durante el peligroso ritual impuesto por Nacht, Asta se niega a esclavizar a su demonio y en su lugar forja un contrato de iguales y hermanos con Liebe. Así empieza su aprendizaje de la Unión Demoníaca.",
+      "characters": [
+        "asta",
+        "liebe",
+        "nacht-faust"
+      ],
+      "major": true
+    },
+    {
+      "id": "derrota-de-la-triada-oscura",
+      "title": "La caída de la Tríada Oscura",
+      "date": "Asedio a la fortaleza del Reino Espada",
+      "order": 230,
+      "at": {
+        "season": "bc-manga",
+        "arc": 0
+      },
+      "text": "En el interior del castillo enemigo, los caballeros mágicos libran combates feroces contra los hermanos Zogratis para frenar el ritual de Qliphoth. Yuno despierta su magia estelar innata contra Zenon y Noelle derrota a Megicula, logrando rescatar al capitán Yami de su cautiverio.",
+      "characters": [
+        "noelle-silva",
+        "yami-sukehiro",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "manifestacion-y-derrota-de-lucifero",
+      "title": "La batalla decisiva contra el Rey de los Demonios",
+      "date": "Clímax de la guerra en el Reino Espada",
+      "order": 240,
+      "at": {
+        "season": "bc-manga",
+        "arc": 0
+      },
+      "text": "El gobernante supremo del inframundo, Lucifero, logra manifestar parte de su cuerpo y somete a los capitanes mágicos con su aplastante magia de gravedad. Asta y Liebe alcanzan la Unión Demoníaca completa y logran neutralizar al monarca demoníaco antes de que destruya el continente.",
+      "characters": [
+        "asta",
+        "liebe",
+        "nacht-faust",
+        "yuno"
+      ],
+      "major": true
+    },
+    {
+      "id": "el-advenimiento-del-dia-del-juicio",
+      "title": "La declaración de guerra de Lucius Zogratis",
+      "date": "Apertura del Día del Juicio",
+      "order": 250,
+      "at": {
+        "season": "bc-manga",
+        "arc": 1
+      },
+      "text": "Lucius Zogratis toma control total del cuerpo que compartía con Julius y revela su plan para remodelar a la humanidad purificando almas con magia demoníaca. Para consternación de Asta, Lucius transforma a la hermana Lily en una paladín y destierra al joven huérfano fuera del reino antes de lanzar su invasión general.",
+      "characters": [
+        "asta",
+        "lily-aquaria",
+        "lucius-zogratis"
+      ],
+      "major": true
+    },
+    {
+      "id": "triunfo-definitivo-y-paz-en-el-trebol",
+      "title": "La caída de Lucius",
+      "date": "Desenlace de la gran batalla",
+      "order": 260,
+      "at": {
+        "season": "bc-manga",
+        "arc": 1
+      },
+      "text": "Tras entrenar en el País del Sol, Asta regresa y enfrenta junto a Yuno a Lucius, convertido en Emperador Mago. Su rivalidad los vuelve imparables; al final, el corte de Asta alcanza solo a Lucius y Julius recupera su cuerpo por un instante para reconocer a los dos jóvenes.",
+      "characters": [
+        "asta",
+        "julius-novachrono",
+        "lucius-zogratis",
+        "yuno"
+      ],
+      "major": false
+    },
+    {
+      "id": "captura-de-yami",
+      "title": "Un ataque que viene del Reino Espada",
+      "date": "Durante la alianza con el Reino Corazón",
+      "order": 185,
+      "at": {
+        "season": "bc-t1",
+        "arc": 8
+      },
+      "text": "Las fuerzas de la Tríada Oscura del Reino Espada golpean a los Caballeros Mágicos y se llevan cautivo al capitán Yami. El Reino del Trébol comprende que la verdadera guerra acaba de empezar.",
+      "characters": [
+        "yami-sukehiro"
+      ],
+      "major": true
+    },
+    {
+      "id": "inicio-incursion",
+      "title": "Comienza la incursión al Reino Espada",
+      "date": "Tras el entrenamiento",
+      "order": 225,
+      "at": {
+        "season": "bc-t2",
+        "arc": 0
+      },
+      "text": "Los Caballeros Mágicos cruzan la frontera para rescatar a Yami y frenar los planes del Reino Espada. Asta llega al frente con lo aprendido junto a Nacht y Liebe.",
+      "characters": [
+        "asta",
+        "nacht-faust",
+        "liebe"
+      ],
+      "major": false
+    }
+  ],
+  "relations": [
+    {
+      "from": "asta",
+      "to": "yuno",
+      "kind": "rival",
+      "detail": "Crecieron como hermanos en la iglesia de Hage y compiten fraternalmente por alcanzar el puesto de Rey Mago.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "asta",
+      "to": "lily-aquaria",
+      "kind": "familia",
+      "detail": "La ve como una figura protectora y bondadosa que lo crio en la iglesia de la aldea de Hage.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "yuno",
+      "to": "lily-aquaria",
+      "kind": "familia",
+      "detail": "Guarda un profundo respeto y gratitud hacia la religiosa encargada de su crianza en el orfanato.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "asta",
+      "to": "yami-sukehiro",
+      "kind": "mentor",
+      "detail": "Reconoce su determinación física en el examen y lo guía con severidad para que supere constantemente sus límites.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "asta",
+      "to": "noelle-silva",
+      "kind": "aliado",
+      "detail": "Se convierten en compañeros novatos dentro de los Toros Negros y Asta apoya a Noelle para que gane confianza.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "noelle-silva",
+      "to": "yami-sukehiro",
+      "kind": "mentor",
+      "detail": "Encuentra en el capitán de los Toros Negros a un líder tolerante que valora su esfuerzo por encima de su linaje.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "asta",
+      "to": "julius-novachrono",
+      "kind": "aliado",
+      "detail": "El Rey Mago queda maravillado por su antimagia y le brinda su respaldo incondicional para progresar en las órdenes.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "yami-sukehiro",
+      "to": "julius-novachrono",
+      "kind": "mentor",
+      "detail": "Le guarda una lealtad inquebrantable a Julius por haberlo acogido y nombrado capitán pese a ser un extranjero marginado.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "yami-sukehiro",
+      "to": "lider-del-ojo",
+      "kind": "enemigo",
+      "detail": "Se enfrentan en un choque encarnizado de oscuridad contra luz en las cavernas subterráneas de Nean.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "noelle-silva",
+      "to": "kahono",
+      "kind": "aliado",
+      "detail": "Entablan una amistad íntima en el Templo Submarino donde Kahono le enseña a confiar en su propia magia de agua.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 4
+      }
+    },
+    {
+      "from": "asta",
+      "to": "witch-queen",
+      "kind": "enemigo",
+      "detail": "La monarca sana sus extremidades con intenciones ocultas e intenta esclavizarlo mediante magia de sangre.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 5
+      }
+    },
+    {
+      "from": "asta",
+      "to": "mereoleona-vermillion",
+      "kind": "mentor",
+      "detail": "La impetuosa capitana lo somete a un riguroso entrenamiento volcánico para templar su temple combativo.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 6
+      }
+    },
+    {
+      "from": "julius-novachrono",
+      "to": "lider-del-ojo",
+      "kind": "enemigo",
+      "detail": "Sostienen un duelo mortal en la cúspide de la capital donde el Rey Mago prioriza salvar a su pueblo.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 7
+      }
+    },
+    {
+      "from": "noelle-silva",
+      "to": "lolopechka",
+      "kind": "aliado",
+      "detail": "Forjan un vínculo fraterno mientras entrenan juntas en el dominio del agua para enfrentar las amenazas exteriores.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 8
+      }
+    },
+    {
+      "from": "asta",
+      "to": "conrad-leto",
+      "kind": "enemigo",
+      "detail": "Se enfrentan con determinación defendiendo visiones opuestas sobre la protección de los habitantes del reino.",
+      "at": {
+        "season": "bc-pelicula",
+        "arc": 0
+      }
+    },
+    {
+      "from": "asta",
+      "to": "nacht-faust",
+      "kind": "mentor",
+      "detail": "El vicecapitán encubierto lo instruye con extrema exigencia para que aprenda a sincronizar su fuerza con su demonio.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 9
+      }
+    },
+    {
+      "from": "asta",
+      "to": "liebe",
+      "kind": "familia",
+      "detail": "Rechazan la sumisión contractual y forjan un pacto de iguales como hermanos adoptivos guiados por un afecto mutuo.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 9
+      }
+    },
+    {
+      "from": "yami-sukehiro",
+      "to": "nacht-faust",
+      "kind": "aliado",
+      "detail": "Capitán y vicecapitán de los Toros Negros, con un pasado en común.",
+      "at": {
+        "season": "bc-t1",
+        "arc": 9
+      }
+    },
+    {
+      "from": "asta",
+      "to": "lucius-zogratis",
+      "kind": "enemigo",
+      "detail": "Lucius considera la antimagia de Asta como la mayor anomalía en su visión de orden e intenta eliminarlo a toda costa.",
+      "at": {
+        "season": "bc-manga",
+        "arc": 1
+      }
+    },
+    {
+      "from": "julius-novachrono",
+      "to": "lucius-zogratis",
+      "kind": "rival",
+      "detail": "Dos voluntades opuestas que disputan el control de un mismo cuerpo en un combate entre la benevolencia y la dominación.",
+      "at": {
+        "season": "bc-manga",
+        "arc": 1
+      }
+    }
+  ]
+}

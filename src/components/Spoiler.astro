@@ -1,0 +1,39 @@
+---
+import { EyeIcon, EyeSlashIcon } from '@phosphor-icons/react/dist/ssr';
+import type { Marker, Saga } from '../lib/schema';
+import { describeMarker } from '../lib/spoilers';
+
+interface Props {
+  saga: Saga;
+  at: Marker;
+  /** Qué se oculta, para el velo: "Un dato", "Una relación"… */
+  label?: string;
+  as?: 'div' | 'li';
+  /** Para espacios angostos, como una portada: sin la frase de cuándo se revela. */
+  compact?: boolean;
+}
+
+const { saga, at, label = 'Un spoiler', as: Tag = 'div', compact = false } = Astro.props;
+const when = describeMarker(saga, at);
+---
+
+<Tag
+  class="spoiler"
+  data-spoiler
+  data-saga={saga.id}
+  data-season={at.season}
+  data-arc={at.arc}
+  data-revealed="false"
+  data-pagefind-ignore="all"
+>
+  <div class:list={['spoiler__veil fog-card', { 'spoiler__veil--compact': compact }]}>
+    <EyeSlashIcon className="icon" aria-hidden="true" weight="duotone" />
+    {compact ? <span title={`Se revela al terminar ${when}`}><strong>{label}</strong> sin revelar</span> : <span><strong>{label}</strong> sin revelar. Se revela al terminar {when}.</span>}
+    <button type="button" class="btn btn--sm" data-spoiler-reveal>
+      <EyeIcon className="icon" aria-hidden="true" weight="bold" />
+      Ver spoiler
+    </button>
+  </div>
+  <template><slot /></template>
+  <div data-spoiler-body tabindex="-1" hidden></div>
+</Tag>

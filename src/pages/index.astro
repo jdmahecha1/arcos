@@ -1,0 +1,490 @@
+---
+import { ArrowRightIcon, EyeSlashIcon, BookmarkSimpleIcon, SwordIcon } from '@phosphor-icons/react/dist/ssr';
+import CoverCard from '../components/CoverCard.astro';
+import SagaArt from '../components/SagaArt.astro';
+import { SAGA_COVER } from '../lib/artwork';
+import Base from '../layouts/Base.astro';
+import { getSagas } from '../lib/data';
+import { airedYears } from '../lib/spoilers';
+import { themeFor, themeStyle } from '../lib/themes';
+import { sagaUrl, url } from '../lib/url';
+
+const sagas = getSagas().map((saga) => {
+  return {
+    saga,
+    theme: themeFor(saga.id),
+    years: airedYears(saga),
+  };
+});
+const totals = {
+  seasons: sagas.reduce((n, s) => n + s.saga.seasons.length, 0),
+  characters: sagas.reduce((n, s) => n + s.saga.characters.length, 0),
+  events: sagas.reduce((n, s) => n + s.saga.events.length, 0),
+};
+---
+
+<Base
+  title="Arcos"
+  description="Repasa la historia de Kimetsu no Yaiba, Attack on Titan, Jujutsu Kaisen, Black Clover y Kaiju N.º 8 (línea de tiempo, personajes y relaciones) sin spoilers de lo que aún no has visto."
+>
+  <section class="hero wrap">
+    <div class="hero__copy">
+      <p class="hero__eyebrow">Historias de anime sin spoilers</p>
+      <h1>Toda la historia. <em>Solo hasta donde viste.</em></h1>
+      <p class="hero__lead">
+        Línea de tiempo, personajes y relaciones de {sagas.length} series. Marca tu arco y el resto
+        queda sin revelar.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#series">
+          Elegir serie
+          <ArrowRightIcon className="icon" aria-hidden="true" weight="bold" />
+        </a>
+        <a class="btn" href={url('acerca/')}>Cómo funciona</a>
+      </div>
+    </div>
+
+    <nav class="vista" aria-label="Series destacadas">
+      {
+        sagas.map(({ saga, theme, years }, i) => (
+          <a class="vista__strip" href={sagaUrl(saga.id)} style={themeStyle(theme)}>
+            <SagaArt sagaId={saga.id} theme={theme} uid={`vista-${i}`} class="vista__art" fog={false} priority={i === 0} sizes="(min-width: 861px) 40vw, 100vw" />
+            <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="vista__cover" decorative priority={i === 0} />
+            <span class="vista__label">
+              <strong>{saga.title}</strong>
+              <span>{years}</span>
+            </span>
+          </a>
+        ))
+      }
+    </nav>
+  </section>
+
+  <section class="wrap sagas" id="series" aria-labelledby="series-titulo">
+    <div class="sagas__head">
+      <h2 id="series-titulo">Elige una serie</h2>
+      <p class="muted">
+        {totals.seasons} entregas, {totals.characters} personajes y {totals.events} eventos. Cada serie guarda tu
+        progreso por separado.
+      </p>
+    </div>
+    <ul class="sagas__list">
+      {
+        sagas.map(({ saga, theme, years }, i) => (
+          <li class="saga-row" style={themeStyle(theme)}>
+            <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="saga-row__art" decorative />
+            <div class="saga-row__body">
+              <p class="saga-row__meta">
+                {saga.studio}, {years}
+              </p>
+              <h3>
+                <a href={sagaUrl(saga.id)}>{saga.title}</a>
+              </h3>
+              <p class="saga-row__tagline">{saga.tagline}</p>
+            </div>
+            <p class="saga-row__count">
+              <span>{saga.seasons.length} entregas</span>
+              <span>{saga.characters.length} personajes</span>
+            </p>
+            <ArrowRightIcon className="icon saga-row__arrow" aria-hidden="true" weight="bold" />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="wrap howto" aria-labelledby="howto-titulo">
+    <h2 id="howto-titulo">Repasa la historia sin arruinarte el final</h2>
+    <ol class="howto__path">
+      <li>
+        <span class="howto__node" aria-hidden="true"><SwordIcon className="icon" weight="duotone" /></span>
+        <h3>Elige tu serie</h3>
+        <p class="muted">Cronología interna u orden de lanzamiento, como prefieras.</p>
+      </li>
+      <li>
+        <span class="howto__node" aria-hidden="true"><BookmarkSimpleIcon className="icon" weight="duotone" /></span>
+        <h3>Marca tu progreso</h3>
+        <p class="muted">Toca el último arco que terminaste, en anime o en manga. Sin cuentas.</p>
+      </li>
+      <li>
+        <span class="howto__node" aria-hidden="true"><EyeSlashIcon className="icon" weight="duotone" /></span>
+        <h3>Explora sin miedo</h3>
+        <p class="muted">Lo que aún no viste queda sin revelar hasta que llegues.</p>
+      </li>
+    </ol>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    gap: var(--space-7);
+    align-items: center;
+    padding-block: var(--space-7) var(--space-8);
+  }
+
+  @media (min-width: 1000px) {
+    .hero {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+      min-height: calc(100dvh - var(--header-h) - var(--space-6));
+      padding-block: var(--space-6);
+    }
+  }
+
+  .hero__eyebrow {
+    margin-bottom: var(--space-4);
+    color: var(--accent);
+    font-size: var(--step--1);
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .hero h1 em {
+    display: block;
+    padding-bottom: 0.08em;
+    color: var(--accent);
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .hero__lead {
+    max-width: 44ch;
+    color: var(--muted);
+    font-size: var(--step-2);
+    line-height: 1.5;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-5);
+  }
+
+  /* Acordeón de paisajes: cada franja es un enlace a su saga. */
+  .vista {
+    display: flex;
+    gap: var(--space-2);
+    height: min(560px, 62dvh);
+  }
+
+  .vista__strip {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: var(--radius-card);
+    border: 1px solid var(--line-soft);
+    color: var(--text);
+    text-decoration: none;
+    transition: flex-grow 0.6s var(--ease-out);
+  }
+
+  .vista__strip:first-child,
+  .vista:hover .vista__strip:hover,
+  .vista__strip:focus-visible {
+    flex-grow: 5;
+  }
+
+  .vista:hover .vista__strip:first-child:not(:hover) {
+    flex-grow: 1;
+  }
+
+  .vista__strip :global(.vista__art) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Portada: aparece nítida en la franja abierta. */
+  :global(.vista__cover) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: min(62%, 210px);
+    opacity: 0;
+    transform: translate(-50%, -58%) scale(0.96);
+    transition:
+      opacity 0.45s var(--ease-out),
+      transform 0.45s var(--ease-out);
+  }
+
+  .vista__strip:first-child :global(.vista__cover),
+  .vista:hover .vista__strip:hover :global(.vista__cover),
+  .vista__strip:focus-visible :global(.vista__cover) {
+    opacity: 1;
+    transform: translate(-50%, -58%);
+  }
+
+  .vista:hover .vista__strip:first-child:not(:hover) :global(.vista__cover) {
+    opacity: 0;
+  }
+
+  .vista__label {
+    position: absolute;
+    left: var(--space-4);
+    right: var(--space-4);
+    bottom: var(--space-4);
+    display: grid;
+    gap: var(--space-1);
+    font-size: var(--step--1);
+    color: var(--muted);
+    opacity: 0;
+    transform: translateY(8px);
+    transition:
+      opacity 0.4s var(--ease-out),
+      transform 0.4s var(--ease-out);
+  }
+
+  .vista__label strong {
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .vista__strip:first-child .vista__label,
+  .vista:hover .vista__strip:hover .vista__label,
+  .vista__strip:focus-visible .vista__label {
+    opacity: 1;
+    transform: none;
+  }
+
+  .vista:hover .vista__strip:first-child:not(:hover) .vista__label {
+    opacity: 0;
+  }
+
+  @media (max-width: 999px) {
+    /* En móvil cada franja es una tarjeta: la portada la llena por completo. */
+    :global(.vista__cover),
+    .vista__strip:first-child :global(.vista__cover) {
+      inset: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: auto;
+      border-radius: 0;
+      box-shadow: none;
+      opacity: 1;
+      transform: none;
+    }
+
+    .vista {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      height: auto;
+    }
+
+    .vista__strip {
+      aspect-ratio: 3 / 4;
+    }
+
+    .vista__label {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: var(--space-7) var(--space-3) var(--space-3);
+      background: linear-gradient(180deg, transparent, color-mix(in oklab, var(--bg) 85%, transparent) 55%, var(--bg));
+      opacity: 1;
+      transform: none;
+    }
+
+    .vista__label strong {
+      font-size: var(--step-0);
+    }
+
+    .vista__label span {
+      display: none;
+    }
+  }
+
+  .sagas {
+    padding-block: var(--space-7);
+  }
+
+  .sagas__head {
+    margin-bottom: var(--space-5);
+  }
+
+  .sagas__head p {
+    max-width: 60ch;
+  }
+
+  .sagas__list {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .saga-row {
+    position: relative;
+    display: grid;
+    grid-template-columns: 78px minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: var(--space-5);
+    padding: var(--space-3);
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    transition:
+      border-color 0.2s var(--ease-out),
+      transform 0.2s var(--ease-out);
+  }
+
+  .saga-row:hover,
+  .saga-row:focus-within {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .saga-row :global(.saga-row__art) {
+    width: 78px;
+  }
+
+  .saga-row__meta {
+    margin: 0 0 var(--space-1);
+    color: var(--muted);
+    font-size: var(--step--1);
+  }
+
+  .saga-row h3 {
+    margin-bottom: var(--space-1);
+  }
+
+  .saga-row h3 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  /* Toda la fila es clicable; el enlace sigue siendo el título. */
+  .saga-row h3 a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  .saga-row__tagline {
+    margin: 0;
+    color: var(--muted);
+    font-size: var(--step-0);
+  }
+
+  .saga-row__count {
+    display: grid;
+    gap: var(--space-1);
+    margin: 0;
+    color: var(--accent);
+    font-size: var(--step--1);
+    font-weight: 600;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  :global(.saga-row__arrow) {
+    margin-right: var(--space-3);
+    color: var(--accent);
+  }
+
+  @media (max-width: 760px) {
+    .saga-row {
+      grid-template-columns: 64px minmax(0, 1fr);
+      gap: var(--space-4);
+    }
+
+    .saga-row :global(.saga-row__art) {
+      width: 64px;
+    }
+
+    .saga-row__count,
+    :global(.saga-row__arrow) {
+      display: none;
+    }
+
+    .saga-row__tagline {
+      display: none;
+    }
+  }
+
+  .howto {
+    padding-block: var(--space-7);
+  }
+
+  .howto__path {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-6);
+    margin: var(--space-6) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* El camino que une las tres paradas, como en el panel de progreso. */
+  .howto__path::before {
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: 28px;
+    right: 28px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent) 66%, var(--line) 66%);
+  }
+
+  .howto__node {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: var(--space-4);
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    background: var(--bg);
+    color: var(--accent);
+    font-size: 1.4rem;
+  }
+
+  .howto__path li:last-child .howto__node {
+    border-style: dashed;
+    border-color: var(--line);
+    color: var(--muted);
+  }
+
+  .howto__path p {
+    margin: 0;
+    max-width: 32ch;
+  }
+
+  @media (max-width: 760px) {
+    .howto__path {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .howto__path::before {
+      top: 28px;
+      bottom: 28px;
+      left: 27px;
+      right: auto;
+      width: 2px;
+      height: auto;
+      background: linear-gradient(180deg, var(--accent), var(--accent) 66%, var(--line) 66%);
+    }
+
+    .howto__path li {
+      padding-left: 80px;
+      position: relative;
+    }
+
+    .howto__node {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+</style>

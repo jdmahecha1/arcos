@@ -1,0 +1,304 @@
+---
+import { ArrowLeftIcon } from '@phosphor-icons/react/dist/ssr';
+import Crest from '../../../../components/Crest.astro';
+import FogGroup from '../../../../components/FogGroup.astro';
+import SagaArt from '../../../../components/SagaArt.astro';
+import { KIND_STYLE } from '../../../../components/RelationGraph';
+import Spoiler from '../../../../components/Spoiler.astro';
+import Base from '../../../../layouts/Base.astro';
+import { getSagas } from '../../../../lib/data';
+import type { Character, Saga } from '../../../../lib/schema';
+import { portraitSrc } from '../../../../lib/artwork';
+import { charactersById, sortEvents } from '../../../../lib/spoilers';
+import { themeFor } from '../../../../lib/themes';
+import { characterUrl, sagaUrl, url } from '../../../../lib/url';
+
+export function getStaticPaths() {
+  return getSagas().flatMap((saga) =>
+    saga.characters.map((character) => ({
+      params: { saga: saga.id, personaje: character.id },
+      props: { saga, character },
+    })),
+  );
+}
+
+interface Props {
+  saga: Saga;
+  character: Character;
+}
+
+const { saga, character } = Astro.props;
+const theme = themeFor(saga.id);
+const people = charactersById(saga);
+const hidden = !!character.appears;
+const relations = saga.relations.filter((r) => r.from === character.id || r.to === character.id);
+const events = sortEvents(saga, 'universo').filter((e) => e.characters.includes(character.id));
+const seasonTitle = new Map(saga.seasons.map((g) => [g.id, g.title]));
+
+// Si su existencia ya es un spoiler, ni el título de la pestaña ni el buscador dicen quién es.
+const title = hidden ? `Personaje oculto · ${saga.title}` : `${character.name} · ${saga.title}`;
+const description = hidden
+  ? `Un personaje de ${saga.title} que se desbloquea según tu partida.`
+  : `${character.name}, ${character.role.toLowerCase()} en ${saga.title}. ${character.intro}`;
+---
+
+<Base title={title} description={description} theme={theme} indexable={!hidden}>
+  <div class="banner">
+    <SagaArt sagaId={saga.id} theme={theme} uid="banner" class="banner__art" priority />
+  </div>
+
+  <article class="wrap person-page">
+    <nav aria-label="Ruta" class="crumbs">
+      <a href={url()}>Series</a> / <a href={sagaUrl(saga.id)}>{saga.title}</a> / <span>Personaje</span>
+    </nav>
+
+    {
+      hidden ? (
+        <Spoiler saga={saga} at={character.appears!} label="Este personaje">
+          <header class="person-head">
+            <Crest name={character.name} size="lg" portrait={portraitSrc(saga.id, character.id, 256)} />
+            <div>
+              <p class="person-head__role">{character.role}</p>
+              <h1>{character.name}</h1>
+            </div>
+          </header>
+          <p class="person-intro">{character.intro}</p>
+        </Spoiler>
+      ) : (
+        <>
+          <header class="person-head">
+            <Crest name={character.name} size="lg" portrait={portraitSrc(saga.id, character.id, 256)} />
+            <div>
+              <p class="person-head__role">{character.role}</p>
+              <h1>{character.name}</h1>
+            </div>
+          </header>
+          <p class="person-intro">{character.intro}</p>
+        </>
+      )
+    }
+
+    {
+      character.reveals.length > 0 && (
+        <section class="person-block" aria-labelledby="datos">
+          <h2 id="datos">Lo que descubres después</h2>
+          <FogGroup singular="dato por descubrir" plural="datos por descubrir" count={character.reveals.length} listClass="reveals">
+            {character.reveals.map((r) => (
+              <Spoiler as="li" saga={saga} at={r.at} label="Un dato">
+                <p class="reveal">{r.text}</p>
+              </Spoiler>
+            ))}
+          </FogGroup>
+        </section>
+      )
+    }
+
+    {
+      relations.length > 0 && (
+        <section class="person-block" aria-labelledby="relaciones">
+          <h2 id="relaciones">Relaciones</h2>
+          <FogGroup singular="relación por descubrir" plural="relaciones por descubrir" count={relations.length} listClass="relations">
+            {relations.map((r) => {
+              const other = people.get(r.from === character.id ? r.to : r.from)!;
+              const style = KIND_STYLE[r.kind];
+              // Mostrar la relación revela al otro personaje: se espera a lo más tardío de los dos.
+              const content = (
+                <a class="relation" href={characterUrl(saga.id, other.id)} style={`--kind: ${style.color}`}>
+                  <Crest name={other.name} portrait={portraitSrc(saga.id, other.id)} />
+                  <span>
+                    <span class="relation__kind">{style.label}</span>
+                    <span class="relation__name">{other.name}</span>
+                    <span class="relation__detail">{r.detail}</span>
+                  </span>
+                </a>
+              );
+              return (
+                <Spoiler as="li" saga={saga} at={r.at} label="Una relación">
+                  {other.appears ? (
+                    <Spoiler saga={saga} at={other.appears} label="Alguien que aún no conoces">
+                      {content}
+                    </Spoiler>
+                  ) : (
+                    content
+                  )}
+                </Spoiler>
+              );
+            })}
+          </FogGroup>
+        </section>
+      )
+    }
+
+    {
+      events.length > 0 && (
+        <section class="person-block" aria-labelledby="momentos">
+          <h2 id="momentos">Momentos en la historia</h2>
+          <FogGroup singular="momento por descubrir" plural="momentos por descubrir" count={events.length} listClass="moments" ordered>
+            {events.map((e) => (
+              <Spoiler as="li" saga={saga} at={e.at} label="Un momento">
+                <div class="moment">
+                  <p class="moment__date">
+                    {e.date}, {seasonTitle.get(e.at.season)}
+                  </p>
+                  <h3>{e.title}</h3>
+                  <p>{e.text}</p>
+                </div>
+              </Spoiler>
+            ))}
+          </FogGroup>
+        </section>
+      )
+    }
+
+    <p class="back">
+      <a class="btn" href={sagaUrl(saga.id)}>
+        <ArrowLeftIcon className="icon" aria-hidden="true" weight="bold" />
+        Volver a {saga.title}
+      </a>
+    </p>
+  </article>
+</Base>
+
+<style>
+  .banner {
+    position: relative;
+    height: clamp(180px, 30dvh, 300px);
+    overflow: hidden;
+  }
+
+  .banner :global(.banner__art) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .person-page {
+    max-width: 880px;
+    margin-top: calc(var(--space-8) * -0.9);
+    position: relative;
+  }
+
+  .crumbs {
+    margin-bottom: var(--space-5);
+    color: var(--muted);
+    font-size: var(--step--1);
+  }
+
+  .crumbs a {
+    color: var(--text);
+  }
+
+  .person-head {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: var(--space-5);
+    margin-bottom: var(--space-4);
+  }
+
+  .person-head h1 {
+    margin: 0;
+  }
+
+  .person-head__role {
+    margin: 0 0 var(--space-1);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .person-intro {
+    max-width: 60ch;
+    color: var(--muted);
+    font-size: var(--step-2);
+    line-height: 1.55;
+  }
+
+  .person-block {
+    margin-top: var(--space-7);
+  }
+
+  :global(.reveals),
+  :global(.relations),
+  :global(.moments) {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0 0 var(--space-3);
+    padding: 0;
+    list-style: none;
+  }
+
+  :global(.relations) {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  }
+
+  .reveal {
+    margin: 0;
+    padding: var(--space-4) var(--space-5);
+    border-left: 3px solid var(--accent);
+    border-radius: 0;
+    background: var(--surface);
+  }
+
+  .relation {
+    display: flex;
+    gap: var(--space-4);
+    height: 100%;
+    padding: var(--space-4);
+    border: 1px solid var(--line-soft);
+    border-top: 3px solid var(--kind);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .relation:hover {
+    border-color: var(--accent);
+    border-top-color: var(--kind);
+  }
+
+  .relation > span {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .relation__kind {
+    color: var(--muted);
+    font-size: var(--step--1);
+    font-weight: 600;
+  }
+
+  .relation__name {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 650;
+  }
+
+  .relation__detail {
+    color: var(--muted);
+    font-size: var(--step--1);
+  }
+
+  .moment {
+    padding: var(--space-4) var(--space-5);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+
+  .moment__date {
+    margin: 0 0 var(--space-1);
+    color: var(--accent);
+    font-size: var(--step--1);
+    font-weight: 600;
+  }
+
+  .moment p:last-child {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .back {
+    margin-top: var(--space-7);
+  }
+</style>

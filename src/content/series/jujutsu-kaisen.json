@@ -1,0 +1,1241 @@
+{
+  "id": "jujutsu-kaisen",
+  "title": "Jujutsu Kaisen",
+  "tagline": "Para proteger a los inocentes, un joven carga con una temible maldición en su cuerpo.",
+  "studio": "MAPPA",
+  "genre": "Acción y fantasía oscura",
+  "accent": "#1b449c",
+  "synopsis": "Yuji Itadori es un estudiante de secundaria con una fuerza sobrehumana que lleva una vida tranquila en su club escolar. Todo cambia cuando, para salvar a sus compañeros del ataque de espíritus malignos, ingiere un dedo maldito y se convierte en el recipiente de Ryomen Sukuna. Guiado por el poderoso hechicero Satoru Gojo, decide ingresar al Colegio Técnico de Magia para aprender a controlar su nuevo poder y aplazar su ejecución.",
+  "seasons": [
+    {
+      "id": "jjk-t1",
+      "title": "Temporada 1",
+      "year": 2020,
+      "format": "anime",
+      "arcs": [
+        "El útero maldito",
+        "Contra Mahito",
+        "Evento de intercambio con Kioto",
+        "Pinturas de la Muerte"
+      ]
+    },
+    {
+      "id": "jjk-0",
+      "title": "Jujutsu Kaisen 0",
+      "year": 2021,
+      "format": "pelicula",
+      "arcs": [
+        "El niño maldito"
+      ]
+    },
+    {
+      "id": "jjk-t2",
+      "title": "Temporada 2",
+      "year": 2023,
+      "format": "anime",
+      "arcs": [
+        "El pasado de Gojo",
+        "El incidente de Shibuya"
+      ]
+    },
+    {
+      "id": "jjk-t3",
+      "title": "Temporada 3: Culling Game, parte 1",
+      "year": 2026,
+      "format": "anime",
+      "arcs": [
+        "Preparación perfecta",
+        "Culling Game, primeras colonias"
+      ]
+    },
+    {
+      "id": "jjk-manga",
+      "title": "Manga: lo que aún no se anima",
+      "year": 2024,
+      "format": "manga",
+      "arcs": [
+        "Culling Game, el resto",
+        "La batalla de Shinjuku"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "yuji-itadori",
+      "name": "Yuji Itadori",
+      "role": "Estudiante de secundaria y nuevo recipiente de Sukuna",
+      "intro": "Es un joven bondadoso con una fuerza física descomunal que vive en Sendai. Su destino da un giro drástico cuando se traga un talismán de grado especial para salvar vidas y sobrevive al albergar al Rey de las Maldiciones.",
+      "reveals": [
+        {
+          "text": "Descubre que es capaz de controlar a Sukuna y acepta aplazar su condena para consumir los veinte dedos.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Domina la técnica del Destello Negro durante el enfrentamiento contra Hanami con el apoyo de Todo.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Se entera a mitad de una batalla a muerte de que Choso es su medio hermano mayor.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Despierta la manipulación de sangre y la técnica de cortes para enfrentarse a Sukuna en Shinjuku.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "megumi-fushiguro",
+      "name": "Megumi Fushiguro",
+      "role": "Hechicero novato enviado a recuperar un objeto maldito",
+      "intro": "Un reservado hechicero de primer año enviado a Sendai para asegurar un objeto maldito de alto riesgo. Queda perplejo ante las capacidades de Yuji y su insólita resistencia para controlar su propio cuerpo.",
+      "reveals": [
+        {
+          "text": "Despliega por primera vez su propia expansión de dominio incompleta bajo el puente Yasohachi.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Es nombrado líder oficial del clan Zen'in tras el fallecimiento de Naobito.",
+          "at": {
+            "season": "jjk-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Su cuerpo es usurpado por Sukuna, quien lo sume en la desesperación al asesinar a su hermana Tsumiki.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Recupera el control de su cuerpo y resiste desde el interior para facilitar la caída de Sukuna.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "satoru-gojo",
+      "name": "Satoru Gojo",
+      "role": "Profesor en el Colegio Técnico y hechicero más fuerte",
+      "intro": "Llega a Sendai con una actitud desenfadada para evaluar la crisis desatada por el talismán. Demuestra una fuerza descomunal y prefiere acoger a Yuji como su pupilo antes que autorizar su ejecución inmediata.",
+      "reveals": [
+        {
+          "text": "Derrota a Toji Fushiguro tras dominar la energía maldita inversa y la técnica del Púrpura.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es atrapado y sellado en la Prisión Confinadora durante el ataque masivo en Shibuya.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Es liberado de su confinamiento y desafía a Sukuna a un combate mortal pactado para Nochebuena.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Cae abatido en Shinjuku tras ser alcanzado por el corte adaptado de Sukuna.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ryomen-sukuna",
+      "name": "Ryomen Sukuna",
+      "role": "El legendario Rey de las Maldiciones",
+      "intro": "El temible Rey de las Maldiciones cuyos veinte dedos momificados fueron dispersados por todo Japón. Despierta parcialmente al ser ingerido por Yuji, pero descubre con furia que el joven puede contenerlo.",
+      "reveals": [
+        {
+          "text": "Pacta en secreto condiciones de resurrección con Yuji tras arrancarle el corazón en el centro de detención.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Toma el control temporal en Shibuya y destruye gran parte del distrito con su santuario malévolo.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Abandona el cuerpo de Yuji forzando a Megumi a tragar uno de sus dedos para apoderarse de sus sombras.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es finalmente derrotado por los hechiceros en Shinjuku.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "nobara-kugisaki",
+      "name": "Nobara Kugisaki",
+      "role": "Estudiante de primer año de Tokio y usuaria de técnica vudú",
+      "intro": "Llega desde el campo a Tokio con gran carácter y el deseo de escapar de la vida de pueblo. Pelea con determinación usando un martillo, clavos y muñecos de paja cargados de energía maldita.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Elimina a los fetos malditos Kechizu y Eso sincronizando su técnica de resonancia junto a Yuji.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Sufre una herida devastadora en el rostro provocada por Mahito durante el incidente de Shibuya.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Reaparece en Shinjuku utilizando su resonancia sobre el último dedo de Sukuna para asegurar la victoria.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "maki-zenin",
+      "name": "Maki Zen'in",
+      "role": "Estudiante de segundo año experta en armas malditas",
+      "intro": "Una alumna de segundo año respetada por su gran dominio de las herramientas y armas en combate. Apenas tiene energía maldita, pero compensa esa condición con una fuerza física fuera de lo común.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Entrena a Yuta Okkotsu en combate con armas durante su primer año en el colegio de Tokio.",
+          "at": {
+            "season": "jjk-0",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Resulta gravemente quemada por las llamas de Jogo tras combatir en Shibuya junto a Naobito.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Erradica a los miembros del clan Zen'in tras el sacrificio de Mai, alcanzando una fuerza sobrehumana plena.",
+          "at": {
+            "season": "jjk-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Ataca a Sukuna en Shinjuku empleando una espada capaz de cortar directamente las almas.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kento-nanami",
+      "name": "Kento Nanami",
+      "role": "Hechicero de primer grado y antiguo oficinista",
+      "intro": "Un hechicero metódico y reservado que decidió abandonar el mundo corporativo para retomar las misiones mágicas. Acompaña a Yuji para orientarlo en la investigación de extrañas muertes en un cine.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Explica el funcionamiento de su técnica de proporción siete a tres y su voto vinculante de horas extras.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Muere en Shibuya a manos de Mahito tras sufrir graves quemaduras causadas por Jogo.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mahito",
+      "name": "Mahito",
+      "role": "Espíritu maldito de grado especial nacido del odio humano",
+      "intro": "Una maldición sádica y reflexiva con la capacidad de percibir y deformar el alma humana mediante el contacto físico. Experimenta con personas para explorar los límites de su poder y poner a prueba a los hechiceros.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Infiltra el colegio de Tokio para sustraer tres de los fetos malditos de las Pinturas de la Muerte.",
+          "at": {
+            "season": "jjk-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Mutila a Todo y deja al borde de la muerte a Nobara antes de ser acorralado por Yuji.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Es absorbido por la técnica de manipulación de espíritus de Kenjaku en Shibuya.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "suguru-geto",
+      "name": "Suguru Geto",
+      "role": "Hechicero renegado aliado con espíritus malditos",
+      "intro": "Un antiguo hechicero que conspira en secreto junto a espíritus de grado especial como Jogo y Mahito. Pretende alterar el orden establecido y atrapar a Gojo para imponer una sociedad dominada por las maldiciones.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Lanza el Desfile Nocturno de los Cien Demonios para intentar apoderarse de la maldición Rika.",
+          "at": {
+            "season": "jjk-0",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Abandona el colegio de hechicería tras la muerte de Riko Amanai para perseguir un mundo exclusivo de hechiceros.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Se revela que su cuerpo sin vida es manipulado por un hechicero ancestral que implantó su propio cerebro.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "aoi-todo",
+      "name": "Aoi Todo",
+      "role": "Hechicero de tercer año de Kioto de gran fuerza física",
+      "intro": "Un corpulento y peculiar estudiante de Kioto que evalúa a sus conocidos según sus preferencias femeninas. Se interesa de inmediato en Yuji durante el torneo y se ofrece a guiarlo en el manejo de su energía.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Pierde su mano izquierda en Shibuya durante el combate contra Mahito para salvar a Yuji.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Regresa en Shinjuku utilizando un instrumento sonoro adaptado para intercambiar posiciones y desorientar a Sukuna.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "choso",
+      "name": "Choso",
+      "role": "El mayor de los fetos malditos encarnados",
+      "intro": "El mayor de los fetos malditos encarnados, caracterizado por su temperamento protector y su dominio de la sangre. Toma forma en un cuerpo humano para velar por el bienestar de sus hermanos menores.",
+      "appears": {
+        "season": "jjk-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Reconoce a Yuji como su hermano menor tras tener una visión mística durante su combate en Shibuya.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Instruye a Yuji en la manipulación de sangre antes de la confrontación decisiva.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Se sacrifica interceptando las llamas de Sukuna para salvar la vida de su hermano Yuji en Shinjuku.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "yuta-okkotsu",
+      "name": "Yuta Okkotsu",
+      "role": "Estudiante de grado especial acechado por una maldición",
+      "intro": "Un joven afligido por el espíritu sobreprotector de su amiga Rika, quien ataca con violencia a quien intente lastimarlo. Gojo decide reclutarlo en Tokio para enseñarle a canalizar su poder y ayudarlo a liberarse de la maldición.",
+      "appears": {
+        "season": "jjk-0",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Libera el alma de Rika al descubrir que él mismo la maldijo involuntariamente debido a su linaje ancestral.",
+          "at": {
+            "season": "jjk-0",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Regresa a Japón fingiendo ejecutar a Yuji para luego convertirse en su principal protector.",
+          "at": {
+            "season": "jjk-t3",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Elimina a Kenjaku cortándole la cabeza tras una emboscada coordinada.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Despliega su expansión de dominio contra Sukuna utilizando múltiples técnicas malditas copiadas.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "toji-fushiguro",
+      "name": "Toji Fushiguro",
+      "role": "Asesino de hechiceros con restricción celestial",
+      "intro": "Un letal cazarrecompensas que abandonó el clan Zen'in al carecer por completo de energía maldita. Posee una restricción celestial que le otorga reflejos sobrehumanos y es contratado para matar al Recipiente de Plasma Estelar.",
+      "appears": {
+        "season": "jjk-t2",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Hiere de muerte a Gojo y ejecuta a Riko Amanai utilizando herramientas que anulan técnicas malditas.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es resucitado temporalmente en Shibuya mediante una sesión espiritista y se quita la vida al reconocer a su hijo.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kenjaku",
+      "name": "Kenjaku",
+      "role": "Antiguo hechicero que usurpa cuerpos y cerebros",
+      "intro": "Un milenario hechicero parásito que habita el cuerpo sin vida de Geto tras haberle trasplantado su cerebro con suturas visibles. Se presenta en Shibuya tras tender una trampa para sellar a Gojo en la Prisión Confinadora.",
+      "appears": {
+        "season": "jjk-t2",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Sella a Gojo en la Prisión Confinadora y despierta a miles de hechiceros ancestrales en Japón.",
+          "at": {
+            "season": "jjk-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Asesina a Yuki Tsukumo en las profundidades del Corredor Estelar para adueñarse del maestro Tengen.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es emboscado y decapitado por Yuta Okkotsu durante los compases finales del torneo.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kinji-hakari",
+      "name": "Kinji Hakari",
+      "role": "Estudiante suspendido y líder de un club de apuestas",
+      "intro": "Un estudiante suspendido del colegio de Tokio que dirige un circuito de apuestas y peleas clandestinas entre hechiceros. Recibe la visita de Yuji y Megumi, quienes acuden para convencerlo de sumarse a su bando.",
+      "appears": {
+        "season": "jjk-t3",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Demuestra en combate que su dominio le concede energía ilimitada e inmortalidad automática si saca el premio mayor.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Combate en solitario contra Uraume en Shinjuku para mantenerla apartada del enfrentamiento principal.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "hiromi-higuruma",
+      "name": "Hiromi Higuruma",
+      "role": "Abogado defensor convertido en participante del torneo",
+      "intro": "Un abogado desilusionado por las injusticias del sistema penal que despierta habilidades mágicas en el torneo. Acumula un alto puntaje gracias a un juicio ritual donde evalúa la culpabilidad de sus oponentes.",
+      "appears": {
+        "season": "jjk-t3",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Cede sus puntos a Yuji para añadir una regla que permite transferirlos entre jugadores.",
+          "at": {
+            "season": "jjk-t3",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Participa en la batalla de Shinjuku contra Sukuna intentando confiscar sus poderes con su técnica de juicio.",
+          "at": {
+            "season": "jjk-manga",
+            "arc": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "mision-de-proteccion-del-recipiente",
+      "title": "La custodia del Recipiente de Plasma Estelar",
+      "date": "Año 2006",
+      "order": 10,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      },
+      "text": "Satoru Gojo y Suguru Geto reciben la encomienda de escoltar y proteger a la joven Riko Amanai antes de su asimilación con el maestro Tengen. Diversas facciones de hechiceros rebeldes y cazarrecompensas intentan eliminarla para frustrar la unión.",
+      "characters": [
+        "satoru-gojo",
+        "suguru-geto"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-ataque-de-toji-fushiguro",
+      "title": "El ataque del Asesino de Hechiceros",
+      "date": "Año 2006",
+      "order": 20,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      },
+      "text": "Toji Fushiguro burla las defensas de la escuela e hiere de gravedad a Gojo gracias a sus armas especiales y la ausencia de energía maldita. Poco después, irrumpe en el recinto sagrado y asesina a sangre fría a Riko frente a Geto.",
+      "characters": [
+        "toji-fushiguro",
+        "satoru-gojo",
+        "suguru-geto"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-despertar-de-gojo",
+      "title": "El renacer de Satoru Gojo",
+      "date": "Año 2006",
+      "order": 30,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      },
+      "text": "Al borde de la muerte, Gojo comprende la energía maldita inversa y regresa completamente revitalizado ante Toji. Mediante la técnica del Púrpura, hiere de muerte a su rival, quien antes de morir le pide que vele por su pequeño hijo Megumi.",
+      "characters": [
+        "satoru-gojo",
+        "toji-fushiguro"
+      ],
+      "major": true
+    },
+    {
+      "id": "el-ingreso-de-yuta-al-colegio",
+      "title": "El ingreso de Yuta Okkotsu al Colegio Técnico",
+      "date": "Noviembre de 2016",
+      "order": 40,
+      "at": {
+        "season": "jjk-0",
+        "arc": 0
+      },
+      "text": "Aterrado por el poder incontrolable del espíritu de Rika, Yuta accede a ingresar a la escuela de Tokio gracias a la intervención de Gojo. Allí inicia su entrenamiento en combate y comienza a forjar lazos de compañerismo con Maki Zen'in.",
+      "characters": [
+        "yuta-okkotsu",
+        "satoru-gojo",
+        "maki-zenin"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-desfile-nocturno-de-los-cien-demonios",
+      "title": "El Desfile Nocturno de los Cien Demonios",
+      "date": "24 de diciembre de 2017",
+      "order": 50,
+      "at": {
+        "season": "jjk-0",
+        "arc": 0
+      },
+      "text": "Suguru Geto desata cientos de maldiciones en Tokio y Kioto como distracción para infiltrarse en el colegio e intentar robar a Rika. Yuta libera todo el poder de su promesa con Rika para vencer a Geto, a quien Gojo termina rematando en un callejón.",
+      "characters": [
+        "suguru-geto",
+        "yuta-okkotsu",
+        "satoru-gojo"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-recipiente-de-sukuna",
+      "title": "El despertar del recipiente de Sukuna",
+      "date": "Junio de 2018",
+      "order": 60,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      },
+      "text": "Para salvar a sus compañeros del club de ocultismo y a Megumi de espíritus devoradores, Yuji Itadori ingiere un dedo momificado de grado especial. Al transformarse con éxito en el recipiente de Sukuna y retener la cordura, Gojo interviene para evitar que sea ejecutado al instante.",
+      "characters": [
+        "yuji-itadori",
+        "megumi-fushiguro",
+        "ryomen-sukuna",
+        "satoru-gojo"
+      ],
+      "major": true
+    },
+    {
+      "id": "la-primera-mision-del-trio-de-primer-ano",
+      "title": "El primer encargo en Roppongi",
+      "date": "Junio de 2018",
+      "order": 70,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      },
+      "text": "Tras la incorporación de Nobara Kugisaki al grupo, Gojo asigna a los novatos a inspeccionar un edificio abandonado plagado de maldiciones. Nobara y Yuji combinan sus habilidades para rescatar a un niño atrapado y exterminar a los espíritus invasores.",
+      "characters": [
+        "yuji-itadori",
+        "nobara-kugisaki",
+        "satoru-gojo"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-incidente-del-centro-de-detencion",
+      "title": "La crisis del centro de detención de menores",
+      "date": "Julio de 2018",
+      "order": 80,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      },
+      "text": "Los estudiantes de primer año son despachados de emergencia para rescatar sobrevivientes ante la aparición de un útero maldito de grado especial. Al verse acorralado, Yuji cede el control a Sukuna, quien derrota a la criatura pero le arranca el corazón al muchacho antes de negociar un pacto.",
+      "characters": [
+        "yuji-itadori",
+        "megumi-fushiguro",
+        "ryomen-sukuna"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-investigacion-del-cine-kinema",
+      "title": "La investigación del cine Kinema",
+      "date": "Septiembre de 2018",
+      "order": 90,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 1
+      },
+      "text": "Kento Nanami toma a Yuji bajo su tutela para rastrear una serie de homicidios provocados por la deformación corporal de varias víctimas en una sala de cine. Sus pesquisas los conducen hasta el alcantarillado, donde Nanami se enfrenta en un duro duelo contra el espíritu Mahito.",
+      "characters": [
+        "kento-nanami",
+        "yuji-itadori",
+        "mahito"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-duelo-en-la-escuela-satozakura",
+      "title": "La tragedia de la escuela Satozakura",
+      "date": "Septiembre de 2018",
+      "order": 100,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 1
+      },
+      "text": "Mahito engaña a Junpei Yoshino colocándole un dedo maldito a su madre para provocar su muerte y empujarlo al resentimiento. Cuando Junpei comprende el engaño, Mahito lo transfigura mortalmente frente a Yuji, quien jura destruir a la maldición con el auxilio de Nanami.",
+      "characters": [
+        "yuji-itadori",
+        "mahito",
+        "kento-nanami",
+        "ryomen-sukuna"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-inicio-del-evento-de-intercambio",
+      "title": "El choque de las dos escuelas hermanas",
+      "date": "Septiembre de 2018",
+      "order": 110,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 2
+      },
+      "text": "Los estudiantes de Tokio y Kioto se reúnen en la sede capitalina para competir en un torneo de exorcismo entre ambas instituciones. Durante un enfrentamiento mano a mano, Todo descubre una conexión con Yuji y decide enseñarle a controlar el flujo de su energía.",
+      "characters": [
+        "yuji-itadori",
+        "aoi-todo",
+        "megumi-fushiguro",
+        "maki-zenin"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-invasion-de-hanami",
+      "title": "La invasión de espíritus al colegio",
+      "date": "Septiembre de 2018",
+      "order": 120,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 2
+      },
+      "text": "El espíritu maldito Hanami levanta una barrera excluyente para infiltrarse en el torneo y robar reliquias de la escuela mientras distrae al alumnado. Yuji y Todo se coordinan a la perfección usando el Destello Negro hasta que Gojo destruye la barrera y ahuyenta a los atacantes.",
+      "characters": [
+        "yuji-itadori",
+        "aoi-todo",
+        "satoru-gojo",
+        "maki-zenin"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-mision-del-puente-yasohachi",
+      "title": "El enigma del puente Yasohachi",
+      "date": "Octubre de 2018",
+      "order": 130,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 3
+      },
+      "text": "El trío de primer año investiga misteriosas muertes vinculadas a un puente donde la hermana de Megumi solía acudir en el pasado. Al penetrar el dominio incompleto del espíritu guardián, Megumi despliega por primera vez su propio jardín de sombras para salir victorioso.",
+      "characters": [
+        "megumi-fushiguro",
+        "yuji-itadori",
+        "nobara-kugisaki"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-batalla-contra-las-pinturas-de-la-muerte",
+      "title": "El duelo contra Kechizu y Eso",
+      "date": "Octubre de 2018",
+      "order": 140,
+      "at": {
+        "season": "jjk-t1",
+        "arc": 3
+      },
+      "text": "Nobara y Yuji son interceptados en la carretera por dos de los hermanos nacidos de las Pinturas de la Muerte despertadas por Mahito. Mediante la técnica de resonancia y una ofensiva implacable, logran abatir a ambos fetos malditos, dejando a Choso sumido en el dolor por la pérdida.",
+      "characters": [
+        "nobara-kugisaki",
+        "yuji-itadori",
+        "choso"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-sellamiento-de-satoru-gojo",
+      "title": "El confinamiento de Satoru Gojo",
+      "date": "31 de octubre de 2018",
+      "order": 150,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 1
+      },
+      "text": "En el andén subterráneo de la estación de Shibuya, las maldiciones sacrifican a cientos de civiles para agotar psicológicamente al hechicero más fuerte. Al aparecer Kenjaku habitando el cuerpo de Geto, la confusión momentánea de Gojo permite que la Prisión Confinadora lo atrape y lo selle por completo.",
+      "characters": [
+        "satoru-gojo",
+        "kenjaku",
+        "mahito"
+      ],
+      "major": true
+    },
+    {
+      "id": "la-masacre-de-shibuya",
+      "title": "El arrasamiento de Shibuya por Sukuna",
+      "date": "31 de octubre de 2018",
+      "order": 160,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 1
+      },
+      "text": "Tras ser alimentado con diez dedos mientras yacía inconsciente, Sukuna toma el control total del cuerpo y desata una carnicería monumental sobre la ciudad. Para salvar a Megumi de su propio ritual de invocación, despliega su santuario malévolo y pulveriza un vecindario entero antes de devolverle el cuerpo a un devastado Yuji.",
+      "characters": [
+        "ryomen-sukuna",
+        "megumi-fushiguro",
+        "yuji-itadori"
+      ],
+      "major": true
+    },
+    {
+      "id": "la-caida-de-mahito-y-el-plan-milenario",
+      "title": "El desenlace del incidente de Shibuya",
+      "date": "31 de octubre de 2018",
+      "order": 170,
+      "at": {
+        "season": "jjk-t2",
+        "arc": 1
+      },
+      "text": "A pesar de la caída de Nanami y las graves heridas de Nobara, Yuji y Todo combinan sus fuerzas para derrotar a Mahito en un combate límite. Cuando la maldición huye indefensa, Kenjaku la absorbe y activa un conjuro a escala nacional para despertar a miles de hechiceros e iniciar una nueva era.",
+      "characters": [
+        "yuji-itadori",
+        "aoi-todo",
+        "mahito",
+        "kenjaku",
+        "choso"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-retorno-de-yuta-okkotsu",
+      "title": "El regreso del verdugo designado",
+      "date": "Noviembre de 2018",
+      "order": 180,
+      "at": {
+        "season": "jjk-t3",
+        "arc": 0
+      },
+      "text": "Las autoridades de hechicería designan a Yuta Okkotsu para ejecutar de inmediato a Yuji tras el caos y la destrucción de Shibuya. Tras perseguir a Itadori y fingir su muerte en un breve combate, Yuta revela que su verdadera intención es protegerlo siguiendo las órdenes de Gojo.",
+      "characters": [
+        "yuta-okkotsu",
+        "yuji-itadori",
+        "choso"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-caida-del-clan-zenin",
+      "title": "La aniquilación del clan Zen'in",
+      "date": "Noviembre de 2018",
+      "order": 190,
+      "at": {
+        "season": "jjk-t3",
+        "arc": 0
+      },
+      "text": "Maki acude a la armería de su clan para recolectar herramientas malditas, pero su propio padre la hiere de gravedad y sacrifica a su gemela Mai. Tras el fallecimiento de Mai, Maki adquiere una restricción celestial absoluta y acaba con los combatientes de la familia Zen'in.",
+      "characters": [
+        "maki-zenin",
+        "megumi-fushiguro"
+      ],
+      "major": true
+    },
+    {
+      "id": "el-juicio-en-la-colonia-tokio-1",
+      "title": "El juicio de Hiromi Higuruma",
+      "date": "Noviembre de 2018",
+      "order": 200,
+      "at": {
+        "season": "jjk-t3",
+        "arc": 1
+      },
+      "text": "Yuji entra en la colonia número uno de Tokio con el propósito de localizar al abogado Hiromi Higuruma y solicitarle que transfiera sus puntos acumulados. Higuruma despliega su dominio judicial para enjuiciar a Itadori por los crímenes de Shibuya, pero conmovido por la honestidad del joven, decide ceder sus puntos para establecer nuevas reglas.",
+      "characters": [
+        "yuji-itadori",
+        "hiromi-higuruma"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-enfrentamiento-en-la-colonia-tokio-2",
+      "title": "La apuesta de Kinji Hakari",
+      "date": "Noviembre de 2018",
+      "order": 215,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 0
+      },
+      "text": "Kinji Hakari entra a una colonia de Tokio para apoyar al grupo de Yuji. En un combate a muerte, su dominio de apuestas demuestra de qué es capaz cuando la suerte le sonríe.",
+      "characters": [
+        "kinji-hakari",
+        "yuji-itadori"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-posesion-de-megumi",
+      "title": "La usurpación del cuerpo de Megumi Fushiguro",
+      "date": "Noviembre de 2018",
+      "order": 220,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 0
+      },
+      "text": "Aprovechando un descuido en un pacto previo, Sukuna arranca uno de los dedos de Yuji y se lo hace tragar a la fuerza a Megumi para adueñarse de su técnica de sombras. Con su nuevo huésped, Sukuna hiere gravemente a sus compañeros y huye para completar su proceso de resurrección.",
+      "characters": [
+        "ryomen-sukuna",
+        "megumi-fushiguro",
+        "yuji-itadori"
+      ],
+      "major": true
+    },
+    {
+      "id": "la-liberacion-de-satoru-gojo",
+      "title": "El retorno de Satoru Gojo",
+      "date": "Noviembre de 2018",
+      "order": 230,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 0
+      },
+      "text": "Con la ayuda de las habilidades de los nuevos participantes del torneo, los hechiceros consiguen abrir la parte trasera de la Prisión Confinadora. Gojo reaparece ileso ante Kenjaku y Sukuna, pactando enfrentarse el día de Nochebuena en una batalla decisiva.",
+      "characters": [
+        "satoru-gojo",
+        "yuji-itadori",
+        "yuta-okkotsu",
+        "kenjaku"
+      ],
+      "major": false
+    },
+    {
+      "id": "el-duelo-de-los-mas-fuertes",
+      "title": "La batalla de los más fuertes en Shinjuku",
+      "date": "24 de diciembre de 2018",
+      "order": 240,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 1
+      },
+      "text": "Gojo y Sukuna se enfrentan en un choque descomunal de expansiones de dominio que devasta gran parte del distrito de Shinjuku. Aunque Gojo demuestra su superioridad en múltiples intercambios de combate, Sukuna adapta su técnica de corte espacial y logra partirlo en dos.",
+      "characters": [
+        "satoru-gojo",
+        "ryomen-sukuna"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-emboscada-contra-kenjaku",
+      "title": "La caída del conspirador Kenjaku",
+      "date": "24 de diciembre de 2018",
+      "order": 250,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 1
+      },
+      "text": "Aprovechando que Kenjaku se encuentra totalmente distraído en una batalla de comedia surrealista, Yuta Okkotsu realiza un ataque sorpresa y le corta la cabeza. Antes de extinguirse, el milenario manipulador transfiere la autoridad del torneo a Sukuna.",
+      "characters": [
+        "yuta-okkotsu",
+        "aoi-todo",
+        "kenjaku"
+      ],
+      "major": false
+    },
+    {
+      "id": "la-caida-del-rey-de-las-maldiciones",
+      "title": "La derrota definitiva de Sukuna",
+      "date": "24 de diciembre de 2018",
+      "order": 260,
+      "at": {
+        "season": "jjk-manga",
+        "arc": 1
+      },
+      "text": "En el clímax de la batalla de relevos, Nobara despierta y clava su resonancia en el último dedo mientras Megumi despierta su voluntad para rebelarse desde el interior. Yuji conecta un Destello Negro fulminante que vence al Rey de las Maldiciones y libera finalmente el cuerpo de su amigo.",
+      "characters": [
+        "yuji-itadori",
+        "ryomen-sukuna",
+        "megumi-fushiguro",
+        "nobara-kugisaki"
+      ],
+      "major": true
+    }
+  ],
+  "relations": [
+    {
+      "from": "yuji-itadori",
+      "to": "satoru-gojo",
+      "kind": "mentor",
+      "detail": "Gojo asume la tutela de Yuji para guiarlo como hechicero y salvarlo de la ejecución inmediata.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "yuji-itadori",
+      "to": "megumi-fushiguro",
+      "kind": "aliado",
+      "detail": "Compañeros de primer año que forjan una profunda confianza mientras arriesgan sus vidas en combate.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "yuji-itadori",
+      "to": "ryomen-sukuna",
+      "kind": "enemigo",
+      "detail": "Sukuna habita el cuerpo de Yuji como una constante amenaza que busca someterlo y causar destrucción.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "nobara-kugisaki",
+      "to": "yuji-itadori",
+      "kind": "aliado",
+      "detail": "Compañeros de clase que desarrollan una sólida camaradería basada en el trabajo en equipo y el respeto mutuo.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "maki-zenin",
+      "to": "megumi-fushiguro",
+      "kind": "familia",
+      "detail": "Primos: el padre de Megumi nació en el clan Zen'in, del que Maki reniega.",
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kento-nanami",
+      "to": "yuji-itadori",
+      "kind": "mentor",
+      "detail": "Nanami orienta a Yuji con lecciones sobre la realidad del trabajo de hechicero durante la misión en el cine.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "yuji-itadori",
+      "to": "mahito",
+      "kind": "enemigo",
+      "detail": "Enemigos mortales debido a las crueles manipulaciones que Mahito ejerce sobre las almas humanas.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "mahito",
+      "to": "suguru-geto",
+      "kind": "aliado",
+      "detail": "Maldiciones aliadas que coordinan emboscadas con el fin de debilitar a la sociedad de hechicería.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "aoi-todo",
+      "to": "yuji-itadori",
+      "kind": "aliado",
+      "detail": "Todo adopta a Yuji como su mejor amigo tras descubrir afinidad en sus gustos y le enseña el Destello Negro.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "aoi-todo",
+      "to": "megumi-fushiguro",
+      "kind": "rival",
+      "detail": "Estudiantes de escuelas rivales que chocan por sus diferencias de temperamento y concepción del combate.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "choso",
+      "to": "yuji-itadori",
+      "kind": "enemigo",
+      "detail": "Choso busca venganza contra Yuji al considerarlo responsable de la eliminación de sus hermanos menores.",
+      "at": {
+        "season": "jjk-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "satoru-gojo",
+      "to": "yuta-okkotsu",
+      "kind": "mentor",
+      "detail": "Gojo rescata a Yuta de una condena a muerte y lo instruye personalmente en el control de su descomunal energía.",
+      "at": {
+        "season": "jjk-0",
+        "arc": 0
+      }
+    },
+    {
+      "from": "maki-zenin",
+      "to": "yuta-okkotsu",
+      "kind": "aliado",
+      "detail": "Maki colabora estrechamente con Yuta desde su llegada al colegio, motivándolo a volverse un hechicero fuerte.",
+      "at": {
+        "season": "jjk-0",
+        "arc": 0
+      }
+    },
+    {
+      "from": "yuta-okkotsu",
+      "to": "suguru-geto",
+      "kind": "enemigo",
+      "detail": "Geto intenta arrebatarle el espíritu de Rika a Yuta desatando un asalto masivo contra la academia.",
+      "at": {
+        "season": "jjk-0",
+        "arc": 0
+      }
+    },
+    {
+      "from": "satoru-gojo",
+      "to": "suguru-geto",
+      "kind": "rival",
+      "detail": "Eran los mejores amigos y compañeros de clase durante su juventud antes de que sus caminos éticos se separaran.",
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "toji-fushiguro",
+      "to": "megumi-fushiguro",
+      "kind": "familia",
+      "detail": "Padre e hijo separados por el distanciamiento de Toji, quien encomienda su futuro a Gojo antes de perecer.",
+      "at": {
+        "season": "jjk-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kenjaku",
+      "to": "satoru-gojo",
+      "kind": "enemigo",
+      "detail": "Kenjaku urde un plan milenario para neutralizar el poder de Gojo sellándolo en la Prisión Confinadora.",
+      "at": {
+        "season": "jjk-t2",
+        "arc": 1
+      }
+    },
+    {
+      "from": "yuta-okkotsu",
+      "to": "yuji-itadori",
+      "kind": "aliado",
+      "detail": "Yuta finge ejecutar a Yuji ante los altos mandos para luego protegerlo como un leal compañero de armas.",
+      "at": {
+        "season": "jjk-t3",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kinji-hakari",
+      "to": "yuji-itadori",
+      "kind": "aliado",
+      "detail": "Hakari acepta aliarse con Yuji para participar en el torneo tras comprobar su determinación en el ring.",
+      "at": {
+        "season": "jjk-t3",
+        "arc": 0
+      }
+    },
+    {
+      "from": "hiromi-higuruma",
+      "to": "yuji-itadori",
+      "kind": "aliado",
+      "detail": "El abogado decide colaborar con Yuji tras el juicio y utiliza sus puntos para habilitar nuevas reglas en el torneo.",
+      "at": {
+        "season": "jjk-t3",
+        "arc": 1
+      }
+    },
+    {
+      "from": "ryomen-sukuna",
+      "to": "satoru-gojo",
+      "kind": "rival",
+      "detail": "Los dos seres más poderosos de la historia que se miden en un choque supremo de hechicería en Shinjuku.",
+      "at": {
+        "season": "jjk-manga",
+        "arc": 1
+      }
+    }
+  ]
+}

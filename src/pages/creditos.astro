@@ -1,0 +1,196 @@
+---
+import Base from '../layouts/Base.astro';
+import { OWNERS, coverFor, landscapeFor, portraitFor } from '../lib/artwork';
+import { getSagas } from '../lib/data';
+
+const sagas = getSagas();
+const credits = sagas.map((saga) => ({
+  saga,
+  owner: OWNERS[saga.id] ?? saga.studio,
+  seasons: saga.seasons.flatMap((season) => {
+    const cover = coverFor(season.id);
+    return cover ? [{ season, cover }] : [];
+  }),
+  landscape: landscapeFor(saga.id),
+  // Nombrar a un personaje que aparece más adelante ya es un spoiler: esos van aparte, plegados.
+  portraits: saga.characters.flatMap((c) => {
+    const art = portraitFor(saga.id, c.id);
+    return art ? [{ character: c, art }] : [];
+  }),
+}));
+const total = credits.reduce((n, c) => n + c.seasons.length, 0);
+const totalPortraits = credits.reduce((n, c) => n + c.portraits.length, 0);
+---
+
+<Base
+  title="Créditos"
+  description="Créditos de las imágenes, tipografías e iconos de Arcos, y cómo pedir que se retire una imagen."
+>
+  <article class="wrap credits">
+    <h1>Créditos</h1>
+    <p class="credits__lead">
+      Arcos es un proyecto de fans, gratuito y sin publicidad. No vende nada ni tiene relación con
+      los autores, estudios o editoriales de las series.
+    </p>
+
+    <section>
+      <h2>Imágenes de las series</h2>
+      <p>
+        Las {total} portadas y los fondos son arte oficial de cada serie, tal como aparece en
+        <a href="https://anilist.co">AniList</a>. Los {totalPortraits} retratos son imágenes del anime
+        compartidas en Pinterest, elegidas a mano; ahí no siempre consta su autor original, por eso cada
+        enlace lleva al pin donde se encontró. Todo se usa a resolución reducida, con fines informativos y
+        sin ánimo de lucro, y los derechos pertenecen a sus dueños.
+      </p>
+      {
+        credits.map(({ saga, owner, seasons, landscape, portraits }) => {
+          const known = portraits.filter(({ character }) => !character.appears);
+          const later = portraits.filter(({ character }) => character.appears);
+          return (
+            <div class="credits__saga">
+              <h3>
+                {saga.title} <span>© {owner}</span>
+              </h3>
+              <ul class="credits__list">
+                {landscape && (
+                  <li>
+                    <strong>Fondo de cabecera</strong>
+                    <span>
+                      <a href={landscape.page} rel="nofollow">Ficha de {landscape.title}</a>
+                    </span>
+                  </li>
+                )}
+                {seasons.map(({ season, cover }) => (
+                  <li>
+                    <strong>{season.title}</strong>
+                    <span>
+                      Portada. <a href={cover.page} rel="nofollow">Ficha de {cover.title}</a>
+                    </span>
+                  </li>
+                ))}
+                {known.map(({ character, art }) => (
+                  <li>
+                    <strong>{character.name}</strong>
+                    <span>
+                      Retrato. <a href={art.page} rel="nofollow">Pin de origen</a>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              {later.length > 0 && (
+                <details class="credits__later" data-pagefind-ignore="all">
+                  <summary>
+                    {later.length} {later.length === 1 ? 'personaje' : 'personajes'} que aparecen más adelante
+                    (sus nombres son spoilers)
+                  </summary>
+                  <ul class="credits__list">
+                    {later.map(({ character, art }) => (
+                      <li>
+                        <strong>{character.name}</strong>
+                        <span>
+                          Retrato. <a href={art.page} rel="nofollow">Pin de origen</a>
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              )}
+            </div>
+          );
+        })
+      }
+      <p>Si una imagen no carga, en su lugar se ve un paisaje propio, generado con código.</p>
+    </section>
+
+    <section id="retiro">
+      <h2>¿Eres titular de alguna imagen?</h2>
+      <p>
+        Si quieres que retire una imagen o cambie su crédito, abre un issue en
+        <a href="https://github.com/jdmahecha1/arcos/issues">GitHub</a> indicando cuál es. La retiraré
+        lo antes posible, sin necesidad de más trámites.
+      </p>
+    </section>
+
+    <section>
+      <h2>Textos, tipografías e iconos</h2>
+      <ul class="credits__list">
+        <li>
+          <strong>Resúmenes de las historias</strong>
+          <span>Redacción propia, bajo licencia CC BY-SA 4.0.</span>
+        </li>
+        <li>
+          <strong>Bricolage Grotesque e Inter Tight</strong>
+          <span>Tipografías bajo SIL Open Font License, autoalojadas con Fontsource.</span>
+        </li>
+        <li>
+          <strong>Phosphor Icons</strong>
+          <span>Iconos bajo licencia MIT.</span>
+        </li>
+      </ul>
+      <p>
+        Los nombres de las series y personajes son marcas de sus respectivos dueños, indicados arriba en cada serie.
+      </p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .credits {
+    max-width: 780px;
+    padding-top: var(--space-7);
+  }
+
+  .credits__lead {
+    color: var(--muted);
+    font-size: var(--step-2);
+    line-height: 1.5;
+  }
+
+  .credits section {
+    margin-top: var(--space-6);
+  }
+
+  .credits__list {
+    display: grid;
+    gap: var(--space-2);
+    margin: 0 0 var(--space-4);
+    padding: 0;
+    list-style: none;
+  }
+
+  .credits__list li {
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-field);
+    background: var(--surface);
+  }
+
+  .credits__saga h3 span {
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: var(--step-0);
+    font-weight: 500;
+  }
+
+  .credits__list {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+  }
+
+  .credits__later {
+    margin: 0 0 var(--space-4);
+  }
+
+  .credits__later summary {
+    min-height: 44px;
+    padding-block: var(--space-2);
+    color: var(--muted);
+    cursor: pointer;
+  }
+
+  .credits__list span {
+    overflow-wrap: anywhere;
+    color: var(--muted);
+    font-size: var(--step-0);
+  }
+</style>

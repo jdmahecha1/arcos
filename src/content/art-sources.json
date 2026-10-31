@@ -1,0 +1,336 @@
+{
+  "covers": {
+    "ky-t1": 101922,
+    "ky-mugen": 112151,
+    "ky-distrito": 142329,
+    "ky-herreros": 145139,
+    "ky-pilares": 166240,
+    "ky-castillo-1": 178788,
+    "ky-manga": 87216,
+    "aot-t1": 16498,
+    "aot-t2": 20958,
+    "aot-t3": 99147,
+    "aot-final": 110277,
+    "jjk-t1": 113415,
+    "jjk-0": 131573,
+    "jjk-t2": 145064,
+    "jjk-t3": 172463,
+    "jjk-manga": 101517,
+    "bc-t1": 97940,
+    "bc-pelicula": 131680,
+    "bc-t2": 195604,
+    "bc-manga": 86123,
+    "k8-t1": 153288,
+    "k8-t2": 178754,
+    "k8-manga": 120760
+  },
+  "backdrops": {
+    "kimetsu-no-yaiba": 101922,
+    "attack-on-titan": 162314,
+    "jujutsu-kaisen": 113415,
+    "black-clover": 86123,
+    "kaiju-n8": 153288
+  },
+  "portraits": {
+    "attack-on-titan--annie-leonhart": {
+      "pin": "924504629737605622",
+      "file": "f7/86/a4/f786a4b44d178c368bc86f8546b431a6.jpg"
+    },
+    "attack-on-titan--armin-arlert": {
+      "pin": "973833119396482154",
+      "file": "c4/92/65/c4926588ff26f13c209895269c05c7b5.jpg"
+    },
+    "attack-on-titan--eren-yeager": {
+      "pin": "1021050546741585661",
+      "file": "e2/de/a3/e2dea33d58fe373940858728ffa23aaa.jpg"
+    },
+    "attack-on-titan--erwin-smith": {
+      "pin": "961377851684775264",
+      "file": "eb/ee/16/ebee16eb56976b696a9efd2d154066eb.jpg"
+    },
+    "attack-on-titan--falco-grice": {
+      "pin": "727120302370366401",
+      "file": "5e/5c/a2/5e5ca2f01e45d6005696e197a7c22973.jpg"
+    },
+    "attack-on-titan--gabi-braun": {
+      "pin": "580401470738240139",
+      "file": "dc/fa/d4/dcfad403e3011fccb11b4d8ce5a9499e.jpg"
+    },
+    "attack-on-titan--hange-zoe": {
+      "pin": "888335095293354129",
+      "file": "24/ef/d2/24efd205b4ac5b81869a81ee49a51889.jpg"
+    },
+    "attack-on-titan--hannes": {
+      "pin": "981644050047353406",
+      "file": "67/69/af/6769af941923c67aa2cb25808f62552f.jpg"
+    },
+    "attack-on-titan--jean-kirstein": {
+      "pin": "973833119396510997",
+      "file": "d9/99/e0/d999e079a77f7a2bd8454e7412faf5ee.jpg"
+    },
+    "attack-on-titan--kenny-ackerman": {
+      "pin": "981644050047987554",
+      "file": "a4/92/df/a492dfa5b39cab8864078aad3259998f.jpg"
+    },
+    "attack-on-titan--krista-lenz": {
+      "pin": "1047016613342539805",
+      "file": "e2/25/b8/e225b8c70370d51e5710c46fdea3bb85.jpg"
+    },
+    "attack-on-titan--levi": {
+      "pin": "827043919082304579",
+      "file": "cc/fa/16/ccfa164e6a42d0699105f9a5a156fda2.jpg"
+    },
+    "attack-on-titan--mikasa-ackerman": {
+      "pin": "973833119396541101",
+      "file": "b8/a9/55/b8a955f6b720e5e21f778313d1217ee6.jpg"
+    },
+    "attack-on-titan--reiner-braun": {
+      "pin": "770115605080457352",
+      "file": "58/bd/73/58bd731de0d339173108e401e517249f.jpg"
+    },
+    "attack-on-titan--ymir": {
+      "pin": "665477282447155329",
+      "file": "54/4d/3b/544d3b316ba9c5a9e27b0a96771a6053.jpg"
+    },
+    "attack-on-titan--zeke": {
+      "pin": "824229169307759179",
+      "file": "29/c3/6e/29c36e95885a7f9474c5651c686af7f0.jpg"
+    },
+    "black-clover--asta": {
+      "pin": "959548264377521238",
+      "file": "70/f5/51/70f551e097ca40fcfa8f5f041428e1de.jpg"
+    },
+    "black-clover--conrad-leto": {
+      "pin": "603975000053016450",
+      "file": "fc/fd/a8/fcfda890252f9b97c5dc153547e60e6c.jpg"
+    },
+    "black-clover--julius-novachrono": {
+      "pin": "1074390054870580899",
+      "file": "c5/d9/f3/c5d9f39c0c7b1ca9217a34da804a221f.jpg"
+    },
+    "black-clover--kahono": {
+      "pin": "891923901177925321",
+      "file": "0f/6c/f5/0f6cf570d25a074d6022ca7340de6574.jpg"
+    },
+    "black-clover--lider-del-ojo": {
+      "pin": "878553839796363375",
+      "file": "a7/3a/30/a73a303eb91c1243ced55259cdb5d13b.jpg"
+    },
+    "black-clover--liebe": {
+      "pin": "751538256615645549",
+      "file": "c6/9f/74/c69f746392e7bfda0b26acc3a74e4ee3.jpg"
+    },
+    "black-clover--lily-aquaria": {
+      "pin": "583427326733267013",
+      "file": "50/66/d0/5066d047ddd709f9d7f250bf786c5294.jpg"
+    },
+    "black-clover--lolopechka": {
+      "pin": "747738344383739501",
+      "file": "4d/f1/14/4df114acc2e740a6dc079fb63cb9487e.jpg"
+    },
+    "black-clover--lucius-zogratis": {
+      "pin": "1146166174174579175",
+      "file": "1f/89/a6/1f89a66fe6d27f68e7d622ceaaf61d65.jpg"
+    },
+    "black-clover--mereoleona-vermillion": {
+      "pin": "1074390054870671852",
+      "file": "cc/17/0d/cc170ddc449405ef880757c358f3ec1b.jpg"
+    },
+    "black-clover--nacht-faust": {
+      "pin": "925278685974904557",
+      "file": "99/a4/22/99a422d9cdd1082844ada055a5efe557.jpg"
+    },
+    "black-clover--noelle-silva": {
+      "pin": "955607614706170977",
+      "file": "1f/e9/cb/1fe9cb4a2e45c1df19e744d3ed393994.jpg"
+    },
+    "black-clover--witch-queen": {
+      "pin": "1032309545822014524",
+      "file": "cf/f1/21/cff12133f9bddd642759ddfd0b0883f5.jpg"
+    },
+    "black-clover--yami-sukehiro": {
+      "pin": "1076641854643002590",
+      "file": "b3/d0/71/b3d071b0d252608ad5c5e5220cb72c73.jpg"
+    },
+    "black-clover--yuno": {
+      "pin": "1097400634205607110",
+      "file": "1f/b8/c3/1fb8c37414f27efec8779a4a9113579d.jpg"
+    },
+    "jujutsu-kaisen--aoi-todo": {
+      "pin": "695172892482738658",
+      "file": "f3/fa/4f/f3fa4ff433d083e8a6e7974dde041162.jpg"
+    },
+    "jujutsu-kaisen--choso": {
+      "pin": "824651381794762457",
+      "file": "bd/62/5c/bd625cfdb43e1cef74989ec9497f88c4.jpg"
+    },
+    "jujutsu-kaisen--hiromi-higuruma": {
+      "pin": "945263409305869217",
+      "file": "27/ae/24/27ae244a0848cd8083ee7cb630e009d3.jpg"
+    },
+    "jujutsu-kaisen--kenjaku": {
+      "pin": "1090011916051810031",
+      "file": "fb/f2/7d/fbf27de66d4b65e32d99bc1a63b10650.jpg"
+    },
+    "jujutsu-kaisen--kento-nanami": {
+      "pin": "848787861055992900",
+      "file": "22/97/1e/22971e4cc36b3d03ba9e940c849be924.jpg"
+    },
+    "jujutsu-kaisen--kinji-hakari": {
+      "pin": "1105774514777110483",
+      "file": "a1/fc/fd/a1fcfd5914738ed5a9637e8b8a8a2ff8.jpg"
+    },
+    "jujutsu-kaisen--mahito": {
+      "pin": "1041950063775618777",
+      "file": "73/a0/f6/73a0f6742585a94aab1ced570124951f.jpg"
+    },
+    "jujutsu-kaisen--maki-zenin": {
+      "pin": "730990583282115949",
+      "file": "c8/5e/21/c85e21e6ae274703373fe73c5699909a.jpg"
+    },
+    "jujutsu-kaisen--megumi-fushiguro": {
+      "pin": "617204323964493497",
+      "file": "1d/03/67/1d036787105ca65cee1cd0bd0b513919.jpg"
+    },
+    "jujutsu-kaisen--nobara-kugisaki": {
+      "pin": "987977236987887809",
+      "file": "fc/9e/0f/fc9e0f1dedf8d7aa3f189fbfb615a39e.jpg"
+    },
+    "jujutsu-kaisen--ryomen-sukuna": {
+      "pin": "1061371837194608282",
+      "file": "b8/10/41/b810419c45030eca638869610cc2d02e.jpg"
+    },
+    "jujutsu-kaisen--satoru-gojo": {
+      "pin": "1146869861392005698",
+      "file": "30/80/0e/30800ebf6193a2a3ae19c7050948dd8e.jpg"
+    },
+    "jujutsu-kaisen--suguru-geto": {
+      "pin": "947515209094039687",
+      "file": "4d/c6/63/4dc663c7bffa216ce819e6b981dc0e49.jpg"
+    },
+    "jujutsu-kaisen--toji-fushiguro": {
+      "pin": "1143421792929852591",
+      "file": "a2/e3/5f/a2e35f521767c5290c598e0240310026.jpg"
+    },
+    "jujutsu-kaisen--yuji-itadori": {
+      "pin": "1037798307866621775",
+      "file": "58/37/0c/58370c44206b9a040f579628f95dfd12.jpg"
+    },
+    "jujutsu-kaisen--yuta-okkotsu": {
+      "pin": "1112248439245630692",
+      "file": "9c/46/1f/9c461f355f502afa6df3ef17f001bf24.jpg"
+    },
+    "kaiju-n8--gen-narumi": {
+      "pin": "1005428685564189333",
+      "file": "47/8a/75/478a753234be9ee40e1b494d157e0ac5.jpg"
+    },
+    "kaiju-n8--iharu-furuhashi": {
+      "pin": "631770654006952308",
+      "file": "f9/17/38/f917382877f41dc1f47803f3ead17cb6.jpg"
+    },
+    "kaiju-n8--isao-shinomiya": {
+      "pin": "1005921266782129110",
+      "file": "0e/7c/17/0e7c179c71ac1e6b4ba37103373188a5.jpg"
+    },
+    "kaiju-n8--jugo-ogata": {
+      "pin": "625648573273043211",
+      "file": "a1/63/c0/a163c0900646676636887e0220d98158.jpg"
+    },
+    "kaiju-n8--kafka-hibino": {
+      "pin": "884042601846775036",
+      "file": "0f/17/20/0f1720a63a1c9104335c92fcbb672715.jpg"
+    },
+    "kaiju-n8--kaiju-no-10": {
+      "pin": "552676185541507385",
+      "file": "10/4b/49/104b49425877855b37c498d0ba97e59d.jpg"
+    },
+    "kaiju-n8--kaiju-no-9": {
+      "pin": "1005921266782129011",
+      "file": "f9/00/85/f90085d816138bf6167ec0a4bd146193.jpg"
+    },
+    "kaiju-n8--kikoru-shinomiya": {
+      "pin": "1005921266777042609",
+      "file": "3f/4a/7a/3f4a7ac2c8e6d2998023d26adbc689aa.jpg"
+    },
+    "kaiju-n8--konomi-okonogi": {
+      "pin": "896216394591642736",
+      "file": "80/69/73/8069732554d8ce5de99f281e72c977e7.jpg"
+    },
+    "kaiju-n8--mina-ashiro": {
+      "pin": "1068760555309961642",
+      "file": "69/24/15/692415bceadbeac12c6668468cc393f9.jpg"
+    },
+    "kaiju-n8--reno-ichikawa": {
+      "pin": "1005921266778779289",
+      "file": "31/37/b6/3137b6b4eeec40b0aded487215763952.jpg"
+    },
+    "kaiju-n8--soshiro-hoshina": {
+      "pin": "1053279431641219716",
+      "file": "4b/29/ab/4b29abeca30480b1fe3d57b06ad033ac.jpg"
+    },
+    "kimetsu-no-yaiba--akaza": {
+      "pin": "910219774707042900",
+      "file": "13/16/57/131657b3c295b7006a11b2319b70853d.jpg"
+    },
+    "kimetsu-no-yaiba--giyu-tomioka": {
+      "pin": "737534876508507566",
+      "file": "19/ff/89/19ff8997a7afbf4fdb871021d0c208c1.jpg"
+    },
+    "kimetsu-no-yaiba--inosuke-hashibira": {
+      "pin": "977421925347859863",
+      "file": "a8/c5/19/a8c51986c4959b442b1af713800d9fef.jpg"
+    },
+    "kimetsu-no-yaiba--kagaya-ubuyashiki": {
+      "pin": "848787861066314943",
+      "file": "6d/db/ca/6ddbca616ebbe4062e68eaeaed8ab606.jpg"
+    },
+    "kimetsu-no-yaiba--kanao-tsuyuri": {
+      "pin": "990651249275949603",
+      "file": "41/21/90/412190ce94081f18caa3248ae1700e63.jpg"
+    },
+    "kimetsu-no-yaiba--kyojuro-rengoku": {
+      "pin": "873909502694361974",
+      "file": "03/1b/24/031b24b081dac84e34a612799bf3ee36.jpg"
+    },
+    "kimetsu-no-yaiba--mitsuri-kanroji": {
+      "pin": "812477589049126224",
+      "file": "49/b6/64/49b6648078202731efbcbf0b305ba0fa.jpg"
+    },
+    "kimetsu-no-yaiba--muichiro-tokito": {
+      "pin": "942659765758768725",
+      "file": "e3/c9/70/e3c9709a9b6db55812c2183fb73f71e3.jpg"
+    },
+    "kimetsu-no-yaiba--muzan-kibutsuji": {
+      "pin": "853995148120055720",
+      "file": "ae/08/57/ae08572a48e198a9508688529b08d3c9.jpg"
+    },
+    "kimetsu-no-yaiba--nezuko-kamado": {
+      "pin": "1111474383096686783",
+      "file": "36/f1/7c/36f17cdb75553361aa9e48bbdef1e9b5.jpg"
+    },
+    "kimetsu-no-yaiba--sakonji-urokodaki": {
+      "pin": "848787861031109813",
+      "file": "6c/14/90/6c14905d0bcc01206a79613c19a778da.jpg"
+    },
+    "kimetsu-no-yaiba--shinobu-kocho": {
+      "pin": "1107674470886444545",
+      "file": "28/ff/6a/28ff6af1c26cbb45ceacdfbe70e644bf.jpg"
+    },
+    "kimetsu-no-yaiba--tamayo": {
+      "pin": "1039346420271397935",
+      "file": "50/b7/f3/50b7f34b3b795f0df908813bcafe68d1.jpg"
+    },
+    "kimetsu-no-yaiba--tanjiro-kamado": {
+      "pin": "848787861050598848",
+      "file": "b6/a0/64/b6a064006e8965bdd40128bbc8618a54.jpg"
+    },
+    "kimetsu-no-yaiba--tengen-uzui": {
+      "pin": "863143084855430786",
+      "file": "c9/82/a1/c982a19f436b79f398d23abbfde87c91.jpg"
+    },
+    "kimetsu-no-yaiba--zenitsu-agatsuma": {
+      "pin": "909867930952897890",
+      "file": "1c/dd/ec/1cddec14d3f4b9e0dbdcb6d7bfeb7b72.jpg"
+    }
+  }
+}

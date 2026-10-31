@@ -1,0 +1,391 @@
+{
+  "covers": {
+    "ky-t1": {
+      "title": "Kimetsu no Yaiba",
+      "page": "https://anilist.co/anime/101922",
+      "width": 460,
+      "height": 639
+    },
+    "ky-mugen": {
+      "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+      "page": "https://anilist.co/anime/112151",
+      "width": 460,
+      "height": 646
+    },
+    "ky-distrito": {
+      "title": "Kimetsu no Yaiba: Yuukaku-hen",
+      "page": "https://anilist.co/anime/142329",
+      "width": 460,
+      "height": 643
+    },
+    "ky-herreros": {
+      "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+      "page": "https://anilist.co/anime/145139",
+      "width": 460,
+      "height": 651
+    },
+    "ky-pilares": {
+      "title": "Kimetsu no Yaiba: Hashira Geiko-hen",
+      "page": "https://anilist.co/anime/166240",
+      "width": 460,
+      "height": 690
+    },
+    "ky-castillo-1": {
+      "title": "Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai",
+      "page": "https://anilist.co/anime/178788",
+      "width": 460,
+      "height": 650
+    },
+    "ky-manga": {
+      "title": "Kimetsu no Yaiba",
+      "page": "https://anilist.co/manga/87216",
+      "width": 460,
+      "height": 722
+    },
+    "aot-t1": {
+      "title": "Shingeki no Kyojin",
+      "page": "https://anilist.co/anime/16498",
+      "width": 460,
+      "height": 636
+    },
+    "aot-t2": {
+      "title": "Shingeki no Kyojin Season 2",
+      "page": "https://anilist.co/anime/20958",
+      "width": 460,
+      "height": 648
+    },
+    "aot-t3": {
+      "title": "Shingeki no Kyojin Season 3",
+      "page": "https://anilist.co/anime/99147",
+      "width": 460,
+      "height": 630
+    },
+    "aot-final": {
+      "title": "Shingeki no Kyojin: The Final Season",
+      "page": "https://anilist.co/anime/110277",
+      "width": 460,
+      "height": 652
+    },
+    "jjk-t1": {
+      "title": "Jujutsu Kaisen",
+      "page": "https://anilist.co/anime/113415",
+      "width": 460,
+      "height": 643
+    },
+    "jjk-0": {
+      "title": "Jujutsu Kaisen 0",
+      "page": "https://anilist.co/anime/131573",
+      "width": 460,
+      "height": 651
+    },
+    "jjk-t2": {
+      "title": "Jujutsu Kaisen 2nd Season",
+      "page": "https://anilist.co/anime/145064",
+      "width": 460,
+      "height": 639
+    },
+    "jjk-t3": {
+      "title": "Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen",
+      "page": "https://anilist.co/anime/172463",
+      "width": 460,
+      "height": 650
+    },
+    "jjk-manga": {
+      "title": "Jujutsu Kaisen",
+      "page": "https://anilist.co/manga/101517",
+      "width": 460,
+      "height": 720
+    },
+    "bc-t1": {
+      "title": "Black Clover",
+      "page": "https://anilist.co/anime/97940",
+      "width": 460,
+      "height": 650
+    },
+    "bc-pelicula": {
+      "title": "Black Clover: Mahou Tei no Ken",
+      "page": "https://anilist.co/anime/131680",
+      "width": 460,
+      "height": 651
+    },
+    "bc-t2": {
+      "title": "Black Clover 2nd Season",
+      "page": "https://anilist.co/anime/195604",
+      "width": 460,
+      "height": 651
+    },
+    "bc-manga": {
+      "title": "Black Clover",
+      "page": "https://anilist.co/manga/86123",
+      "width": 460,
+      "height": 723
+    },
+    "k8-t1": {
+      "title": "Kaijuu 8-gou",
+      "page": "https://anilist.co/anime/153288",
+      "width": 460,
+      "height": 650
+    },
+    "k8-t2": {
+      "title": "Kaijuu 8-gou 2nd Season",
+      "page": "https://anilist.co/anime/178754",
+      "width": 460,
+      "height": 651
+    },
+    "k8-manga": {
+      "title": "Kaijuu 8-gou",
+      "page": "https://anilist.co/manga/120760",
+      "width": 460,
+      "height": 723
+    }
+  },
+  "backdrops": {
+    "kimetsu-no-yaiba": {
+      "title": "Kimetsu no Yaiba",
+      "page": "https://anilist.co/anime/101922"
+    },
+    "attack-on-titan": {
+      "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen Kouhen",
+      "page": "https://anilist.co/anime/162314"
+    },
+    "jujutsu-kaisen": {
+      "title": "Jujutsu Kaisen",
+      "page": "https://anilist.co/anime/113415"
+    },
+    "black-clover": {
+      "title": "Black Clover",
+      "page": "https://anilist.co/manga/86123"
+    },
+    "kaiju-n8": {
+      "title": "Kaijuu 8-gou",
+      "page": "https://anilist.co/anime/153288"
+    }
+  },
+  "portraits": {
+    "attack-on-titan--annie-leonhart": {
+      "page": "https://www.pinterest.com/pin/924504629737605622/"
+    },
+    "attack-on-titan--armin-arlert": {
+      "page": "https://www.pinterest.com/pin/973833119396482154/"
+    },
+    "attack-on-titan--eren-yeager": {
+      "page": "https://www.pinterest.com/pin/1021050546741585661/"
+    },
+    "attack-on-titan--erwin-smith": {
+      "page": "https://www.pinterest.com/pin/961377851684775264/"
+    },
+    "attack-on-titan--falco-grice": {
+      "page": "https://www.pinterest.com/pin/727120302370366401/"
+    },
+    "attack-on-titan--gabi-braun": {
+      "page": "https://www.pinterest.com/pin/580401470738240139/"
+    },
+    "attack-on-titan--hange-zoe": {
+      "page": "https://www.pinterest.com/pin/888335095293354129/"
+    },
+    "attack-on-titan--hannes": {
+      "page": "https://www.pinterest.com/pin/981644050047353406/"
+    },
+    "attack-on-titan--jean-kirstein": {
+      "page": "https://www.pinterest.com/pin/973833119396510997/"
+    },
+    "attack-on-titan--kenny-ackerman": {
+      "page": "https://www.pinterest.com/pin/981644050047987554/"
+    },
+    "attack-on-titan--krista-lenz": {
+      "page": "https://www.pinterest.com/pin/1047016613342539805/"
+    },
+    "attack-on-titan--levi": {
+      "page": "https://www.pinterest.com/pin/827043919082304579/"
+    },
+    "attack-on-titan--mikasa-ackerman": {
+      "page": "https://www.pinterest.com/pin/973833119396541101/"
+    },
+    "attack-on-titan--reiner-braun": {
+      "page": "https://www.pinterest.com/pin/770115605080457352/"
+    },
+    "attack-on-titan--ymir": {
+      "page": "https://www.pinterest.com/pin/665477282447155329/"
+    },
+    "attack-on-titan--zeke": {
+      "page": "https://www.pinterest.com/pin/824229169307759179/"
+    },
+    "black-clover--asta": {
+      "page": "https://www.pinterest.com/pin/959548264377521238/"
+    },
+    "black-clover--conrad-leto": {
+      "page": "https://www.pinterest.com/pin/603975000053016450/"
+    },
+    "black-clover--julius-novachrono": {
+      "page": "https://www.pinterest.com/pin/1074390054870580899/"
+    },
+    "black-clover--kahono": {
+      "page": "https://www.pinterest.com/pin/891923901177925321/"
+    },
+    "black-clover--lider-del-ojo": {
+      "page": "https://www.pinterest.com/pin/878553839796363375/"
+    },
+    "black-clover--liebe": {
+      "page": "https://www.pinterest.com/pin/751538256615645549/"
+    },
+    "black-clover--lily-aquaria": {
+      "page": "https://www.pinterest.com/pin/583427326733267013/"
+    },
+    "black-clover--lolopechka": {
+      "page": "https://www.pinterest.com/pin/747738344383739501/"
+    },
+    "black-clover--lucius-zogratis": {
+      "page": "https://www.pinterest.com/pin/1146166174174579175/"
+    },
+    "black-clover--mereoleona-vermillion": {
+      "page": "https://www.pinterest.com/pin/1074390054870671852/"
+    },
+    "black-clover--nacht-faust": {
+      "page": "https://www.pinterest.com/pin/925278685974904557/"
+    },
+    "black-clover--noelle-silva": {
+      "page": "https://www.pinterest.com/pin/955607614706170977/"
+    },
+    "black-clover--witch-queen": {
+      "page": "https://www.pinterest.com/pin/1032309545822014524/"
+    },
+    "black-clover--yami-sukehiro": {
+      "page": "https://www.pinterest.com/pin/1076641854643002590/"
+    },
+    "black-clover--yuno": {
+      "page": "https://www.pinterest.com/pin/1097400634205607110/"
+    },
+    "jujutsu-kaisen--aoi-todo": {
+      "page": "https://www.pinterest.com/pin/695172892482738658/"
+    },
+    "jujutsu-kaisen--choso": {
+      "page": "https://www.pinterest.com/pin/824651381794762457/"
+    },
+    "jujutsu-kaisen--hiromi-higuruma": {
+      "page": "https://www.pinterest.com/pin/945263409305869217/"
+    },
+    "jujutsu-kaisen--kenjaku": {
+      "page": "https://www.pinterest.com/pin/1090011916051810031/"
+    },
+    "jujutsu-kaisen--kento-nanami": {
+      "page": "https://www.pinterest.com/pin/848787861055992900/"
+    },
+    "jujutsu-kaisen--kinji-hakari": {
+      "page": "https://www.pinterest.com/pin/1105774514777110483/"
+    },
+    "jujutsu-kaisen--mahito": {
+      "page": "https://www.pinterest.com/pin/1041950063775618777/"
+    },
+    "jujutsu-kaisen--maki-zenin": {
+      "page": "https://www.pinterest.com/pin/730990583282115949/"
+    },
+    "jujutsu-kaisen--megumi-fushiguro": {
+      "page": "https://www.pinterest.com/pin/617204323964493497/"
+    },
+    "jujutsu-kaisen--nobara-kugisaki": {
+      "page": "https://www.pinterest.com/pin/987977236987887809/"
+    },
+    "jujutsu-kaisen--ryomen-sukuna": {
+      "page": "https://www.pinterest.com/pin/1061371837194608282/"
+    },
+    "jujutsu-kaisen--satoru-gojo": {
+      "page": "https://www.pinterest.com/pin/1146869861392005698/"
+    },
+    "jujutsu-kaisen--suguru-geto": {
+      "page": "https://www.pinterest.com/pin/947515209094039687/"
+    },
+    "jujutsu-kaisen--toji-fushiguro": {
+      "page": "https://www.pinterest.com/pin/1143421792929852591/"
+    },
+    "jujutsu-kaisen--yuji-itadori": {
+      "page": "https://www.pinterest.com/pin/1037798307866621775/"
+    },
+    "jujutsu-kaisen--yuta-okkotsu": {
+      "page": "https://www.pinterest.com/pin/1112248439245630692/"
+    },
+    "kaiju-n8--gen-narumi": {
+      "page": "https://www.pinterest.com/pin/1005428685564189333/"
+    },
+    "kaiju-n8--iharu-furuhashi": {
+      "page": "https://www.pinterest.com/pin/631770654006952308/"
+    },
+    "kaiju-n8--isao-shinomiya": {
+      "page": "https://www.pinterest.com/pin/1005921266782129110/"
+    },
+    "kaiju-n8--jugo-ogata": {
+      "page": "https://www.pinterest.com/pin/625648573273043211/"
+    },
+    "kaiju-n8--kafka-hibino": {
+      "page": "https://www.pinterest.com/pin/884042601846775036/"
+    },
+    "kaiju-n8--kaiju-no-10": {
+      "page": "https://www.pinterest.com/pin/552676185541507385/"
+    },
+    "kaiju-n8--kaiju-no-9": {
+      "page": "https://www.pinterest.com/pin/1005921266782129011/"
+    },
+    "kaiju-n8--kikoru-shinomiya": {
+      "page": "https://www.pinterest.com/pin/1005921266777042609/"
+    },
+    "kaiju-n8--konomi-okonogi": {
+      "page": "https://www.pinterest.com/pin/896216394591642736/"
+    },
+    "kaiju-n8--mina-ashiro": {
+      "page": "https://www.pinterest.com/pin/1068760555309961642/"
+    },
+    "kaiju-n8--reno-ichikawa": {
+      "page": "https://www.pinterest.com/pin/1005921266778779289/"
+    },
+    "kaiju-n8--soshiro-hoshina": {
+      "page": "https://www.pinterest.com/pin/1053279431641219716/"
+    },
+    "kimetsu-no-yaiba--akaza": {
+      "page": "https://www.pinterest.com/pin/910219774707042900/"
+    },
+    "kimetsu-no-yaiba--giyu-tomioka": {
+      "page": "https://www.pinterest.com/pin/737534876508507566/"
+    },
+    "kimetsu-no-yaiba--inosuke-hashibira": {
+      "page": "https://www.pinterest.com/pin/977421925347859863/"
+    },
+    "kimetsu-no-yaiba--kagaya-ubuyashiki": {
+      "page": "https://www.pinterest.com/pin/848787861066314943/"
+    },
+    "kimetsu-no-yaiba--kanao-tsuyuri": {
+      "page": "https://www.pinterest.com/pin/990651249275949603/"
+    },
+    "kimetsu-no-yaiba--kyojuro-rengoku": {
+      "page": "https://www.pinterest.com/pin/873909502694361974/"
+    },
+    "kimetsu-no-yaiba--mitsuri-kanroji": {
+      "page": "https://www.pinterest.com/pin/812477589049126224/"
+    },
+    "kimetsu-no-yaiba--muichiro-tokito": {
+      "page": "https://www.pinterest.com/pin/942659765758768725/"
+    },
+    "kimetsu-no-yaiba--muzan-kibutsuji": {
+      "page": "https://www.pinterest.com/pin/853995148120055720/"
+    },
+    "kimetsu-no-yaiba--nezuko-kamado": {
+      "page": "https://www.pinterest.com/pin/1111474383096686783/"
+    },
+    "kimetsu-no-yaiba--sakonji-urokodaki": {
+      "page": "https://www.pinterest.com/pin/848787861031109813/"
+    },
+    "kimetsu-no-yaiba--shinobu-kocho": {
+      "page": "https://www.pinterest.com/pin/1107674470886444545/"
+    },
+    "kimetsu-no-yaiba--tamayo": {
+      "page": "https://www.pinterest.com/pin/1039346420271397935/"
+    },
+    "kimetsu-no-yaiba--tanjiro-kamado": {
+      "page": "https://www.pinterest.com/pin/848787861050598848/"
+    },
+    "kimetsu-no-yaiba--tengen-uzui": {
+      "page": "https://www.pinterest.com/pin/863143084855430786/"
+    },
+    "kimetsu-no-yaiba--zenitsu-agatsuma": {
+      "page": "https://www.pinterest.com/pin/909867930952897890/"
+    }
+  }
+}

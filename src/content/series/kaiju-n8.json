@@ -1,0 +1,1206 @@
+{
+  "id": "kaiju-n8",
+  "title": "Kaiju N.º 8",
+  "tagline": "El deber de un hombre común con el poder de un coloso para proteger a la humanidad.",
+  "studio": "Production I.G",
+  "genre": "Acción y ciencia ficción",
+  "accent": "#00f0b5",
+  "synopsis": "En un Japón azotado constantemente por ataques de monstruos gigantescos, Kafka Hibino se resigna a trabajar limpiando los restos de las criaturas abatidas tras reprobar reiteradamente las pruebas militares. Su anhelo de combatir en el frente se reactiva tras conocer a Reno Ichikawa, un joven compañero que comparte su mismo sueño. Todo cambia drásticamente cuando un diminuto espécimen se introduce en su organismo y le confiere la insólita capacidad de transformarse en una poderosa bestia humanoide.",
+  "seasons": [
+    {
+      "id": "k8-t1",
+      "title": "Temporada 1",
+      "year": 2024,
+      "format": "anime",
+      "arcs": [
+        "El hombre que se volvió kaiju",
+        "Operación en Sagamihara",
+        "Ataque a la base de Tachikawa",
+        "Kaiju N.º 8 capturado"
+      ]
+    },
+    {
+      "id": "k8-t2",
+      "title": "Temporada 2",
+      "year": 2025,
+      "format": "anime",
+      "arcs": [
+        "Armas kaiju",
+        "Usuario compatible",
+        "Cataclismos",
+        "La segunda ola"
+      ]
+    },
+    {
+      "id": "k8-manga",
+      "title": "Manga: lo que aún no se anima",
+      "year": 2025,
+      "format": "manga",
+      "arcs": [
+        "La segunda ola, el resto",
+        "La última ola"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "kafka-hibino",
+      "name": "Kafka Hibino",
+      "role": "Limpiador de restos de monstruos con el sueño de unirse al ejército",
+      "intro": "Trabaja recolectando y desmantelando los restos de monstruos tras las batallas en la ciudad. A pesar de haber reprobado varias veces el examen de ingreso, anhela cumplir su vocación de proteger a la gente.",
+      "reveals": [
+        {
+          "text": "Ingiere un parásito que le concede la facultad de convertirse en un kaiju humanoide de inmensa potencia física y aprueba el ingreso militar.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Combate clandestinamente contra el Kaiju N.º 9 para rescatar a sus camaradas durante la misión de Sagamihara.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Expone públicamente su metamorfosis ante toda la división para detener una colosal bomba aérea en Tachikawa.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Supera el duelo de evaluación frente al director general Isao Shinomiya, demostrando que su consciencia humana prevalece sobre el monstruo.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Es transferido a la Primera División para entrenar bajo la tutela del capitán Gen Narumi y perfeccionar su rendimiento bélico.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Toma la determinación de transformarse de manera permanente para derrotar a la bestia de Meireki, recuperando luego su corazón gracias al alma de Isao.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "reno-ichikawa",
+      "name": "Reno Ichikawa",
+      "role": "Joven novato en la cuadrilla de limpieza y aspirante a recluta",
+      "intro": "Nuevo empleado de la compañía de limpieza que entabla una rápida amistad con Kafka. Su determinación impulsa a su veterano compañero a intentar nuevamente ingresar al cuerpo militar.",
+      "reveals": [
+        {
+          "text": "Descubre la identidad monstruosa de Kafka, promete guardar el secreto y aprueba el examen de ingreso a la Tercera División.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Sufre heridas críticas al intentar frenar en solitario los proyectiles letales del Kaiju N.º 9 en Sagamihara.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Pasa a formar parte de la Cuarta División y se convierte en el portador compatible del armamento criogénico Numbers 6.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Acude a socorrer a Mina en la línea de fuego, brindando apoyo táctico indispensable para que Kafka enfrente al enemigo definitivo.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "mina-ashiro",
+      "name": "Mina Ashiro",
+      "role": "Capitana de la Tercera División y líder de élite del ejército",
+      "intro": "Amiga de la infancia de Kafka que juró erradicar a las criaturas que destruyeron su pueblo natal. Se convirtió en una célebre heroína y tiradora prodigio de las fuerzas armadas.",
+      "reveals": [
+        {
+          "text": "Dirige a los combatientes en el campo con un colosal cañón portátil diseñado para aniquilar amenazas de gran escala.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Neutraliza de forma fulminante la coraza del Kaiju N.º 10 con su potencia artillera durante la defensa de Tachikawa.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Arresta a Kafka tras enterarse de que es el Kaiju N.º 8 y lo traslada bajo estricta escolta al cuartel general.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Es atacada por el Kaiju N.º 9 para ser devorada por su letal poder de fuego, pero es rescatada y lucha junto a Kafka en la contienda decisiva.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kikoru-shinomiya",
+      "name": "Kikoru Shinomiya",
+      "role": "Cadete de élite y prodigio en el combate contra monstruos",
+      "intro": "Recluta sobresaliente con el mayor registro histórico de poder liberado al incorporarse a la Tercera División. Posee un carácter firme y empuña una colosal hacha especializada.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Presencia la transformación de Kafka al ser rescatada por él durante la prueba práctica y decide encubrir su secreto.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es transferida a la Primera División junto a Kafka por orden de las altas autoridades militares.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Hereda la armadura aérea Numbers 4 perteneciente a su madre fallecida y aprende a maniobrar a gran velocidad.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Vence en un extenuante duelo psicológico al Kaiju N.º 15, un espécimen creado con el objetivo de atormentarla.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Colabora en la derrota final del ente de Meireki y es promovida formalmente a vicecapitana de la Primera División.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "soshiro-hoshina",
+      "name": "Soshiro Hoshina",
+      "role": "Vicecapitán de la Tercera División y experto espadachín",
+      "intro": "Segundo al mando de la Tercera División, célebre por dominar las espadas cortas contra objetivos veloces. Aunque no destaca con rifles, fue convocado por Mina para dirigir el escuadrón.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Mantiene vigilado a Kafka debido a una misteriosa lectura de energía detectada en el examen de ingreso.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Sostiene un combate feroz contra el Kaiju N.º 10 en Tachikawa hasta debilitar su estructura corporal.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Acepta portar al capturado Kaiju N.º 10 transformado en una armadura consciente provista de una cola articulada.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Instruye a Kafka en combate cuerpo a cuerpo en un santuario conmemorativo de la era Meireki.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Lucha en la vanguardia contra las hordas resucitadas por la criatura ancestral en el enfrentamiento final.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "iharu-furuhashi",
+      "name": "Iharu Furuhashi",
+      "role": "Nuevo oficial de la Tercera División de las Fuerzas de Defensa",
+      "intro": "Recluta entusiasta que ingresa al servicio junto a Reno y Kafka. Forma parte del mismo pelotón que Reno, con quien entabla una intensa y sana competencia deportiva.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Resulta gravemente herido al enfrentar junto a Reno al Kaiju N.º 9 durante la operación de Sagamihara.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Pasa a las filas de la Cuarta División para asistir y respaldar el extenuante adiestramiento armamentístico de Reno.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "konomi-okonogi",
+      "name": "Konomi Okonogi",
+      "role": "Jefa de operaciones y monitoreo táctico de la Tercera División",
+      "intro": "Especialista en comunicaciones responsable de vigilar en tiempo real los signos vitales y el desbloqueo del poder de combate de las tropas en el terreno.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Supervisa el despliegue técnico y la remoción de limitadores durante la misión nocturna de Sagamihara.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Registra las catastróficas variaciones energéticas desatadas durante el asalto aéreo sobre la base de Tachikawa.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaiju-no-9",
+      "name": "Kaiju N.º 9",
+      "role": "Kaiju humanoide con gran intelecto y poder de asimilación",
+      "intro": "Misteriosa entidad capaz de camuflarse bajo identidades humanas y crear otros seres destructivos. Embosca a las tropas novatas durante las operaciones en el sector de Sagamihara.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Es identificado por el N.º 10 como el artífice intelectual que organizó la ofensiva sobre Tachikawa.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Asalta Shinagawa utilizando clones, asesina a Isao Shinomiya y absorbe su cuerpo junto con el traje Numbers 2.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Lanza una catástrofe a gran escala enviando a los kaijus del 11 al 15 contra los comandantes defensivos.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Cae derrotado al intentar absorber a Mina, tras lo cual su cadáver es tomado por una bestia de la era Meireki.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaiju-no-10",
+      "name": "Kaiju N.º 10",
+      "role": "Poderoso kaiju humanoide que comanda el asalto aéreo a Tachikawa",
+      "intro": "Belicoso monstruo con un nivel de fortaleza de 9.0 que lidera una tropa de criaturas aladas para asediar las instalaciones principales de la base militar de Tachikawa.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Es derrotado en conjunto por Hoshina y Mina tras desplegar un combate brutal en las inmediaciones del cuartel.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Pide voluntariamente ser transformado en armamento militar para formar equipo exclusivo con el vicecapitán Hoshina.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "isao-shinomiya",
+      "name": "Isao Shinomiya",
+      "role": "Director general de las Fuerzas de Defensa de Japón",
+      "intro": "Máxima autoridad castrense del país y padre de Kikoru. Es un veterano de inmensa fortaleza física que porta la legendaria armadura Numbers 2 en situaciones de máximo riesgo.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Evalúa personalmente a Kafka en una feroz batalla y decide preservarle la vida al constatar su humanidad.",
+          "at": {
+            "season": "k8-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Pierde la vida y es asimilado por el Kaiju N.º 9 tras una extenuante contienda individual en Shinagawa.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Su consciencia perdura dentro del enemigo para asistir a Kafka y entregarle su corazón, salvándole la vida.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "gen-narumi",
+      "name": "Gen Narumi",
+      "role": "Capitán de la Primera División y combatiente más letal",
+      "intro": "Comandante de la unidad más fuerte del país, conocido por su habilidad extrema en batalla. Acoge bajo su mando a Kafka y Kikoru cuando son reasignados a su división.",
+      "appears": {
+        "season": "k8-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Emplea la armadura y los implantes oculares Numbers 1 para anticipar con precisión matemática los movimientos enemigos.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Vence en un combate a muerte al Kaiju N.º 11 superando las barreras de agua que intentaban cegar su visión.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Combate hombro a hombro junto a Kafka para contener la arremetida del titán de Meireki en la batalla final.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "jugo-ogata",
+      "name": "Jūgo Ogata",
+      "role": "Capitán de la Cuarta División de las Fuerzas de Defensa",
+      "intro": "Veterano oficial al mando de la Cuarta División, encargado de supervisar programas intensivos para combatientes prometedores.",
+      "appears": {
+        "season": "k8-t2",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Supervisa el arriesgado proceso de compatibilidad de Reno con el gélido armamento del Numbers 6.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaiju-no-11",
+      "name": "Kaiju N.º 11",
+      "role": "Daikaiju acuático creado para contrarrestar la visión de Narumi",
+      "intro": "Imponente ser con rasgos de cetáceo y aleta dorsal que domina corrientes acuáticas a gran presión para obstaculizar las capacidades sensoriales de sus adversarios.",
+      "appears": {
+        "season": "k8-t2",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Es cortado y eliminado por el rifle bayoneta de Gen Narumi en medio de un violento combate sobre aguas profundas.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "kaiju-no-15",
+      "name": "Kaiju N.º 15",
+      "role": "Daikaiju psíquico diseñado para atormentar y abatir a Kikoru",
+      "intro": "Criatura de figura esbelta y cerebros expuestos que cuenta con devastadores proyectiles luminosos y ataques mentales focalizados en doblegar la voluntad de su oponente.",
+      "appears": {
+        "season": "k8-t2",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Toma la forma de una joven semejante a Kikoru antes de ser destruida por el hacha gigante de la soldado.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "daikaiju-meireki",
+      "name": "Daikaiju de la era Meireki",
+      "role": "Legendaria entidad milenaria causante de una antigua catástrofe",
+      "intro": "Monstruo primigenio con capacidad de absorber otras criaturas que yacía latente dentro del Kaiju N.º 9 tras haber desencadenado el gran incendio de Meireki en el pasado remoto.",
+      "appears": {
+        "season": "k8-manga",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Se apropia del cuerpo del N.º 9, revive a decenas de monstruos abatidos y es erradicado por Kafka y el ejército en la batalla final.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "promesa-de-la-infancia",
+      "title": "Pacto de infancia entre los escombros",
+      "date": "Años antes del presente",
+      "order": 10,
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "text": "Un monstruo colosal destruye la localidad natal de Kafka y Mina, dejando desolación a su paso. Entre las ruinas, ambos niños se juran ingresar juntos al ejército y erradicar a todos los kaijus del país.",
+      "characters": [
+        "kafka-hibino",
+        "mina-ashiro"
+      ],
+      "major": false
+    },
+    {
+      "id": "infeccion-del-parasito",
+      "title": "Transformación inesperada en el hospital",
+      "date": "Inicio de la historia",
+      "order": 20,
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "text": "Un pequeño organismo volador se introduce por la boca de Kafka mientras convalece en una camilla tras su turno de limpieza. El hombre muta repentinamente en un poderoso monstruo ante el asombro de Reno, quien decide apoyarlo.",
+      "characters": [
+        "kafka-hibino",
+        "reno-ichikawa"
+      ],
+      "major": true
+    },
+    {
+      "id": "examen-de-ingreso-a-las-fuerzas",
+      "title": "Evaluación de aptitud física y combate",
+      "date": "Días después de la mutación",
+      "order": 30,
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "text": "Los aspirantes a reclutas presentan las extenuantes pruebas prácticas en las instalaciones militares. Kikoru deslumbra a todos los instructores con un despliegue de poder liberado sin precedentes en la historia de la academia.",
+      "characters": [
+        "kafka-hibino",
+        "reno-ichikawa",
+        "kikoru-shinomiya",
+        "soshiro-hoshina"
+      ],
+      "major": false
+    },
+    {
+      "id": "incorporacion-a-la-tercera-division",
+      "title": "Ceremonia de bienvenida en Tachikawa",
+      "date": "Conclusión del examen",
+      "order": 40,
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      },
+      "text": "Los cadetes aceptados son presentados formalmente ante la capitana Mina Ashiro para iniciar sus entrenamientos. A pesar de sus pésimos resultados técnicos, Soshiro decide admitir a Kafka como un cadete a prueba bajo su mando.",
+      "characters": [
+        "kafka-hibino",
+        "reno-ichikawa",
+        "mina-ashiro",
+        "soshiro-hoshina",
+        "iharu-furuhashi",
+        "konomi-okonogi"
+      ],
+      "major": false
+    },
+    {
+      "id": "despliegue-en-sagamihara",
+      "title": "Bautismo de fuego nocturno en Sagamihara",
+      "date": "Primera misión oficial",
+      "order": 50,
+      "at": {
+        "season": "k8-t1",
+        "arc": 1
+      },
+      "text": "La unidad es enviada a neutralizar los brotes secundarios generados tras el colapso de una enorme bestia. La sala de operaciones supervisa el avance táctico de los novatos, quienes se enfrentan por vez primera al peligro real.",
+      "characters": [
+        "kafka-hibino",
+        "reno-ichikawa",
+        "iharu-furuhashi",
+        "konomi-okonogi"
+      ],
+      "major": false
+    },
+    {
+      "id": "emboscada-del-kaiju-numero-9",
+      "title": "Ataque sorpresa del Kaiju N.º 9",
+      "date": "Durante la limpieza del área",
+      "order": 60,
+      "at": {
+        "season": "k8-t1",
+        "arc": 1
+      },
+      "text": "Una criatura inteligente de aspecto humanoide intercepta a la patrulla de Reno e Iharu para tenderles una emboscada. Ambos jóvenes quedan al borde de la muerte tras ser alcanzados por ráfagas de proyectiles perforantes.",
+      "characters": [
+        "reno-ichikawa",
+        "iharu-furuhashi",
+        "kaiju-no-9"
+      ],
+      "major": false
+    },
+    {
+      "id": "intervencion-de-emergencia-en-sagamihara",
+      "title": "Duelo clandestino en la niebla",
+      "date": "Momentos después de la emboscada",
+      "order": 70,
+      "at": {
+        "season": "k8-t1",
+        "arc": 1
+      },
+      "text": "Kafka adopta su fisonomía de monstruo y acude a toda velocidad para encarar al agresor antes de que aniquile a sus compañeros. El Kaiju N.º 8 le propina un castigo demoledor, pero el enemigo logra camuflarse y huir.",
+      "characters": [
+        "kafka-hibino",
+        "kaiju-no-9"
+      ],
+      "major": false
+    },
+    {
+      "id": "invasion-aerea-de-tachikawa",
+      "title": "Asedio aéreo sobre la base de Tachikawa",
+      "date": "Alerta roja militar",
+      "order": 80,
+      "at": {
+        "season": "k8-t1",
+        "arc": 2
+      },
+      "text": "Una bandada de criaturas aladas guiada por el Kaiju N.º 10 desciende de improviso sobre el complejo militar. La Tercera División responde con premura para contener los daños sobre las instalaciones principales.",
+      "characters": [
+        "soshiro-hoshina",
+        "mina-ashiro",
+        "kaiju-no-10",
+        "konomi-okonogi"
+      ],
+      "major": false
+    },
+    {
+      "id": "duelo-entre-hoshina-y-el-numero-10",
+      "title": "Contención extrema frente al N.º 10",
+      "date": "Durante el asedio al cuartel",
+      "order": 90,
+      "at": {
+        "season": "k8-t1",
+        "arc": 2
+      },
+      "text": "Hoshina despliega toda su velocidad con las espadas para contener al imponente líder invasor en el patio central. Su sacrificio le brinda a Mina el tiempo exacto para alinear su cañón pesado y fulminar a la criatura.",
+      "characters": [
+        "soshiro-hoshina",
+        "mina-ashiro",
+        "kaiju-no-10"
+      ],
+      "major": false
+    },
+    {
+      "id": "detonacion-neutralizada-en-el-cielo",
+      "title": "Impacto salvador sobre la megaesfera",
+      "date": "Clímax del ataque a Tachikawa",
+      "order": 100,
+      "at": {
+        "season": "k8-t1",
+        "arc": 2
+      },
+      "text": "Los remanentes de la bestia vencida generan un proyectil explosivo descomunal que amenaza con volatilizar a todo el regimiento. Kafka decide transformarse a la vista de todos para volar por los aires y desintegrar la bomba con un puñetazo.",
+      "characters": [
+        "kafka-hibino",
+        "mina-ashiro"
+      ],
+      "major": true
+    },
+    {
+      "id": "arresto-de-kafka-hibino",
+      "title": "Aprehensión y traslado a la sede central",
+      "date": "Tras calmarse la crisis",
+      "order": 110,
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      },
+      "text": "Mina procede a someter a Kafka de acuerdo con los protocolos militares vigentes sobre especímenes clasificados. Pese al dolor que le causa la situación, la oficial cumple con su deber y lo escolta hasta la comandancia máxima.",
+      "characters": [
+        "kafka-hibino",
+        "mina-ashiro"
+      ],
+      "major": false
+    },
+    {
+      "id": "juicio-de-combate-en-el-cuartel-general",
+      "title": "Duelo de evaluación ante el director Isao",
+      "date": "En la prisión de alta seguridad",
+      "order": 120,
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      },
+      "text": "El director general Isao Shinomiya enfrenta en combate cuerpo a cuerpo al Kaiju N.º 8 empleando el blindaje del Numbers 2. Kafka reprime su instinto agresivo para evitar herirlo mortalmente, demostrando su total control racional.",
+      "characters": [
+        "kafka-hibino",
+        "isao-shinomiya"
+      ],
+      "major": true
+    },
+    {
+      "id": "traslado-a-la-primera-division",
+      "title": "Reasignación hacia la unidad de Tokio",
+      "date": "Tras la resolución del tribunal",
+      "order": 130,
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      },
+      "text": "Los altos mandos determinan conservar a Kafka como recurso de guerra y ordenan su incorporación inmediata a la Primera División. Kikoru también recibe la orden de transferencia para integrarse al escuadrón que lidera Gen Narumi.",
+      "characters": [
+        "kafka-hibino",
+        "kikoru-shinomiya",
+        "gen-narumi"
+      ],
+      "major": false
+    },
+    {
+      "id": "pacto-tactico-con-el-kaiju-numero-10",
+      "title": "Negociación y conversión en Numbers",
+      "date": "Durante el confinamiento militar",
+      "order": 140,
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "text": "El capturado Kaiju N.º 10 revela que fue fabricado por el N.º 9 y exige un pacto con las autoridades militares. Pide ser convertido en una armadura táctica para entrar nuevamente en combate en sincronía con Hoshina.",
+      "characters": [
+        "soshiro-hoshina",
+        "kaiju-no-10"
+      ],
+      "major": false
+    },
+    {
+      "id": "demostracion-del-numbers-uno",
+      "title": "Exhibición de combate de Gen Narumi",
+      "date": "Entrenamiento en la Primera División",
+      "order": 150,
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "text": "Narumi pone a prueba la resistencia de Kafka en la arena de práctica mostrándole el funcionamiento de su equipo Numbers 1. El capitán demuestra cómo sus retinas modificadas le permiten prever y neutralizar todo ataque rival.",
+      "characters": [
+        "kafka-hibino",
+        "gen-narumi"
+      ],
+      "major": false
+    },
+    {
+      "id": "sincronizacion-con-el-numbers-seis",
+      "title": "Prueba de compatibilidad bajo cero",
+      "date": "Instrucción en la Cuarta División",
+      "order": 160,
+      "at": {
+        "season": "k8-t2",
+        "arc": 1
+      },
+      "text": "Reno se traslada a la Cuarta División para intentar sincronizarse con la peligrosa armadura criogénica del Numbers 6. Con la rigurosa tutela del capitán Ogata y el apoyo moral de Iharu, el joven logra dominar la helada energía.",
+      "characters": [
+        "reno-ichikawa",
+        "jugo-ogata",
+        "iharu-furuhashi"
+      ],
+      "major": false
+    },
+    {
+      "id": "herencia-del-numbers-cuatro",
+      "title": "Activación del traje aéreo materno",
+      "date": "Entrenamiento especial",
+      "order": 170,
+      "at": {
+        "season": "k8-t2",
+        "arc": 1
+      },
+      "text": "Kikoru asume el mando de la armadura Numbers 4 que perteneció a su madre para mejorar su movilidad en batalla. Superando la pesada carga de las expectativas familiares, consigue volar a velocidad sónica en el campo de pruebas.",
+      "characters": [
+        "kikoru-shinomiya"
+      ],
+      "major": false
+    },
+    {
+      "id": "vision-en-el-santuario-de-meireki",
+      "title": "Aparición espectral durante la práctica",
+      "date": "Retiro de instrucción militar",
+      "order": 180,
+      "at": {
+        "season": "k8-t2",
+        "arc": 1
+      },
+      "text": "Hoshina instruye a Kafka en un templo histórico dedicado a los guerreros que combatieron a las bestias en el periodo Meireki. En medio del adiestramiento, Kafka experimenta la visión de un antiguo combatiente samurai.",
+      "characters": [
+        "kafka-hibino",
+        "soshiro-hoshina"
+      ],
+      "major": false
+    },
+    {
+      "id": "embestida-simultanea-en-shinagawa",
+      "title": "Ofensiva coordinada mediante señuelos",
+      "date": "Alerta metropolitana en Tokio",
+      "order": 155,
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "text": "El Kaiju N.º 9 reaparece generando réplicas que atacan varios distritos para dispersar a la Primera División. Mientras las tropas aniquilan a las copias, el enemigo original penetra sigilosamente en la base subterránea.",
+      "characters": [
+        "kaiju-no-9",
+        "gen-narumi"
+      ],
+      "major": false
+    },
+    {
+      "id": "caida-y-asimilacion-de-isao-shinomiya",
+      "title": "Sacrificio y pérdida del director general",
+      "date": "Batalla en la base subterránea",
+      "order": 157,
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "text": "Isao lucha a muerte contra el Kaiju N.º 9 descargando toda la potencia de sus guanteletes Numbers 2. Agotadas sus energías, el veterano comandante es abatido y absorbido por la criatura, que se apropia de su blindaje.",
+      "characters": [
+        "isao-shinomiya",
+        "kaiju-no-9"
+      ],
+      "major": true
+    },
+    {
+      "id": "ofensiva-coordinada-de-la-segunda-ola",
+      "title": "Despliegue de la segunda gran ola",
+      "date": "Meses tras el asalto a Shinagawa",
+      "order": 210,
+      "at": {
+        "season": "k8-t2",
+        "arc": 3
+      },
+      "text": "El fortalecido Kaiju N.º 9 inicia una invasión coordinada en múltiples frentes liberando a los monstruos del 11 al 15. Cada una de estas amenazas ha sido diseñada meticulosamente para explotar las debilidades de los oficiales.",
+      "characters": [
+        "kaiju-no-9",
+        "kafka-hibino"
+      ],
+      "major": false
+    },
+    {
+      "id": "triunfo-acuatico-de-gen-narumi",
+      "title": "Victoria sobre las corrientes del N.º 11",
+      "date": "Batalla en el litoral marino",
+      "order": 220,
+      "at": {
+        "season": "k8-manga",
+        "arc": 0
+      },
+      "text": "El Kaiju N.º 11 descarga violentos torrentes acuáticos para confundir los sentidos y anular la visión predictiva del capitán. Narumi sobrepasa sus límites sensoriales y rebana a la criatura marina con su bayoneta.",
+      "characters": [
+        "gen-narumi",
+        "kaiju-no-11"
+      ],
+      "major": false
+    },
+    {
+      "id": "superacion-personal-frente-al-numero-15",
+      "title": "Ruptura del espejismo ante el N.º 15",
+      "date": "Contienda en el sector urbano",
+      "order": 230,
+      "at": {
+        "season": "k8-manga",
+        "arc": 0
+      },
+      "text": "Kikoru se mide contra un kaiju psíquico que adopta su propia imagen para quebrantar su determinación mediante recuerdos dolorosos. La joven rechaza la manipulación y destruye a su oponente con un golpe devastador de su hacha.",
+      "characters": [
+        "kikoru-shinomiya",
+        "kaiju-no-15"
+      ],
+      "major": false
+    },
+    {
+      "id": "emboscada-y-rescate-de-mina-ashiro",
+      "title": "Auxilio oportuno en la retaguardia",
+      "date": "Fase culminante de la invasión",
+      "order": 240,
+      "at": {
+        "season": "k8-manga",
+        "arc": 1
+      },
+      "text": "El Kaiju N.º 9 se transporta velozmente para capturar y absorber a Mina con el fin de quedarse con su descomunal poder de fuego. Kafka se presenta en el instante preciso para defender a su amiga gracias a la asistencia helada de Reno.",
+      "characters": [
+        "mina-ashiro",
+        "kaiju-no-9",
+        "kafka-hibino",
+        "reno-ichikawa"
+      ],
+      "major": false
+    },
+    {
+      "id": "manifestacion-de-la-bestia-de-meireki",
+      "title": "Emergencia del monstruo ancestral",
+      "date": "Tras la caída del Kaiju N.º 9",
+      "order": 250,
+      "at": {
+        "season": "k8-manga",
+        "arc": 1
+      },
+      "text": "El cuerpo aniquilado del N.º 9 es usurpado por el coloso primigenio de la era Meireki que yacía en su interior. La colosal entidad reanima a decenas de monstruos abatidos y acorrala a todos los combatientes que aún quedan en pie.",
+      "characters": [
+        "kafka-hibino",
+        "kaiju-no-9",
+        "daikaiju-meireki"
+      ],
+      "major": true
+    },
+    {
+      "id": "destruccion-del-monstruo-milenario",
+      "title": "Ataque conjunto y golpe final",
+      "date": "Batalla decisiva por Japón",
+      "order": 260,
+      "at": {
+        "season": "k8-manga",
+        "arc": 1
+      },
+      "text": "Los oficiales más fuertes combinan sus últimas reservas de energía para fracturar la impenetrable protección de la bestia de Meireki. Kafka embiste con toda su fuerza y pulveriza el núcleo vital del monstruo para salvar al país.",
+      "characters": [
+        "kafka-hibino",
+        "mina-ashiro",
+        "kikoru-shinomiya",
+        "gen-narumi",
+        "soshiro-hoshina",
+        "daikaiju-meireki"
+      ],
+      "major": true
+    },
+    {
+      "id": "restitucion-del-corazon-y-nuevo-porvenir",
+      "title": "Recuperación vital y nuevos nombramientos",
+      "date": "Meses después de la victoria",
+      "order": 270,
+      "at": {
+        "season": "k8-manga",
+        "arc": 1
+      },
+      "text": "Kafka despierta de un largo coma tras recibir el corazón espiritual de Isao, recuperando plenamente su vida humana. Con la paz restaurada, Kikoru es nombrada vicecapitana y Kafka asume como líder de pelotón en su escuadrón.",
+      "characters": [
+        "kafka-hibino",
+        "isao-shinomiya",
+        "kikoru-shinomiya"
+      ],
+      "major": false
+    },
+    {
+      "id": "cataclismos-japon",
+      "title": "Ataques en cadena por todo Japón",
+      "date": "Tres meses después de Shinagawa",
+      "order": 205,
+      "at": {
+        "season": "k8-t2",
+        "arc": 2
+      },
+      "text": "Nuevos kaiju de gran poder aparecen en distintos puntos del país, algunos sin atacar, como si estudiaran el terreno. Uno de ellos, disfrazado de persona, agrede a transeúntes en Kabukicho y las Fuerzas de Defensa se preparan para algo mayor.",
+      "characters": [
+        "kaiju-no-11",
+        "kaiju-no-15"
+      ],
+      "major": false
+    }
+  ],
+  "relations": [
+    {
+      "from": "kafka-hibino",
+      "to": "mina-ashiro",
+      "kind": "aliado",
+      "detail": "Comparten una promesa de la infancia de ingresar juntos al ejército tras ver destruido su pueblo natal.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kafka-hibino",
+      "to": "reno-ichikawa",
+      "kind": "aliado",
+      "detail": "Compañeros de trabajo que forjan una leal amistad luego de que Reno descubre la transformación de Kafka.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "reno-ichikawa",
+      "to": "iharu-furuhashi",
+      "kind": "rival",
+      "detail": "Novatos del mismo pelotón que compiten constantemente por mejorar su rendimiento durante las prácticas.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kikoru-shinomiya",
+      "to": "kafka-hibino",
+      "kind": "aliado",
+      "detail": "Soldado que guarda el secreto de Kafka tras ser rescatada por él durante la prueba de combate.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "soshiro-hoshina",
+      "to": "mina-ashiro",
+      "kind": "aliado",
+      "detail": "Mano derecha de la capitana en la Tercera División, convocado por su maestría con las espadas dobles.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "soshiro-hoshina",
+      "to": "kafka-hibino",
+      "kind": "mentor",
+      "detail": "Superior que acepta a Kafka como cadete provisional y vigila de cerca su desempeño militar.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "konomi-okonogi",
+      "to": "mina-ashiro",
+      "kind": "aliado",
+      "detail": "Operadora técnica que suministra coordenadas y datos vitales a su capitana en cada incursión.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kafka-hibino",
+      "to": "kaiju-no-9",
+      "kind": "enemigo",
+      "detail": "Enemigo mortal al que Kafka confronta directamente para frustrar sus planes destructivos contra la ciudad.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "reno-ichikawa",
+      "to": "kaiju-no-9",
+      "kind": "enemigo",
+      "detail": "Monstruo despiadado que acorrala e hiere de gravedad al joven recluta en la misión de Sagamihara.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "soshiro-hoshina",
+      "to": "kaiju-no-10",
+      "kind": "enemigo",
+      "detail": "Rival formidable con quien sostiene un feroz duelo mano a mano en el asedio a la base militar.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "mina-ashiro",
+      "to": "kaiju-no-10",
+      "kind": "enemigo",
+      "detail": "Criatura de gran tamaño a la que la capitana dispara con la máxima potencia destructiva de su cañón.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "isao-shinomiya",
+      "to": "kikoru-shinomiya",
+      "kind": "familia",
+      "detail": "Padre e hija unidos por una estricta disciplina militar encaminada a proteger a la nación.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "isao-shinomiya",
+      "to": "kafka-hibino",
+      "kind": "mentor",
+      "detail": "Máximo comandante que pone a prueba la humanidad de Kafka en combate y aprueba su permanencia en el frente.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "gen-narumi",
+      "to": "kafka-hibino",
+      "kind": "mentor",
+      "detail": "Capitán de élite que asume la supervisión directa del soldado tras su traspaso a la Primera División.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "gen-narumi",
+      "to": "kikoru-shinomiya",
+      "kind": "mentor",
+      "detail": "Comandante exigente que instruye a la joven prodigio dentro de la unidad más fuerte del país.",
+      "at": {
+        "season": "k8-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "kaiju-no-10",
+      "to": "kaiju-no-9",
+      "kind": "enemigo",
+      "detail": "Criatura que desconoce la lealtad hacia su creador y pacta con los humanos para combatirlo.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "jugo-ogata",
+      "to": "reno-ichikawa",
+      "kind": "mentor",
+      "detail": "Líder de la Cuarta División que adiestra al muchacho en el control del armamento Numbers 6.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 1
+      }
+    },
+    {
+      "from": "isao-shinomiya",
+      "to": "kaiju-no-9",
+      "kind": "enemigo",
+      "detail": "Enemigo implacable que ataca al director general en Shinagawa para devorarlo y arrebatarle su poder.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "gen-narumi",
+      "to": "kaiju-no-11",
+      "kind": "enemigo",
+      "detail": "Daikaiju acuático desarrollado específicamente para confundir los sentidos y la visión del capitán.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 3
+      }
+    },
+    {
+      "from": "kikoru-shinomiya",
+      "to": "kaiju-no-15",
+      "kind": "enemigo",
+      "detail": "Kaiju creado para quebrar la voluntad de la joven y derrotarla.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 3
+      }
+    },
+    {
+      "from": "kafka-hibino",
+      "to": "daikaiju-meireki",
+      "kind": "enemigo",
+      "detail": "Monstruo milenario ancestral contra el cual Kafka libra la batalla decisiva por el futuro de la humanidad.",
+      "at": {
+        "season": "k8-manga",
+        "arc": 1
+      }
+    }
+  ]
+}

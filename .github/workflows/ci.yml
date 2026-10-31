@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Dependencias sin vulnerabilidades conocidas
+        run: npm audit --audit-level=high
+      - name: Tipos (Astro + TypeScript)
+        run: npm run check
+      - name: Pruebas unitarias y validación del contenido
+        run: npm test
+      - name: Compilación con índice de búsqueda
+        run: npm run build
+      - name: Navegador para las pruebas de punta a punta
+        run: npx playwright install --with-deps chromium
+      - name: Pruebas de punta a punta (escritorio y móvil)
+        run: npm run test:e2e
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: failure()
+        with:
+          name: playwright-trazas
+          path: test-results
+          retention-days: 7

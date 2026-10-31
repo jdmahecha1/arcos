@@ -1,0 +1,1201 @@
+{
+  "id": "kimetsu-no-yaiba",
+  "title": "Kimetsu no Yaiba",
+  "tagline": "La inquebrantable determinación de un hermano por salvar a su hermana de la oscuridad.",
+  "studio": "ufotable",
+  "genre": "Acción y fantasía oscura",
+  "accent": "#1b6b50",
+  "synopsis": "Tanjiro Kamado es un joven bondadoso que mantiene a su familia vendiendo carbón en las montañas durante la era Taisho. Su vida pacífica queda destrozada cuando un demonio masacra a sus seres queridos y transforma a su hermana menor, Nezuko, en una de estas criaturas sanguinarias. Decidido a encontrar una cura para ella, Tanjiro toma la espada y emprende un peligroso camino para unirse al Cuerpo de Cazadores de Demonios.",
+  "seasons": [
+    {
+      "id": "ky-t1",
+      "title": "Temporada 1: Tanjiro Kamado",
+      "year": 2019,
+      "format": "anime",
+      "arcs": [
+        "Selección Final",
+        "Primeras misiones",
+        "Monte Natagumo",
+        "Mansión Mariposa"
+      ]
+    },
+    {
+      "id": "ky-mugen",
+      "title": "Tren Infinito",
+      "year": 2020,
+      "format": "pelicula",
+      "arcs": [
+        "Tren Infinito"
+      ]
+    },
+    {
+      "id": "ky-distrito",
+      "title": "Distrito Rojo",
+      "year": 2021,
+      "format": "anime",
+      "arcs": [
+        "Distrito Rojo"
+      ]
+    },
+    {
+      "id": "ky-herreros",
+      "title": "Villa de los Herreros",
+      "year": 2023,
+      "format": "anime",
+      "arcs": [
+        "Villa de los Herreros"
+      ]
+    },
+    {
+      "id": "ky-pilares",
+      "title": "Entrenamiento de los Pilares",
+      "year": 2024,
+      "format": "anime",
+      "arcs": [
+        "Entrenamiento de los Pilares"
+      ]
+    },
+    {
+      "id": "ky-castillo-1",
+      "title": "Castillo Infinito: película 1",
+      "year": 2025,
+      "format": "pelicula",
+      "arcs": [
+        "Castillo Infinito, primera parte"
+      ]
+    },
+    {
+      "id": "ky-manga",
+      "title": "Manga: lo que aún no se anima",
+      "year": 2020,
+      "format": "manga",
+      "arcs": [
+        "Castillo Infinito, el resto",
+        "Cuenta regresiva al amanecer"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "tanjiro-kamado",
+      "name": "Tanjiro Kamado",
+      "role": "Joven bondadoso que busca una cura para su hermana.",
+      "intro": "Tras la tragedia que destruyó a su familia, emprende un viaje cargando a su hermana para devolverle su condición humana.",
+      "reveals": [
+        {
+          "text": "Domina la Respiración del Agua bajo la tutela de Sakonji Urokodaki y supera la Selección Final.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Despierta la Danza del Dios del Fuego, una técnica transmitida por su padre, durante un combate a muerte.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Obtiene una antigua espada de la era Sengoku y descubre los orígenes solares de su danza familiar.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Accede al Mundo Transparente y al Estado Desinteresado para superar la percepción de Akaza.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es transformado brevemente en demonio por Muzan antes de ser salvado por su hermana y sus aliados.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "nezuko-kamado",
+      "name": "Nezuko Kamado",
+      "role": "Hermana menor transformada en demonio que protege a los suyos.",
+      "intro": "Pese a su transformación demoníaca, conserva sus emociones humanas y defiende a su hermano en lugar de atacarlo.",
+      "reveals": [
+        {
+          "text": "Duerme durante largos periodos para recuperar energía en lugar de alimentarse de carne humana.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Despierta su Técnica de Sangre Demoníaca de llamas explosivas para ayudar a su hermano en batalla.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Desarrolla una inédita inmunidad a la luz solar, convirtiéndose en el principal objetivo de Muzan.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Recupera por completo su humanidad gracias a la medicina creada para ella.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "giyu-tomioka",
+      "name": "Giyu Tomioka",
+      "role": "Espadachín de élite del Cuerpo de Cazadores de Demonios.",
+      "intro": "Un guerrero reservado que comprueba el vínculo de los hermanos Kamado y los orienta con su antiguo maestro.",
+      "reveals": [
+        {
+          "text": "Posee el rango de Pilar del Agua y creó una undécima postura exclusiva dentro de su estilo.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 2
+          }
+        },
+        {
+          "text": "Despierta su marca de cazador durante el feroz enfrentamiento contra la Tercera Luna Superior.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Sobrevive a la batalla final contra Muzan tras perder un brazo y presencia la disolución del Cuerpo.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "sakonji-urokodaki",
+      "name": "Sakonji Urokodaki",
+      "role": "Cultivador de espadachines y antiguo Pilar del Agua.",
+      "intro": "Vive retirado en el monte Sagiri tras una máscara de tengu, donde entrena rigurosamente a nuevos reclutas para la Selección Final.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Envía una carta al líder del Cuerpo comprometiendo su propia vida si Nezuko llega a devorar a un humano.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Custodia y cuida a Nezuko mientras ella reposa bajo los efectos de la cura elaborada por Tamayo.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "zenitsu-agatsuma",
+      "name": "Zenitsu Agatsuma",
+      "role": "Cazador de demonios miedoso con un agudo sentido del oído.",
+      "intro": "Superó la Selección Final junto a Tanjiro, aunque muestra un constante pánico y falta de confianza en sus habilidades.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Domina a la perfección la primera postura de la Respiración del Rayo, la cual desata al quedarse inconsciente.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 1
+          }
+        },
+        {
+          "text": "Crea por cuenta propia la séptima postura del rayo para derrotar a su antiguo compañero Kaigaku.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Sobrevive al combate definitivo contra los demonios y con el tiempo contrae matrimonio con Nezuko.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "kanao-tsuyuri",
+      "name": "Kanao Tsuyuri",
+      "role": "Silenciosa y diestra cazadora de la Selección Final.",
+      "intro": "Aprobó la prueba de selección con total calma y sin un solo rasguño, mostrando una destreza formidable pero distante.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Es la discípula personal de Shinobu Kocho en la Mansión Mariposa y toma decisiones lanzando una moneda.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Derrota a la Segunda Luna Superior junto a Inosuke para vengar a sus hermanas adoptivas.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Administra la última dosis de la medicina para salvar a Tanjiro.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "inosuke-hashibira",
+      "name": "Inosuke Hashibira",
+      "role": "Guerrero salvaje criado en el bosque con máscara de jabalí.",
+      "intro": "Combate con dos espadas melladas y un estilo propio inspirado en bestias, guiado por un agudo sentido del tacto y un temperamento feroz.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Bajo su máscara oculta un rostro andrógino y aprende a convivir en equipo durante la recuperación en la mansión.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Descubre que la Segunda Luna Superior arrebató la vida a su madre y lucha con furia para destruirlo.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Celebra la victoria final sobre los demonios y años más tarde forma una familia con Aoi Kanzaki.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "muzan-kibutsuji",
+      "name": "Muzan Kibutsuji",
+      "role": "Progenitor de todos los demonios y líder absoluto de su estirpe.",
+      "intro": "El primer demonio en existir, capaz de convertir humanos con su sangre y dispuesto a matar sin piedad para ocultar su identidad.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Ejecuta a casi todas las Lunas Inferiores en la Castillo Infinito por considerarlas incompetentes.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Fija su obsesión en devorar a Nezuko tras enterarse de que ella conquistó la debilidad a la luz solar.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es desintegrado por la luz del amanecer tras ser retenido por las fuerzas conjuntas de los cazadores.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "tamayo",
+      "name": "Tamayo",
+      "role": "Doctora demonio independiente que desafía a Muzan.",
+      "intro": "Consiguió eludir el dominio mental de Muzan y utiliza sus conocimientos médicos para buscar una cura contra la transformación demoníaca.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Se une a la sede de los cazadores para diseñar venenos letales y una droga capaz de restaurar la humanidad.",
+          "at": {
+            "season": "ky-pilares",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Inyecta su compuesto debilitador directamente en el cuerpo de Muzan durante una emboscada suicida.",
+          "at": {
+            "season": "ky-pilares",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Muere a manos de Muzan, pero su potente medicina logra desgastar de forma crítica al progenitor.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "shinobu-kocho",
+      "name": "Shinobu Kocho",
+      "role": "Pilar del Insecto que combate utilizando venenos de glicinia.",
+      "intro": "Muestra una sonrisa amable y serena, pero oculta un profundo desprecio hacia los demonios a quienes elimina con una espada punzante impregnada de toxinas.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 2
+      },
+      "reveals": [
+        {
+          "text": "Dirige la Mansión Mariposa para tratar a cazadores heridos y revela que heredó la voluntad de su difunta hermana Kanae.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
+        {
+          "text": "Es devorada por la Segunda Luna Superior tras haber saturado su propio cuerpo con veneno durante meses.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "kagaya-ubuyashiki",
+      "name": "Kagaya Ubuyashiki",
+      "role": "Nonagésimo séptimo líder del Cuerpo de Cazadores de Demonios.",
+      "intro": "Guía a la organización con calidez y sabiduría patriarcal, venerado por todos los Pilares a pesar de su frágil salud.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Se inmola junto a su familia en su mansión para atraer y herir de gravedad a Muzan en una trampa calculada.",
+          "at": {
+            "season": "ky-pilares",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "kyojuro-rengoku",
+      "name": "Kyojuro Rengoku",
+      "role": "Pilar de la Llama con un inquebrantable sentido del deber.",
+      "intro": "Un espadachín alegre, enérgico y con una fuerte convicción moral orientada a proteger a los más vulnerables.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Protege a todos los pasajeros del tren y cae en combate frente a la Tercera Luna Superior tras rechazar convertirse en demonio.",
+          "at": {
+            "season": "ky-mugen",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "tengen-uzui",
+      "name": "Tengen Uzui",
+      "role": "Pilar del Sonido extravagante y antiguo shinobi.",
+      "intro": "Un espadachín corpulento y teatral que exige vistosidad en todo lo que hace, ocultando un pasado de shinobi.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Pierde un ojo y una mano en la batalla contra la Sexta Luna Superior en el Distrito Rojo, retirándose del frente activo.",
+          "at": {
+            "season": "ky-distrito",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "muichiro-tokito",
+      "name": "Muichiro Tokito",
+      "role": "Joven prodigio y Pilar de la Niebla de mirada ausente.",
+      "intro": "Se convirtió en Pilar con apenas unos meses de entrenamiento, aunque a menudo parece distraído y desconectado de su entorno.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Recupera la memoria de su infancia y derrota en solitario a la Quinta Luna Superior tras manifestar su marca.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Sacrifica su vida en el combate contra la Primera Luna Superior, quien resulta ser su lejano antepasado.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "mitsuri-kanroji",
+      "name": "Mitsuri Kanroji",
+      "role": "Pilar del Amor con una fuerza física y flexibilidad descomunales.",
+      "intro": "Una joven cariñosa y emotiva que se unió al Cuerpo para encontrar a un compañero que acepte su inmensa fuerza y complexión especial.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Contiene a las manifestaciones más letales de la Cuarta Luna Superior con su espada flexible y despierta su marca.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Cae mortalmente herida en la batalla final y se confiesa su amor mutuo con el Pilar de la Serpiente antes de perecer.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "akaza",
+      "name": "Akaza",
+      "role": "Tercera Luna Superior apasionado por el combate marcial.",
+      "intro": "Un demonio de tremendo poder cuerpo a cuerpo que respeta la fuerza marcial e insiste a los guerreros valiosos para que se conviertan en demonios.",
+      "appears": {
+        "season": "ky-mugen",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Recupera los recuerdos de su vida humana como Hakuji y decide terminar con su propia regeneración tras ser decapitado.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "masacre-familia-kamado",
+      "title": "Masacre en la montaña Kamado",
+      "date": "Comienzos del invierno",
+      "order": 10,
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "text": "Al regresar de vender carbón en el pueblo, Tanjiro encuentra a su familia masacrada en su cabaña nevada. Su hermana Nezuko sobrevive transformada en un demonio violento, pero muestra señales de reconocerlo y protegerlo. La oportuna aparición de Giyu Tomioka evita una tragedia mayor y abre una vía para su salvación.",
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado",
+        "giyu-tomioka"
+      ],
+      "major": false
+    },
+    {
+      "id": "entrenamiento-monte-sagiri",
+      "title": "Entrenamiento en el monte Sagiri",
+      "date": "Dos años de adiestramiento",
+      "order": 20,
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "text": "Bajo las rigurosas instrucciones del maestro Sakonji Urokodaki, Tanjiro aprende a dominar la respiración y el arte de la espada en una montaña repleta de trampas. Mientras tanto, Nezuko cae en un profundo sueño para recuperar energía sin recurrir al consumo humano. El entrenamiento culmina cuando el joven logra partir una inmensa roca con su katana.",
+      "characters": [
+        "tanjiro-kamado",
+        "sakonji-urokodaki"
+      ],
+      "major": false
+    },
+    {
+      "id": "prueba-seleccion-final",
+      "title": "Supervivencia en la Selección Final",
+      "date": "Siete días de prueba",
+      "order": 30,
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      },
+      "text": "Los aspirantes a cazadores deben sobrevivir durante siete noches en el monte Fujikasane, rodeados de demonios cautivos entre flores de glicinia. Tanjiro derrota a una gigantesca criatura vengativa y venga a los anteriores discípulos de su maestro. Al terminar la prueba, Tanjiro, Zenitsu y Kanao logran clasificar oficialmente dentro del Cuerpo.",
+      "characters": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "kanao-tsuyuri"
+      ],
+      "major": false
+    },
+    {
+      "id": "encuentro-en-asakusa",
+      "title": "Encuentro fortuito en Asakusa",
+      "date": "Primera misión en la metrópoli",
+      "order": 40,
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "text": "En medio del bullicio de Tokio, Tanjiro percibe el mismo aroma que impregnaba su hogar el día de la tragedia familiar. Para su asombro, localiza a Muzan Kibutsuji camuflado entre los humanos como un distinguido padre de familia. El tirano provoca un altercado callejero transformando a un transeúnte al azar para encubrir su huida.",
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado",
+        "muzan-kibutsuji"
+      ],
+      "major": false
+    },
+    {
+      "id": "alianza-con-tamayo",
+      "title": "Pacto médico en el refugio oculto",
+      "date": "Noche en Asakusa",
+      "order": 50,
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "text": "La doctora demonio Tamayo interviene en auxilio de Tanjiro y lo refugia en una mansión protegida por barreras ilusorias. Ambos pactan colaborar en la síntesis de una cura que revierta la condición de los demonios. Para este propósito, Tanjiro acepta la encomienda de recolectar muestras de sangre de las criaturas más poderosas al servicio de Muzan.",
+      "characters": [
+        "tanjiro-kamado",
+        "tamayo"
+      ],
+      "major": false
+    },
+    {
+      "id": "combate-mansion-tambores",
+      "title": "Batalla en la mansión de los tambores",
+      "date": "Misión en la mansión Tsuzumi",
+      "order": 60,
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      },
+      "text": "Tanjiro y Zenitsu acuden a rescatar a unos niños atrapados en una extraña residencia cuyas habitaciones giran al compás de tambores corporales. En el interior coinciden con Inosuke Hashibira, un impetuoso joven con cabeza de jabalí que embiste con dos katanas melladas. Los tres cazadores logran eliminar a los demonios del recinto y asegurar a los sobrevivientes.",
+      "characters": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ],
+      "major": false
+    },
+    {
+      "id": "expedicion-monte-natagumo",
+      "title": "Incursión en el monte Natagumo",
+      "date": "Operación nocturna en el bosque",
+      "order": 70,
+      "at": {
+        "season": "ky-t1",
+        "arc": 2
+      },
+      "text": "El trío de novatos es enviado a un tenebroso monte donde decenas de cazadores experimentados han sucumbido ante hilos invisibles de araña. Descubren que una familia de demonios arácnidos manipula a los cuerpos de sus camaradas como títeres y envenena a los invasores. Con enorme dificultad y heridas graves, los jóvenes se abren paso dividiendo sus fuerzas.",
+      "characters": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ],
+      "major": false
+    },
+    {
+      "id": "despertar-danza-dios-fuego",
+      "title": "Despertar de la Danza del Dios del Fuego",
+      "date": "Clímax del combate en Natagumo",
+      "order": 80,
+      "at": {
+        "season": "ky-t1",
+        "arc": 2
+      },
+      "text": "Acorralado por los letales hilos cortantes de la Quinta Luna Inferior, Tanjiro recuerda el baile ritual sagrado que su padre ejecutaba en la nieve. Canalizando ese movimiento ancestral en su espada rota, transforma su respiración acuática en intensas llamas bermejas. Al mismo instante, Nezuko activa por primera vez su sangre explosiva para consumar un ataque sincronizado.",
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ],
+      "major": true
+    },
+    {
+      "id": "intervencion-pilares-natagumo",
+      "title": "Llegada de los refuerzos de élite",
+      "date": "Conclusión en el monte Natagumo",
+      "order": 90,
+      "at": {
+        "season": "ky-t1",
+        "arc": 2
+      },
+      "text": "Giyu Tomioka y Shinobu Kocho arriban como refuerzos enviados por la comandancia para erradicar a las amenazas restantes del monte. Shinobu suministra antídotos vitales a los cazadores envenenados, mientras Giyu decapita al demonio líder con una técnica impecable. El desenlace se torna tenso cuando Shinobu intenta ejecutar a Nezuko y Giyu interviene para proteger a los hermanos.",
+      "characters": [
+        "giyu-tomioka",
+        "shinobu-kocho"
+      ],
+      "major": false
+    },
+    {
+      "id": "juicio-sede-cazadores",
+      "title": "Juicio ante la sede de los Pilares",
+      "date": "Reunión solemne en la sede",
+      "order": 100,
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "text": "Tanjiro es conducido atado ante los nueve Pilares del Cuerpo para responder por el delito de resguardar a un demonio. La gran mayoría de los espadachines de élite, incluyendo a Kyojuro Rengoku, exigen una condena severa e inmediata. La situación se calma con la llegada del líder Kagaya Ubuyashiki, quien respalda formalmente a los hermanos Kamado presentando una garantía de honor.",
+      "characters": [
+        "tanjiro-kamado",
+        "kagaya-ubuyashiki",
+        "kyojuro-rengoku"
+      ],
+      "major": false
+    },
+    {
+      "id": "rehabilitacion-mansion-mariposa",
+      "title": "Recuperación en la Mansión Mariposa",
+      "date": "Entrenamiento de rehabilitación",
+      "order": 110,
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "text": "Los jóvenes reclutas son acogidos en la finca médica de Shinobu para sanar sus fracturas y someterse a exigentes ejercicios de reflejos. Tras constantes derrotas frente a la ágil Kanao Tsuyuri, Tanjiro persevera día y noche hasta dominar la Respiración de Concentración Total constante. Su progreso reanima a Zenitsu e Inosuke, quienes pronto alcanzan el mismo nivel.",
+      "characters": [
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira",
+        "kanao-tsuyuri"
+      ],
+      "major": false
+    },
+    {
+      "id": "purga-lunas-inferiores",
+      "title": "Purga sangrienta en la Castillo Infinito",
+      "date": "Cónclave de las Lunas Inferiores",
+      "order": 120,
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "text": "Encolerizado por la constante debilidad y la muerte de Rui, Muzan convoca a las Lunas Inferiores restantes a su fortaleza dimensional. Asumiendo una apariencia femenina, juzga sus pensamientos y ejecuta implacablemente a casi todas por considerarlas inútiles. Solo perdona a la Primera Luna Inferior, a quien recompensa con una porción de su sangre para encomendarle la muerte de Tanjiro.",
+      "characters": [
+        "muzan-kibutsuji"
+      ],
+      "major": true
+    },
+    {
+      "id": "pesadilla-tren-infinito",
+      "title": "Pesadilla a bordo del Tren Infinito",
+      "date": "Salida nocturna del expreso",
+      "order": 130,
+      "at": {
+        "season": "ky-mugen",
+        "arc": 0
+      },
+      "text": "Tanjiro y sus camaradas abordan el convoy ferroviario para reunirse con el Pilar de la Llama e investigar la misteriosa desaparición de decenas de viajeros. La Primera Luna Inferior sume a todos los presentes en un trance onírico tras fusionar su anatomía con la estructura del ferrocarril. Trabajando en equipo, Tanjiro e Inosuke logran seccionar la columna del monstruo y descarrilar la máquina.",
+      "characters": [
+        "tanjiro-kamado",
+        "inosuke-hashibira",
+        "kyojuro-rengoku"
+      ],
+      "major": false
+    },
+    {
+      "id": "duelo-muerte-akaza",
+      "title": "Duelo al amanecer contra Akaza",
+      "date": "Amanecer tras el descarrilamiento",
+      "order": 140,
+      "at": {
+        "season": "ky-mugen",
+        "arc": 0
+      },
+      "text": "La Tercera Luna Superior irrumpe intempestivamente en el lugar del siniestro desafiando a Kyojuro a un salvaje intercambio de artes marciales. Rengoku rehúsa tajantemente la oferta de convertirse en demonio y lucha con fiereza hasta sufrir una herida mortal en el torso. Antes de sucumbir, el Pilar retiene al demonio hasta la salida del sol y lega sus últimas enseñanzas a Tanjiro.",
+      "characters": [
+        "kyojuro-rengoku",
+        "akaza",
+        "tanjiro-kamado"
+      ],
+      "major": true
+    },
+    {
+      "id": "infiltracion-distrito-rojo",
+      "title": "Infiltración en el Distrito Rojo",
+      "date": "Operación en Yoshiwara",
+      "order": 150,
+      "at": {
+        "season": "ky-distrito",
+        "arc": 0
+      },
+      "text": "El extravagante Pilar del Sonido recluta a Tanjiro y sus amigos para infiltrarse vestidos de cortesanas en las casas de placer de Yoshiwara. El objetivo primordial consiste en localizar a sus tres esposas ninja, quienes desaparecieron tras recabar pistas de un poderoso demonio infiltrado. Las indagaciones conducen al descubrimiento de una red subterránea donde las víctimas son almacenadas dentro de fajas de tela.",
+      "characters": [
+        "tengen-uzui",
+        "tanjiro-kamado",
+        "zenitsu-agatsuma",
+        "inosuke-hashibira"
+      ],
+      "major": false
+    },
+    {
+      "id": "batalla-sexta-luna-superior",
+      "title": "Batalla contra los hermanos de la Sexta Luna",
+      "date": "Noche del incendio en Yoshiwara",
+      "order": 160,
+      "at": {
+        "season": "ky-distrito",
+        "arc": 0
+      },
+      "text": "El combate estalla violentamente al revelarse que la Sexta Luna Superior está compuesta por dos hermanos inseparables, Daki y Gyutaro. Para aniquilarlos de forma definitiva, los cazadores deben decapitar a ambos demonios de manera simultánea mientras esquivan venenos letales y hoces de sangre. Tras perder una mano y un ojo, Tengen coordina el golpe coordinado final junto a Tanjiro.",
+      "characters": [
+        "tengen-uzui",
+        "tanjiro-kamado",
+        "nezuko-kamado"
+      ],
+      "major": true
+    },
+    {
+      "id": "llegada-aldea-herreros",
+      "title": "Viaje a la aldea secreta de los herreros",
+      "date": "Búsqueda de una nueva katana",
+      "order": 170,
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "text": "Con su katana dañada tras la contienda de Yoshiwara, Tanjiro viaja con los ojos vendados hacia el asentamiento oculto donde residen los forjadores del Cuerpo. Allí entabla conversación con el taciturno Pilar de la Niebla y con la afectuosa Mitsuri Kanroji en las aguas termales. Mientras aguarda su arma, el joven entrena contra un autómata mecánico milenario.",
+      "characters": [
+        "tanjiro-kamado",
+        "muichiro-tokito",
+        "mitsuri-kanroji"
+      ],
+      "major": false
+    },
+    {
+      "id": "despertar-marcas-aldea",
+      "title": "Manifestación de las marcas de cazador",
+      "date": "Asedio a la aldea de los herreros",
+      "order": 180,
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "text": "Las Cuarta y Quinta Lunas Superiores lanzan un ataque sorpresa para exterminar a los forjadores y desarmar a los cazadores. Frente a la adversidad extrema, Muichiro Tokito recobra los recuerdos de su trágico pasado y manifiesta una marca que potencia sus habilidades hasta decapitar a Gyokko en solitario. Por su parte, Mitsuri activa su propia marca para retener a las feroces manifestaciones emocionales de Hantengu.",
+      "characters": [
+        "muichiro-tokito",
+        "mitsuri-kanroji"
+      ],
+      "major": false
+    },
+    {
+      "id": "conquista-luz-solar",
+      "title": "Nezuko conquista la luz del sol",
+      "date": "Amanecer en las colinas de la aldea",
+      "order": 190,
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "text": "Tanjiro se ve obligado a elegir entre proteger a su hermana del amanecer o liquidar al escurridizo cuerpo principal de Hantengu. Nezuko empuja a su hermano con valentía hacia el enemigo para salvar a los aldeanos inocentes. Tras el golpe mortal, Tanjiro descubre entre lágrimas que Nezuko no solo sobrevivió a la luz diurna, sino que comenzó a hablar nuevamente, desatando la ambición final de Muzan.",
+      "characters": [
+        "nezuko-kamado",
+        "tanjiro-kamado",
+        "muzan-kibutsuji"
+      ],
+      "major": true
+    },
+    {
+      "id": "inicio-entrenamiento-pilares",
+      "title": "Inicio del gran adiestramiento de los Pilares",
+      "date": "Periodo de concentración marcial",
+      "order": 200,
+      "at": {
+        "season": "ky-pilares",
+        "arc": 0
+      },
+      "text": "Conscientes de la inminente ofensiva de Muzan para apoderarse de Nezuko, los cazadores organizan un severo programa de instrucción impartido por todos los Pilares. Tanjiro recorre cada campamento superando extenuantes pruebas físicas y ayuda a Giyu Tomioka a reconciliarse con su doloroso pasado. Entretanto, Shinobu Kocho permanece en su laboratorio preparando contramedidas químicas con la colaboración de Tamayo.",
+      "characters": [
+        "tanjiro-kamado",
+        "giyu-tomioka",
+        "shinobu-kocho"
+      ],
+      "major": false
+    },
+    {
+      "id": "emboscada-residencia-ubuyashiki",
+      "title": "Sacrificio explosivo en la residencia Ubuyashiki",
+      "date": "Invasión nocturna de la sede",
+      "order": 210,
+      "at": {
+        "season": "ky-pilares",
+        "arc": 0
+      },
+      "text": "Muzan localiza la mansión de Kagaya Ubuyashiki y penetra en sus aposentos para vanagloriarse antes de matarlo. Sin embargo, el líder del Cuerpo detona un colosal cargamento de explosivos que arrasa la residencia consigo mismo y parte de su familia para aturdir al invasor. En medio del fuego, Tamayo inmoviliza al progenitor de los demonios inoculándole una sustancia transformadora en sus tejidos.",
+      "characters": [
+        "kagaya-ubuyashiki",
+        "muzan-kibutsuji",
+        "tamayo"
+      ],
+      "major": true
+    },
+    {
+      "id": "despliegue-fortaleza-infinita",
+      "title": "Caída masiva en la Castillo Infinito",
+      "date": "Comienzo del asedio dimensional",
+      "order": 220,
+      "at": {
+        "season": "ky-castillo-1",
+        "arc": 0
+      },
+      "text": "Los Pilares y cazadores se abalanzan para rodear a Muzan, pero la demonio Nakime abre trampas espaciales que precipitan a todo el contingente al interior de su laberinto. Dispersos por infinitas estancias de gravedad variable, los guerreros deben abrirse paso entre enjambres de demonios menores. La directiva del Cuerpo orienta sus movimientos mediante cuervos para coordinar los duelos prioritarios.",
+      "characters": [
+        "tanjiro-kamado",
+        "giyu-tomioka",
+        "muzan-kibutsuji"
+      ],
+      "major": false
+    },
+    {
+      "id": "sacrificio-shinobu-kocho",
+      "title": "El trágico sacrificio de Shinobu Kocho",
+      "date": "Duelo en el santuario del castillo",
+      "order": 230,
+      "at": {
+        "season": "ky-castillo-1",
+        "arc": 0
+      },
+      "text": "Shinobu localiza a la Segunda Luna Superior Doma y lo enfrenta con furia para vengar el asesinato de su hermana mayor. Pese a inyectarle múltiples venenos diseñados con glicinia, el demonio desarrolla una rápida tolerancia celular y termina devorando a la espadachina. Kanao llega al recinto justo a tiempo para atestiguar la caída de su mentora y asume el relevo en el combate.",
+      "characters": [
+        "shinobu-kocho",
+        "kanao-tsuyuri"
+      ],
+      "major": false
+    },
+    {
+      "id": "redencion-y-caida-akaza",
+      "title": "Redención y caída de Akaza",
+      "date": "Clímax en los pasillos de la fortaleza",
+      "order": 240,
+      "at": {
+        "season": "ky-castillo-1",
+        "arc": 0
+      },
+      "text": "Tanjiro y Giyu libran un agotador combate contra la Tercera Luna Superior, alcanzando el estado desinteresado para conseguir decapitarlo. Aunque el cuerpo de la criatura continúa atacando sin cabeza por puro rencor bélico, los recuerdos de su vida humana como Hakuji afloran en su memoria. Conmovido por el espíritu de sus seres amados, Akaza detiene su propia regeneración y se despide con gratitud.",
+      "characters": [
+        "akaza",
+        "tanjiro-kamado",
+        "giyu-tomioka"
+      ],
+      "major": true
+    },
+    {
+      "id": "caida-lunas-restantes",
+      "title": "Derrota de las Lunas Superiores restantes",
+      "date": "Etapa final dentro del castillo",
+      "order": 250,
+      "at": {
+        "season": "ky-manga",
+        "arc": 0
+      },
+      "text": "El veneno masivo que Shinobu albergaba en su cuerpo corroe las entrañas de Doma, permitiendo que Kanao e Inosuke lo decapiten definitivamente. Simultáneamente, Muichiro Tokito y sus aliados logran abatir a la Primera Luna Superior tras una colosal batalla que cuesta la vida del joven Pilar de la Niebla. Desesperado por el colapso de sus servidores, Muzan destruye a Nakime y fuerza la emergencia del castillo.",
+      "characters": [
+        "kanao-tsuyuri",
+        "inosuke-hashibira",
+        "muichiro-tokito"
+      ],
+      "major": false
+    },
+    {
+      "id": "batalla-decisiva-amanecer",
+      "title": "Batalla decisiva hasta el amanecer",
+      "date": "Noche en las ruinas de la ciudad",
+      "order": 260,
+      "at": {
+        "season": "ky-manga",
+        "arc": 1
+      },
+      "text": "Tras expulsar a los cazadores a la superficie, un Muzan grotesco y mutilador combate contra los Pilares restantes en una carrera contrarreloj antes del alba. Severamente envejecido y debilitado por el fármaco cuádruple de Tamayo, el progenitor masacra a gran parte de los combatientes mientras Tanjiro conecta las posturas solares. Al despuntar los primeros rayos solares en el horizonte, la carne de Muzan es desintegrada en cenizas.",
+      "characters": [
+        "muzan-kibutsuji",
+        "tanjiro-kamado",
+        "giyu-tomioka",
+        "mitsuri-kanroji"
+      ],
+      "major": true
+    },
+    {
+      "id": "reversion-demonio-y-paz",
+      "title": "Restauración de Tanjiro y advenimiento de la paz",
+      "date": "Días posteriores a la batalla",
+      "order": 270,
+      "at": {
+        "season": "ky-manga",
+        "arc": 1
+      },
+      "text": "En su último aliento, Muzan transmite su sangre a Tanjiro para convertirlo en el nuevo rey demonio invulnerable a la luz. La oportuna intervención de una Nezuko plenamente humana y el suministro de la última dosis medicinal por parte de Kanao logran revertir la mutación. Con la erradicación total de los demonios, el Cuerpo se disuelve y los supervivientes regresan a una vida pacífica.",
+      "characters": [
+        "tanjiro-kamado",
+        "nezuko-kamado",
+        "kanao-tsuyuri"
+      ],
+      "major": false
+    }
+  ],
+  "relations": [
+    {
+      "from": "tanjiro-kamado",
+      "to": "nezuko-kamado",
+      "kind": "familia",
+      "detail": "Hermanos inseparables unidos por el amor fraterno y el anhelo de devolverle la humanidad a ella.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "sakonji-urokodaki",
+      "to": "tanjiro-kamado",
+      "kind": "mentor",
+      "detail": "Maestro veterano que adiestró rigurosamente al joven en el monte Sagiri para dominar la espada.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "giyu-tomioka",
+      "to": "tanjiro-kamado",
+      "kind": "mentor",
+      "detail": "Guerrero que reconoció el potencial del muchacho y lo guio hacia el camino de los cazadores.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "tanjiro-kamado",
+      "to": "zenitsu-agatsuma",
+      "kind": "aliado",
+      "detail": "Compañeros de generación que formaron una profunda hermandad de armas a lo largo de sus viajes.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "tanjiro-kamado",
+      "to": "inosuke-hashibira",
+      "kind": "rival",
+      "detail": "Comenzaron chocando por el temperamento salvaje del jabalí pero desarrollaron una leal camaradería.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "zenitsu-agatsuma",
+      "to": "inosuke-hashibira",
+      "kind": "aliado",
+      "detail": "Espadachines de personalidades opuestas que aprendieron a coordinarse con efectividad en combate.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "tanjiro-kamado",
+      "to": "muzan-kibutsuji",
+      "kind": "enemigo",
+      "detail": "El joven juró no descansar hasta aniquilar al tirano responsable de la matanza de su hogar.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "tamayo",
+      "to": "muzan-kibutsuji",
+      "kind": "enemigo",
+      "detail": "Doctora demoníaca que consagró siglos de clandestinidad a fabricar el veneno que acabe con su creador.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "tamayo",
+      "to": "tanjiro-kamado",
+      "kind": "aliado",
+      "detail": "Médica que colabora con el cazador intercambiando sangre demoníaca para sintetizar una cura.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "shinobu-kocho",
+      "to": "giyu-tomioka",
+      "kind": "aliado",
+      "detail": "Compañeros Pilares con visiones contrastadas que se apoyan mutuamente durante las misiones complejas.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 2
+      }
+    },
+    {
+      "from": "kanao-tsuyuri",
+      "to": "shinobu-kocho",
+      "kind": "familia",
+      "detail": "Hermana adoptiva y sucesora espiritual que aprendió a valorar la vida bajo su amparo en la mansión.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "kagaya-ubuyashiki",
+      "to": "giyu-tomioka",
+      "kind": "mentor",
+      "detail": "Líder venerado cuya voz serena brinda consuelo y dirección a la atormentada conciencia del Pilar.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "kyojuro-rengoku",
+      "to": "tanjiro-kamado",
+      "kind": "mentor",
+      "detail": "Pilar ejemplar cuya valentía y palabras de aliento marcaron el porvenir del joven espadachín.",
+      "at": {
+        "season": "ky-mugen",
+        "arc": 0
+      }
+    },
+    {
+      "from": "akaza",
+      "to": "kyojuro-rengoku",
+      "kind": "enemigo",
+      "detail": "Rivalidad mortal donde el demonio admiró la técnica del humano e intentó convencerlo de unirse a sus filas.",
+      "at": {
+        "season": "ky-mugen",
+        "arc": 0
+      }
+    },
+    {
+      "from": "tengen-uzui",
+      "to": "tanjiro-kamado",
+      "kind": "aliado",
+      "detail": "Pilar que confió en los jóvenes reclutas para una peligrosa incursión encubierta en el Distrito Rojo.",
+      "at": {
+        "season": "ky-distrito",
+        "arc": 0
+      }
+    },
+    {
+      "from": "tanjiro-kamado",
+      "to": "muichiro-tokito",
+      "kind": "aliado",
+      "detail": "Compañeros que fortalecieron su amistad en la aldea tras recuperar el joven Pilar la memoria perdida.",
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      }
+    },
+    {
+      "from": "tanjiro-kamado",
+      "to": "mitsuri-kanroji",
+      "kind": "aliado",
+      "detail": "Combatientes que coordinaron esfuerzos para repeler la embestida enemiga en la villa secreta.",
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kagaya-ubuyashiki",
+      "to": "muzan-kibutsuji",
+      "kind": "enemigo",
+      "detail": "Parientes lejanos vinculados por una milenaria maldición sanguínea que culminó en un enfrentamiento fatal.",
+      "at": {
+        "season": "ky-pilares",
+        "arc": 0
+      }
+    },
+    {
+      "from": "akaza",
+      "to": "tanjiro-kamado",
+      "kind": "rival",
+      "detail": "Enemigos declarados que sostuvieron un duelo definitivo de voluntades dentro de la Castillo Infinito.",
+      "at": {
+        "season": "ky-castillo-1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kanao-tsuyuri",
+      "to": "tanjiro-kamado",
+      "kind": "romance",
+      "detail": "Jóvenes cuyo afecto nació con un lanzamiento de moneda y floreció tras la conclusión de la guerra.",
+      "at": {
+        "season": "ky-manga",
+        "arc": 1
+      }
+    },
+    {
+      "from": "zenitsu-agatsuma",
+      "to": "nezuko-kamado",
+      "kind": "romance",
+      "detail": "Devoción constante del joven que culminó en matrimonio una vez restaurada la paz en el mundo.",
+      "at": {
+        "season": "ky-manga",
+        "arc": 1
+      }
+    }
+  ]
+}
