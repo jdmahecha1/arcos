@@ -88,7 +88,7 @@
           }
         },
         {
-          "text": "Despierta la manipulación de sangre y la técnica de cortes para enfrentarse a Sukuna en Shinjuku.",
+          "text": "Aprende a usar la técnica de cortes de Sukuna y refina la manipulación de sangre con ayuda de Choso para enfrentarlo en Shinjuku.",
           "at": {
             "season": "jjk-manga",
             "arc": 1
@@ -110,14 +110,14 @@
           }
         },
         {
-          "text": "Es nombrado líder oficial del clan Zen'in tras el fallecimiento de Naobito.",
+          "text": "Tras la muerte de Naobito y la caída del clan, queda como heredero de la jefatura de los Zen'in, algo que no le interesa.",
           "at": {
             "season": "jjk-t3",
             "arc": 0
           }
         },
         {
-          "text": "Su cuerpo es usurpado por Sukuna, quien lo sume en la desesperación al asesinar a su hermana Tsumiki.",
+          "text": "Sukuna toma su cuerpo y lo obliga a matar a Yorozu, que había encarnado en el cuerpo de su hermanastra Tsumiki, lo que lo hunde en la desesperación.",
           "at": {
             "season": "jjk-manga",
             "arc": 0
@@ -340,7 +340,7 @@
       "id": "suguru-geto",
       "name": "Suguru Geto",
       "role": "Hechicero renegado aliado con espíritus malditos",
-      "intro": "Un antiguo hechicero que conspira en secreto junto a espíritus de grado especial como Jogo y Mahito. Pretende alterar el orden establecido y atrapar a Gojo para imponer una sociedad dominada por las maldiciones.",
+      "intro": "Un hechicero renegado de aspecto sereno que se mueve en la sombra junto a espíritus de grado especial como Jogo y Mahito.",
       "appears": {
         "season": "jjk-t1",
         "arc": 1
@@ -420,7 +420,7 @@
           }
         },
         {
-          "text": "Se sacrifica interceptando las llamas de Sukuna para salvar la vida de su hermano Yuji en Shinjuku.",
+          "text": "Muere en Shinjuku protegiendo a Yuji de Sukuna.",
           "at": {
             "season": "jjk-manga",
             "arc": 1
@@ -512,14 +512,14 @@
           }
         },
         {
-          "text": "Asesina a Yuki Tsukumo en las profundidades del Corredor Estelar para adueñarse del maestro Tengen.",
+          "text": "Invade las Tumbas de la Estrella y derrota a Yuki Tsukumo, a Choso y a Tengen; Yuki muere en el combate.",
           "at": {
             "season": "jjk-manga",
             "arc": 0
           }
         },
         {
-          "text": "Es emboscado y decapitado por Yuta Okkotsu durante los compases finales del torneo.",
+          "text": "Es emboscado y decapitado por Yuta Okkotsu durante los compases finales del Culling Game.",
           "at": {
             "season": "jjk-manga",
             "arc": 1
@@ -556,8 +556,8 @@
     {
       "id": "hiromi-higuruma",
       "name": "Hiromi Higuruma",
-      "role": "Abogado defensor convertido en participante del torneo",
-      "intro": "Un abogado desilusionado por las injusticias del sistema penal que despierta habilidades mágicas en el torneo. Acumula un alto puntaje gracias a un juicio ritual donde evalúa la culpabilidad de sus oponentes.",
+      "role": "Abogado defensor convertido en participante del Culling Game",
+      "intro": "Un abogado desilusionado por las injusticias del sistema penal que despierta habilidades mágicas en el Culling Game. Acumula un alto puntaje gracias a un juicio ritual donde evalúa la culpabilidad de sus oponentes.",
       "appears": {
         "season": "jjk-t3",
         "arc": 1
@@ -900,7 +900,7 @@
         "season": "jjk-t3",
         "arc": 0
       },
-      "text": "Maki acude a la armería de su clan para recolectar herramientas malditas, pero su propio padre la hiere de gravedad y sacrifica a su gemela Mai. Tras el fallecimiento de Mai, Maki adquiere una restricción celestial absoluta y acaba con los combatientes de la familia Zen'in.",
+      "text": "Maki acude a la armería de su clan y es herida de gravedad por su propio padre. Su gemela Mai se sacrifica para dejarle toda su fuerza: Maki queda con una restricción celestial absoluta y acaba con su padre y con los combatientes de la familia Zen'in.",
       "characters": [
         "maki-zenin",
         "megumi-fushiguro"
@@ -965,7 +965,7 @@
         "season": "jjk-manga",
         "arc": 0
       },
-      "text": "Con la ayuda de las habilidades de los nuevos participantes del torneo, los hechiceros consiguen abrir la parte trasera de la Prisión Confinadora. Gojo reaparece ileso ante Kenjaku y Sukuna, pactando enfrentarse el día de Nochebuena en una batalla decisiva.",
+      "text": "Gracias a la técnica de Hana Kurusu y a las reglas añadidas al Culling Game, los hechiceros abren la Prisión Confinadora. Gojo queda libre y acuerda con Sukuna un combate decisivo para Nochebuena.",
       "characters": [
         "satoru-gojo",
         "yuji-itadori",
@@ -999,7 +999,7 @@
         "season": "jjk-manga",
         "arc": 1
       },
-      "text": "Aprovechando que Kenjaku se encuentra totalmente distraído en una batalla de comedia surrealista, Yuta Okkotsu realiza un ataque sorpresa y le corta la cabeza. Antes de extinguirse, el milenario manipulador transfiere la autoridad del torneo a Sukuna.",
+      "text": "Aprovechando que Kenjaku se encuentra totalmente distraído en una batalla de comedia surrealista, Yuta Okkotsu realiza un ataque sorpresa y le corta la cabeza. Tras su muerte, un último seguro transfiere los restos de Tengen a Sukuna y le da autoridad sobre el Culling Game.",
       "characters": [
         "yuta-okkotsu",
         "aoi-todo",
@@ -1071,7 +1071,7 @@
       "from": "maki-zenin",
       "to": "megumi-fushiguro",
       "kind": "familia",
-      "detail": "Primos: el padre de Megumi nació en el clan Zen'in, del que Maki reniega.",
+      "detail": "Parientes lejanos: Toji, el padre de Megumi, era primo de Maki dentro del clan Zen'in.",
       "at": {
         "season": "jjk-t2",
         "arc": 0
@@ -1211,7 +1211,7 @@
       "from": "kinji-hakari",
       "to": "yuji-itadori",
       "kind": "aliado",
-      "detail": "Hakari acepta aliarse con Yuji para participar en el torneo tras comprobar su determinación en el ring.",
+      "detail": "Hakari acepta aliarse con Yuji para participar en el Culling Game tras comprobar su determinación en el ring.",
       "at": {
         "season": "jjk-t3",
         "arc": 0
@@ -1221,7 +1221,7 @@
       "from": "hiromi-higuruma",
       "to": "yuji-itadori",
       "kind": "aliado",
-      "detail": "El abogado decide colaborar con Yuji tras el juicio y utiliza sus puntos para habilitar nuevas reglas en el torneo.",
+      "detail": "El abogado decide colaborar con Yuji tras el juicio y utiliza sus puntos para habilitar nuevas reglas en el Culling Game.",
       "at": {
         "season": "jjk-t3",
         "arc": 1

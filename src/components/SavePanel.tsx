@@ -58,6 +58,11 @@ export default function SavePanel({ saga }: Props) {
             <li key={season.id} className="save__season">
               <div className="save__title">
                 <span>{season.title}</span>
+                {value === season.arcs.length && (
+                  <span className="save__done" aria-hidden="true" lang="ja">
+                    済
+                  </span>
+                )}
                 <span className="save__year" aria-hidden="true">
                   {FORMAT_LABEL[season.format]}{season.optional ? ', opcional' : ''}, {season.year}
                 </span>

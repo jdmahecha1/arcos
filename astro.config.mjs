@@ -34,6 +34,9 @@ export default defineConfig({
       styleDirective: { resources: ["'self'", "'unsafe-inline'"] },
     },
   },
+  // Las fuentes japonesas vienen en muchos archivos pequeños: no se incrustan como data:,
+  // así la CSP sigue permitiendo solo fuentes del propio sitio.
+  vite: { build: { assetsInlineLimit: 0 } },
   integrations: [
     react(),
     sitemap({ filter: (page) => !hidden.some((path) => page.endsWith(path)) }),

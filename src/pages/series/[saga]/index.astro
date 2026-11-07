@@ -13,7 +13,7 @@ import { getSagas } from '../../../lib/data';
 import type { Saga } from '../../../lib/schema';
 import { portraitSrc, SAGA_COVER } from '../../../lib/artwork';
 import { airedYears, FORMAT_LABEL, seasonsInOrder } from '../../../lib/spoilers';
-import { themeFor } from '../../../lib/themes';
+import { themeFor, TITLE_JA } from '../../../lib/themes';
 import { characterUrl, url } from '../../../lib/url';
 
 export function getStaticPaths() {
@@ -48,10 +48,15 @@ const sections = [
     <SagaArt sagaId={saga.id} theme={theme} uid="hero" class="saga-hero__art" priority />
     <div class="wrap saga-hero__content">
       <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.seasons.find((g) => g.id === SAGA_COVER[saga.id])?.title ?? saga.title} class="saga-hero__cover" priority />
-      <nav aria-label="Ruta" class="crumbs"><a href={url()}>Series</a> / <span>{saga.title}</span></nav>
-      <p class="saga-hero__meta">{saga.studio}, {saga.genre.toLowerCase()}, {years}</p>
-      <h1>{saga.title}</h1>
-      <p class="saga-hero__tagline">{saga.tagline}</p>
+      <div class="saga-hero__caption">
+        {TITLE_JA[saga.id] && <span class="title-ja saga-hero__ja" aria-hidden="true" lang="ja">{TITLE_JA[saga.id]}</span>}
+        <div>
+          <nav aria-label="Ruta" class="crumbs"><a href={url()}>Series</a> / <span>{saga.title}</span></nav>
+          <p class="saga-hero__meta">{saga.studio}, {saga.genre.toLowerCase()}, {years}</p>
+          <h1>{saga.title}</h1>
+          <p class="saga-hero__tagline">{saga.tagline}</p>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -187,6 +192,30 @@ const sections = [
     padding-block: var(--space-8) var(--space-6);
   }
 
+  /* Cuadro de narración de manga: el texto va sobre papel, nunca directamente sobre la imagen. */
+  .saga-hero__caption {
+    display: flex;
+    gap: var(--space-4);
+    width: fit-content;
+    max-width: 640px;
+    padding: var(--space-4) var(--space-5);
+    border: 3px solid var(--line);
+    background: var(--surface);
+    box-shadow: 6px 6px 0 var(--line);
+  }
+
+  /* Título original como lomo del tomo, en el color de la serie. */
+  .saga-hero__ja {
+    flex: none;
+    align-self: stretch;
+    padding: var(--space-2) var(--space-1);
+    border: var(--ink);
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-size: 1.35rem;
+    text-align: center;
+  }
+
   @media (min-width: 861px) {
     .saga-hero__content {
       padding-right: 260px;
@@ -211,26 +240,23 @@ const sections = [
 
   .saga-hero h1 {
     margin-bottom: var(--space-2);
-    text-shadow: 0 2px 24px color-mix(in oklab, var(--bg) 70%, transparent);
   }
 
   .saga-hero__tagline {
     max-width: 52ch;
     margin: 0;
     color: var(--accent);
-    font-family: var(--font-display);
     font-size: var(--step-2);
-    font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
+    line-height: 1.4;
   }
 
   .section-nav {
     position: sticky;
     top: var(--header-h);
     z-index: 40;
-    border-bottom: 1px solid var(--line-soft);
-    background: color-mix(in oklab, var(--bg) 90%, transparent);
-    backdrop-filter: blur(12px);
+    border-block: 3px solid var(--line);
+    background: var(--surface);
   }
 
   .section-nav__inner {
@@ -256,6 +282,18 @@ const sections = [
   .section-nav a:hover {
     color: var(--text);
     border-bottom-color: var(--accent);
+  }
+
+  /* En pantallas angostas las secciones no caben: el borde se desvanece para indicar que se puede deslizar. */
+  @media (max-width: 560px) {
+    .section-nav__inner {
+      padding-right: var(--space-6);
+      mask-image: linear-gradient(90deg, #000 82%, transparent);
+    }
+
+    .section-nav a {
+      padding: 0 var(--space-3);
+    }
   }
 
   .saga-layout {
@@ -309,19 +347,20 @@ const sections = [
     gap: var(--space-4);
     height: 100%;
     padding: var(--space-3) var(--space-4);
-    border: 1px solid var(--line-soft);
-    border-radius: var(--radius-card);
+    border: var(--ink);
     background: var(--surface);
+    box-shadow: var(--shadow-sm);
     color: inherit;
     text-decoration: none;
     transition:
-      border-color 0.2s var(--ease-out),
-      transform 0.2s var(--ease-out);
+      transform 0.15s var(--ease-out),
+      box-shadow 0.15s var(--ease-out);
   }
 
+  /* Al pasar el cursor, la viñeta se levanta del papel y su sombra toma el color de la serie. */
   .person:hover {
-    border-color: var(--accent);
-    transform: translateY(-2px);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--accent);
   }
 
   .person__text {

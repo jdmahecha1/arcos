@@ -1,6 +1,6 @@
 {
   "id": "kaiju-n8",
-  "title": "Kaiju N.º 8",
+  "title": "Kaiju No. 8",
   "tagline": "El deber de un hombre común con el poder de un coloso para proteger a la humanidad.",
   "studio": "Production I.G",
   "genre": "Acción y ciencia ficción",
@@ -16,7 +16,7 @@
         "El hombre que se volvió kaiju",
         "Operación en Sagamihara",
         "Ataque a la base de Tachikawa",
-        "Kaiju N.º 8 capturado"
+        "Kaiju No. 8 capturado"
       ]
     },
     {
@@ -57,7 +57,7 @@
           }
         },
         {
-          "text": "Combate clandestinamente contra el Kaiju N.º 9 para rescatar a sus camaradas durante la misión de Sagamihara.",
+          "text": "Combate clandestinamente contra el Kaiju No. 9 para rescatar a sus camaradas durante la misión de Sagamihara.",
           "at": {
             "season": "k8-t1",
             "arc": 1
@@ -80,8 +80,8 @@
         {
           "text": "Es transferido a la Primera División para entrenar bajo la tutela del capitán Gen Narumi y perfeccionar su rendimiento bélico.",
           "at": {
-            "season": "k8-t2",
-            "arc": 0
+            "season": "k8-t1",
+            "arc": 3
           }
         },
         {
@@ -107,7 +107,7 @@
           }
         },
         {
-          "text": "Sufre heridas críticas al intentar frenar en solitario los proyectiles letales del Kaiju N.º 9 en Sagamihara.",
+          "text": "Sufre heridas críticas al intentar frenar en solitario los proyectiles letales del Kaiju No. 9 en Sagamihara.",
           "at": {
             "season": "k8-t1",
             "arc": 1
@@ -143,21 +143,21 @@
           }
         },
         {
-          "text": "Neutraliza de forma fulminante la coraza del Kaiju N.º 10 con su potencia artillera durante la defensa de Tachikawa.",
+          "text": "Neutraliza de forma fulminante la coraza del Kaiju No. 10 con su potencia artillera durante la defensa de Tachikawa.",
           "at": {
             "season": "k8-t1",
             "arc": 2
           }
         },
         {
-          "text": "Arresta a Kafka tras enterarse de que es el Kaiju N.º 8 y lo traslada bajo estricta escolta al cuartel general.",
+          "text": "Arresta a Kafka tras enterarse de que es el Kaiju No. 8 y lo traslada bajo estricta escolta al cuartel general.",
           "at": {
             "season": "k8-t1",
             "arc": 3
           }
         },
         {
-          "text": "Es atacada por el Kaiju N.º 9 para ser devorada por su letal poder de fuego, pero es rescatada y lucha junto a Kafka en la contienda decisiva.",
+          "text": "Es atacada por el Kaiju No. 9 para ser devorada por su letal poder de fuego, pero es rescatada y lucha junto a Kafka en la contienda decisiva.",
           "at": {
             "season": "k8-manga",
             "arc": 1
@@ -193,11 +193,11 @@
           "text": "Hereda la armadura aérea Numbers 4 perteneciente a su madre fallecida y aprende a maniobrar a gran velocidad.",
           "at": {
             "season": "k8-t2",
-            "arc": 1
+            "arc": 2
           }
         },
         {
-          "text": "Vence en un extenuante duelo psicológico al Kaiju N.º 15, un espécimen creado con el objetivo de atormentarla.",
+          "text": "Vence en un extenuante duelo psicológico al Kaiju No. 15, un espécimen creado con el objetivo de atormentarla.",
           "at": {
             "season": "k8-manga",
             "arc": 0
@@ -230,14 +230,14 @@
           }
         },
         {
-          "text": "Sostiene un combate feroz contra el Kaiju N.º 10 en Tachikawa hasta debilitar su estructura corporal.",
+          "text": "Sostiene un combate feroz contra el Kaiju No. 10 en Tachikawa hasta debilitar su estructura corporal.",
           "at": {
             "season": "k8-t1",
             "arc": 2
           }
         },
         {
-          "text": "Acepta portar al capturado Kaiju N.º 10 transformado en una armadura consciente provista de una cola articulada.",
+          "text": "Acepta la condición del No. 10: ser convertido en arma para combatir junto a él.",
           "at": {
             "season": "k8-t2",
             "arc": 0
@@ -256,6 +256,13 @@
             "season": "k8-manga",
             "arc": 1
           }
+        },
+        {
+          "text": "Estrena el arma del No. 10, una armadura consciente con una cola articulada.",
+          "at": {
+            "season": "k8-t2",
+            "arc": 2
+          }
         }
       ]
     },
@@ -270,7 +277,7 @@
       },
       "reveals": [
         {
-          "text": "Resulta gravemente herido al enfrentar junto a Reno al Kaiju N.º 9 durante la operación de Sagamihara.",
+          "text": "Resulta gravemente herido al enfrentar junto a Reno al Kaiju No. 9 durante la operación de Sagamihara.",
           "at": {
             "season": "k8-t1",
             "arc": 1
@@ -313,16 +320,16 @@
     },
     {
       "id": "kaiju-no-9",
-      "name": "Kaiju N.º 9",
-      "role": "Kaiju humanoide con gran intelecto y poder de asimilación",
-      "intro": "Misteriosa entidad capaz de camuflarse bajo identidades humanas y crear otros seres destructivos. Embosca a las tropas novatas durante las operaciones en el sector de Sagamihara.",
+      "name": "Kaiju No. 9",
+      "role": "Kaiju humanoide inteligente capaz de camuflarse como humano",
+      "intro": "Una misteriosa entidad que adopta apariencia humana y revive kaiju abatidos. Embosca a las tropas novatas durante la operación en Sagamihara.",
       "appears": {
         "season": "k8-t1",
         "arc": 1
       },
       "reveals": [
         {
-          "text": "Es identificado por el N.º 10 como el artífice intelectual que organizó la ofensiva sobre Tachikawa.",
+          "text": "Es identificado por el No. 10 como el artífice intelectual que organizó la ofensiva sobre Tachikawa.",
           "at": {
             "season": "k8-t1",
             "arc": 2
@@ -353,7 +360,7 @@
     },
     {
       "id": "kaiju-no-10",
-      "name": "Kaiju N.º 10",
+      "name": "Kaiju No. 10",
       "role": "Poderoso kaiju humanoide que comanda el asalto aéreo a Tachikawa",
       "intro": "Belicoso monstruo con un nivel de fortaleza de 9.0 que lidera una tropa de criaturas aladas para asediar las instalaciones principales de la base militar de Tachikawa.",
       "appears": {
@@ -395,7 +402,7 @@
           }
         },
         {
-          "text": "Pierde la vida y es asimilado por el Kaiju N.º 9 tras una extenuante contienda individual en Shinagawa.",
+          "text": "Pierde la vida y es asimilado por el Kaiju No. 9 tras una extenuante contienda individual en Shinagawa.",
           "at": {
             "season": "k8-t2",
             "arc": 0
@@ -428,7 +435,7 @@
           }
         },
         {
-          "text": "Vence en un combate a muerte al Kaiju N.º 11 superando las barreras de agua que intentaban cegar su visión.",
+          "text": "Vence en un combate a muerte al Kaiju No. 11 superando las barreras de agua que intentaban cegar su visión.",
           "at": {
             "season": "k8-manga",
             "arc": 0
@@ -464,16 +471,23 @@
     },
     {
       "id": "kaiju-no-11",
-      "name": "Kaiju N.º 11",
-      "role": "Daikaiju acuático creado para contrarrestar la visión de Narumi",
-      "intro": "Imponente ser con rasgos de cetáceo y aleta dorsal que domina corrientes acuáticas a gran presión para obstaculizar las capacidades sensoriales de sus adversarios.",
+      "name": "Kaiju No. 11",
+      "role": "Daikaiju acuático identificado",
+      "intro": "Un imponente kaiju con rasgos de cetáceo que aparece en la costa de Chigasaki, devora peces y vuelve al mar sin pisar tierra.",
       "appears": {
         "season": "k8-t2",
         "arc": 2
       },
       "reveals": [
         {
-          "text": "Es cortado y eliminado por el rifle bayoneta de Gen Narumi en medio de un violento combate sobre aguas profundas.",
+          "text": "Fue creado por el No. 9 para enfrentar a Narumi: controla el agua para estorbar su visión.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Es abatido por Gen Narumi en el distrito de Sumida, tras un combate en el que usa el agua de las alcantarillas.",
           "at": {
             "season": "k8-manga",
             "arc": 0
@@ -483,14 +497,21 @@
     },
     {
       "id": "kaiju-no-15",
-      "name": "Kaiju N.º 15",
-      "role": "Daikaiju psíquico diseñado para atormentar y abatir a Kikoru",
-      "intro": "Criatura de figura esbelta y cerebros expuestos que cuenta con devastadores proyectiles luminosos y ataques mentales focalizados en doblegar la voluntad de su oponente.",
+      "name": "Kaiju No. 15",
+      "role": "Daikaiju de aspecto humano",
+      "intro": "Un kaiju de figura esbelta que observa Shibuya en silencio y más tarde, disfrazado de persona, ataca a transeúntes en Kabukicho.",
       "appears": {
         "season": "k8-t2",
         "arc": 2
       },
       "reveals": [
+        {
+          "text": "Fue creado por el No. 9 para quebrar a Kikoru con ataques mentales.",
+          "at": {
+            "season": "k8-manga",
+            "arc": 0
+          }
+        },
         {
           "text": "Toma la forma de una joven semejante a Kikoru antes de ser destruida por el hacha gigante de la soldado.",
           "at": {
@@ -504,20 +525,42 @@
       "id": "daikaiju-meireki",
       "name": "Daikaiju de la era Meireki",
       "role": "Legendaria entidad milenaria causante de una antigua catástrofe",
-      "intro": "Monstruo primigenio con capacidad de absorber otras criaturas que yacía latente dentro del Kaiju N.º 9 tras haber desencadenado el gran incendio de Meireki en el pasado remoto.",
+      "intro": "Monstruo primigenio con capacidad de absorber otras criaturas que yacía latente dentro del Kaiju No. 9 tras haber desencadenado el gran incendio de Meireki en el pasado remoto.",
       "appears": {
         "season": "k8-manga",
         "arc": 1
       },
       "reveals": [
         {
-          "text": "Se apropia del cuerpo del N.º 9, revive a decenas de monstruos abatidos y es erradicado por Kafka y el ejército en la batalla final.",
+          "text": "Se apropia del cuerpo del No. 9, revive a decenas de monstruos abatidos y es erradicado por Kafka y el ejército en la batalla final.",
           "at": {
             "season": "k8-manga",
             "arc": 1
           }
         }
       ]
+    },
+    {
+      "id": "eiji-hasegawa",
+      "name": "Eiji Hasegawa",
+      "role": "Vicecapitán de la Primera División",
+      "intro": "Un oficial serio y disciplinado que mantiene el orden en la unidad de Narumi y se encarga de que el capitán cumpla con su trabajo.",
+      "appears": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "reveals": []
+    },
+    {
+      "id": "keiji-itami",
+      "name": "Keiji Itami",
+      "role": "Alto mando de las Fuerzas de Defensa",
+      "intro": "Un comandante veterano que asume la dirección de las Fuerzas de Defensa cuando la crisis lo exige.",
+      "appears": {
+        "season": "k8-t2",
+        "arc": 0
+      },
+      "reveals": []
     }
   ],
   "events": [
@@ -611,7 +654,7 @@
     },
     {
       "id": "emboscada-del-kaiju-numero-9",
-      "title": "Ataque sorpresa del Kaiju N.º 9",
+      "title": "Ataque sorpresa del Kaiju No. 9",
       "date": "Durante la limpieza del área",
       "order": 60,
       "at": {
@@ -635,7 +678,7 @@
         "season": "k8-t1",
         "arc": 1
       },
-      "text": "Kafka adopta su fisonomía de monstruo y acude a toda velocidad para encarar al agresor antes de que aniquile a sus compañeros. El Kaiju N.º 8 le propina un castigo demoledor, pero el enemigo logra camuflarse y huir.",
+      "text": "Kafka adopta su fisonomía de monstruo y acude a toda velocidad para encarar al agresor antes de que aniquile a sus compañeros. El Kaiju No. 8 le propina un castigo demoledor, pero el enemigo logra camuflarse y huir.",
       "characters": [
         "kafka-hibino",
         "kaiju-no-9"
@@ -651,7 +694,7 @@
         "season": "k8-t1",
         "arc": 2
       },
-      "text": "Una bandada de criaturas aladas guiada por el Kaiju N.º 10 desciende de improviso sobre el complejo militar. La Tercera División responde con premura para contener los daños sobre las instalaciones principales.",
+      "text": "Una bandada de criaturas aladas guiada por el Kaiju No. 10 desciende de improviso sobre el complejo militar. La Tercera División responde con premura para contener los daños sobre las instalaciones principales.",
       "characters": [
         "soshiro-hoshina",
         "mina-ashiro",
@@ -662,7 +705,7 @@
     },
     {
       "id": "duelo-entre-hoshina-y-el-numero-10",
-      "title": "Contención extrema frente al N.º 10",
+      "title": "Contención extrema frente al No. 10",
       "date": "Durante el asedio al cuartel",
       "order": 90,
       "at": {
@@ -712,13 +755,13 @@
     {
       "id": "juicio-de-combate-en-el-cuartel-general",
       "title": "Duelo de evaluación ante el director Isao",
-      "date": "En la prisión de alta seguridad",
+      "date": "En la base de Ariake",
       "order": 120,
       "at": {
         "season": "k8-t1",
         "arc": 3
       },
-      "text": "El director general Isao Shinomiya enfrenta en combate cuerpo a cuerpo al Kaiju N.º 8 empleando el blindaje del Numbers 2. Kafka reprime su instinto agresivo para evitar herirlo mortalmente, demostrando su total control racional.",
+      "text": "El director general Isao Shinomiya enfrenta en combate cuerpo a cuerpo al Kaiju No. 8 empleando el blindaje del Numbers 2. Kafka reprime su instinto agresivo para evitar herirlo mortalmente, demostrando su total control racional.",
       "characters": [
         "kafka-hibino",
         "isao-shinomiya"
@@ -751,7 +794,7 @@
         "season": "k8-t2",
         "arc": 0
       },
-      "text": "El capturado Kaiju N.º 10 revela que fue fabricado por el N.º 9 y exige un pacto con las autoridades militares. Pide ser convertido en una armadura táctica para entrar nuevamente en combate en sincronía con Hoshina.",
+      "text": "El capturado Kaiju No. 10 revela que fue fabricado por el No. 9 y exige un pacto con las autoridades militares. Pide ser convertido en una armadura táctica para entrar nuevamente en combate en sincronía con Hoshina.",
       "characters": [
         "soshiro-hoshina",
         "kaiju-no-10"
@@ -798,7 +841,7 @@
       "order": 170,
       "at": {
         "season": "k8-t2",
-        "arc": 1
+        "arc": 2
       },
       "text": "Kikoru asume el mando de la armadura Numbers 4 que perteneció a su madre para mejorar su movilidad en batalla. Superando la pesada carga de las expectativas familiares, consigue volar a velocidad sónica en el campo de pruebas.",
       "characters": [
@@ -831,7 +874,7 @@
         "season": "k8-t2",
         "arc": 0
       },
-      "text": "El Kaiju N.º 9 reaparece generando réplicas que atacan varios distritos para dispersar a la Primera División. Mientras las tropas aniquilan a las copias, el enemigo original penetra sigilosamente en la base subterránea.",
+      "text": "El Kaiju No. 9 reaparece generando réplicas que atacan varios distritos para dispersar a la Primera División. Mientras las tropas aniquilan a las copias, el enemigo original penetra sigilosamente en la base subterránea.",
       "characters": [
         "kaiju-no-9",
         "gen-narumi"
@@ -841,13 +884,13 @@
     {
       "id": "caida-y-asimilacion-de-isao-shinomiya",
       "title": "Sacrificio y pérdida del director general",
-      "date": "Batalla en la base subterránea",
+      "date": "Lejos del frente de Shinagawa",
       "order": 157,
       "at": {
         "season": "k8-t2",
         "arc": 0
       },
-      "text": "Isao lucha a muerte contra el Kaiju N.º 9 descargando toda la potencia de sus guanteletes Numbers 2. Agotadas sus energías, el veterano comandante es abatido y absorbido por la criatura, que se apropia de su blindaje.",
+      "text": "Isao lucha a muerte contra el Kaiju No. 9 descargando toda la potencia de sus guanteletes Numbers 2. Agotadas sus energías, el veterano comandante es abatido y absorbido por la criatura, que se apropia de su blindaje.",
       "characters": [
         "isao-shinomiya",
         "kaiju-no-9"
@@ -863,7 +906,7 @@
         "season": "k8-t2",
         "arc": 3
       },
-      "text": "El fortalecido Kaiju N.º 9 inicia una invasión coordinada en múltiples frentes liberando a los monstruos del 11 al 15. Cada una de estas amenazas ha sido diseñada meticulosamente para explotar las debilidades de los oficiales.",
+      "text": "El fortalecido Kaiju No. 9 inicia una invasión coordinada y libera a los kaiju del 11 al 15 en distintos puntos de Tokio, frente a los oficiales más fuertes de las Fuerzas de Defensa.",
       "characters": [
         "kaiju-no-9",
         "kafka-hibino"
@@ -872,14 +915,14 @@
     },
     {
       "id": "triunfo-acuatico-de-gen-narumi",
-      "title": "Victoria sobre las corrientes del N.º 11",
-      "date": "Batalla en el litoral marino",
+      "title": "Victoria sobre las corrientes del No. 11",
+      "date": "Batalla en el distrito de Sumida",
       "order": 220,
       "at": {
         "season": "k8-manga",
         "arc": 0
       },
-      "text": "El Kaiju N.º 11 descarga violentos torrentes acuáticos para confundir los sentidos y anular la visión predictiva del capitán. Narumi sobrepasa sus límites sensoriales y rebana a la criatura marina con su bayoneta.",
+      "text": "El Kaiju No. 11 usa el agua de las alcantarillas para confundir los sentidos y anular la visión predictiva del capitán. Narumi supera sus límites y acaba con la criatura.",
       "characters": [
         "gen-narumi",
         "kaiju-no-11"
@@ -888,7 +931,7 @@
     },
     {
       "id": "superacion-personal-frente-al-numero-15",
-      "title": "Ruptura del espejismo ante el N.º 15",
+      "title": "Ruptura del espejismo ante el No. 15",
       "date": "Contienda en el sector urbano",
       "order": 230,
       "at": {
@@ -911,7 +954,7 @@
         "season": "k8-manga",
         "arc": 1
       },
-      "text": "El Kaiju N.º 9 se transporta velozmente para capturar y absorber a Mina con el fin de quedarse con su descomunal poder de fuego. Kafka se presenta en el instante preciso para defender a su amiga gracias a la asistencia helada de Reno.",
+      "text": "El Kaiju No. 9 se transporta velozmente para capturar y absorber a Mina con el fin de quedarse con su descomunal poder de fuego. Kafka se presenta en el instante preciso para defender a su amiga gracias a la asistencia helada de Reno.",
       "characters": [
         "mina-ashiro",
         "kaiju-no-9",
@@ -923,13 +966,13 @@
     {
       "id": "manifestacion-de-la-bestia-de-meireki",
       "title": "Emergencia del monstruo ancestral",
-      "date": "Tras la caída del Kaiju N.º 9",
+      "date": "Tras la caída del Kaiju No. 9",
       "order": 250,
       "at": {
         "season": "k8-manga",
         "arc": 1
       },
-      "text": "El cuerpo aniquilado del N.º 9 es usurpado por el coloso primigenio de la era Meireki que yacía en su interior. La colosal entidad reanima a decenas de monstruos abatidos y acorrala a todos los combatientes que aún quedan en pie.",
+      "text": "El cuerpo aniquilado del No. 9 es usurpado por el coloso primigenio de la era Meireki que yacía en su interior. La colosal entidad reanima a decenas de monstruos abatidos y acorrala a todos los combatientes que aún quedan en pie.",
       "characters": [
         "kafka-hibino",
         "kaiju-no-9",
@@ -1176,10 +1219,10 @@
       "from": "gen-narumi",
       "to": "kaiju-no-11",
       "kind": "enemigo",
-      "detail": "Daikaiju acuático desarrollado específicamente para confundir los sentidos y la visión del capitán.",
+      "detail": "Kaiju creado para contrarrestar la visión del capitán.",
       "at": {
-        "season": "k8-t2",
-        "arc": 3
+        "season": "k8-manga",
+        "arc": 0
       }
     },
     {
@@ -1188,8 +1231,8 @@
       "kind": "enemigo",
       "detail": "Kaiju creado para quebrar la voluntad de la joven y derrotarla.",
       "at": {
-        "season": "k8-t2",
-        "arc": 3
+        "season": "k8-manga",
+        "arc": 0
       }
     },
     {
@@ -1200,6 +1243,16 @@
       "at": {
         "season": "k8-manga",
         "arc": 1
+      }
+    },
+    {
+      "from": "eiji-hasegawa",
+      "to": "gen-narumi",
+      "kind": "aliado",
+      "detail": "Su vicecapitán, que lo sostiene en lo que él descuida fuera del combate.",
+      "at": {
+        "season": "k8-t2",
+        "arc": 0
       }
     }
   ]

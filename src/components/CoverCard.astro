@@ -38,11 +38,9 @@ const cover = coverFor(seasonId);
     height: auto;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    border-radius: 10px;
+    border: var(--ink);
     background: var(--raised);
-    box-shadow:
-      0 0 0 1px color-mix(in oklab, var(--text) 10%, transparent),
-      0 18px 40px -18px rgb(0 0 0 / 0.7);
+    box-shadow: var(--shadow);
   }
 
   /* Portadas apaisadas: completas sobre el color de la superficie, sin recortar. */

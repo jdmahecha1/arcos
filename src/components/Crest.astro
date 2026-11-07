@@ -37,16 +37,12 @@ const side = size === 'lg' ? 112 : 52;
     width: 52px;
     height: 52px;
     overflow: hidden;
-    border-radius: 50%;
-    border: 2px solid var(--accent);
-    background:
-      radial-gradient(circle at 30% 25%, color-mix(in oklab, var(--accent) 30%, transparent), transparent 65%),
-      var(--raised);
-    color: var(--text);
+    border: var(--ink);
+    background: var(--accent);
+    box-shadow: 2px 2px 0 var(--line);
+    color: var(--accent-ink);
     font-family: var(--font-display);
     font-size: var(--step-1);
-    font-weight: 700;
-    letter-spacing: 0.02em;
   }
 
   .crest img {
@@ -60,12 +56,12 @@ const side = size === 'lg' ? 112 : 52;
     height: 112px;
     border-width: 3px;
     font-size: var(--step-4);
-    box-shadow: 0 0 0 6px var(--bg);
+    box-shadow: 5px 5px 0 var(--line);
+    transform: rotate(-2deg);
   }
 
   .crest.is-fog {
     border-style: dashed;
-    border-color: var(--line);
     color: var(--muted);
     background: var(--surface);
   }

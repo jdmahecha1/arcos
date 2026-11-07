@@ -10,10 +10,13 @@ const pages = [
   ['búsqueda', 'buscar/'],
   ['cómo funciona', 'acerca/'],
   ['créditos', 'creditos/'],
+  ['aviso legal', 'legal/'],
 ];
 
 for (const [name, path] of pages) {
   test(`sin fallos WCAG 2.1 AA: ${name}`, async ({ page }) => {
+    // axe mide los colores en reposo: sin animaciones, nada queda a medio aparecer.
+    await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto(path);
     await page.waitForFunction(() => document.querySelectorAll('astro-island[ssr]').length === 0);
     const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();

@@ -1,0 +1,137 @@
+---
+import Base from '../layouts/Base.astro';
+import { OWNERS } from '../lib/artwork';
+import { getSagas } from '../lib/data';
+import { url } from '../lib/url';
+
+const owners = getSagas().map((saga) => ({ title: saga.title, owner: OWNERS[saga.id] ?? saga.studio }));
+---
+
+<Base
+  title="Aviso legal y privacidad"
+  description="Quién hace Arcos, de quién son los derechos de las series, qué datos se guardan (ninguno personal) y cómo pedir que se retire algo."
+>
+  <article class="wrap legal">
+    <h1>Aviso legal y privacidad</h1>
+    <p class="legal__lead">
+      Arcos es un proyecto personal de fans: gratuito, sin publicidad, sin cuentas y sin ánimo de lucro.
+      No tiene relación con los autores, estudios ni editoriales de las series.
+    </p>
+
+    <section aria-labelledby="derechos">
+      <h2 id="derechos">Derechos de las series</h2>
+      <p>
+        Los nombres, personajes, historias e imágenes de cada serie pertenecen a sus dueños. Arcos los usa
+        solo para informar y comentar, a resolución reducida y citando la fuente de cada imagen en{' '}
+        <a href={url('creditos/')}>Créditos</a>.
+      </p>
+      <ul class="legal__list">
+        {
+          owners.map(({ title, owner }) => (
+            <li>
+              <strong>{title}</strong>
+              <span>© {owner}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <p>
+        Los resúmenes están escritos con palabras propias y se publican bajo licencia{' '}
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>. El código es
+        abierto, bajo licencia MIT.
+      </p>
+    </section>
+
+    <section aria-labelledby="retiro">
+      <h2 id="retiro">Pedir que se retire algo</h2>
+      <p>
+        Si tienes derechos sobre una imagen o un texto y quieres que se retire o se corrija su crédito,
+        abre un issue en <a href="https://github.com/jdmahecha1/arcos/issues">GitHub</a> indicando la página
+        y el elemento. Se retira sin más trámite. El sitio está alojado en GitHub Pages, así que también puedes
+        usar el <a href="https://docs.github.com/es/site-policy/content-removal-policies/dmca-takedown-policy">procedimiento de retiro de GitHub</a>.
+      </p>
+    </section>
+
+    <section aria-labelledby="privacidad">
+      <h2 id="privacidad">Privacidad y cookies</h2>
+      <p>
+        Arcos <strong>no usa cookies</strong>, no tiene analítica, no muestra anuncios y no te pide ningún dato.
+        Lo único que guarda es tu progreso (qué arcos marcaste y si el escudo está activo), y lo guarda
+        <strong>solo en tu navegador</strong>, en <code>localStorage</code> con la clave <code>arcos:v1</code>.
+        Ese dato nunca sale de tu equipo y puedes borrarlo cuando quieras desde la configuración de tu navegador
+        o con el botón «Reiniciar» de cada serie.
+      </p>
+      <p>
+        Como el sitio se sirve desde GitHub Pages, GitHub puede registrar datos técnicos de la visita, como la
+        dirección IP, según su <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>.
+        Arcos no tiene acceso a esos registros.
+      </p>
+    </section>
+
+    <section aria-labelledby="uso">
+      <h2 id="uso">Uso del contenido</h2>
+      <p>
+        Los resúmenes buscan ser fieles al canon, pero pueden contener errores. El escudo de spoilers depende del
+        progreso que marques: si apagas el escudo o pulsas «Ver spoiler», verás todo. Los enlaces a otros sitios
+        llevan a páginas que Arcos no controla.
+      </p>
+      <p>
+        ¿Ves un error? <a href="https://github.com/jdmahecha1/arcos/issues">Repórtalo en GitHub</a>.
+      </p>
+    </section>
+
+    <p class="legal__date muted">Última actualización: noviembre de 2026.</p>
+  </article>
+</Base>
+
+<style>
+  .legal {
+    max-width: 780px;
+    padding-top: var(--space-7);
+  }
+
+  .legal__lead {
+    color: var(--muted);
+    font-size: var(--step-2);
+    line-height: 1.5;
+  }
+
+  .legal section {
+    margin-top: var(--space-6);
+  }
+
+  .legal__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    gap: var(--space-3);
+    margin: 0 0 var(--space-4);
+    padding: 0;
+    list-style: none;
+  }
+
+  .legal__list li {
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3) var(--space-4);
+    border: var(--ink);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .legal__list span {
+    color: var(--muted);
+    font-size: var(--step-0);
+  }
+
+  .legal code {
+    padding: 0.1em 0.35em;
+    border: 1px solid var(--line-soft);
+    background: var(--surface);
+    font-size: 0.9em;
+  }
+
+  .legal__date {
+    margin-top: var(--space-6);
+    font-size: var(--step--1);
+  }
+</style>

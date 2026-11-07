@@ -6,7 +6,7 @@ import { SAGA_COVER } from '../lib/artwork';
 import Base from '../layouts/Base.astro';
 import { getSagas } from '../lib/data';
 import { airedYears } from '../lib/spoilers';
-import { themeFor, themeStyle } from '../lib/themes';
+import { themeFor, themeStyle, TITLE_JA } from '../lib/themes';
 import { sagaUrl, url } from '../lib/url';
 
 const sagas = getSagas().map((saga) => {
@@ -25,7 +25,7 @@ const totals = {
 
 <Base
   title="Arcos"
-  description="Repasa la historia de Kimetsu no Yaiba, Attack on Titan, Jujutsu Kaisen, Black Clover y Kaiju N.º 8 (línea de tiempo, personajes y relaciones) sin spoilers de lo que aún no has visto."
+  description="Repasa la historia de Kimetsu no Yaiba, Attack on Titan, Jujutsu Kaisen, Black Clover y Kaiju No. 8 (línea de tiempo, personajes y relaciones) sin spoilers de lo que aún no has visto."
 >
   <section class="hero wrap">
     <div class="hero__copy">
@@ -50,6 +50,7 @@ const totals = {
           <a class="vista__strip" href={sagaUrl(saga.id)} style={themeStyle(theme)}>
             <SagaArt sagaId={saga.id} theme={theme} uid={`vista-${i}`} class="vista__art" fog={false} priority={i === 0} sizes="(min-width: 861px) 40vw, 100vw" />
             <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="vista__cover" decorative priority={i === 0} />
+            {TITLE_JA[saga.id] && <span class="title-ja vista__ja" aria-hidden="true" lang="ja">{TITLE_JA[saga.id]}</span>}
             <span class="vista__label">
               <strong>{saga.title}</strong>
               <span>{years}</span>
@@ -71,7 +72,7 @@ const totals = {
     <ul class="sagas__list">
       {
         sagas.map(({ saga, theme, years }, i) => (
-          <li class="saga-row" style={themeStyle(theme)}>
+          <li class="saga-row" style={themeStyle(theme)} data-ja={TITLE_JA[saga.id]}>
             <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="saga-row__art" decorative />
             <div class="saga-row__body">
               <p class="saga-row__meta">
@@ -140,12 +141,18 @@ const totals = {
     text-transform: uppercase;
   }
 
+  /* El lema va como un rótulo estampado en el color de la serie, ligeramente torcido. */
   .hero h1 em {
     display: block;
-    padding-bottom: 0.08em;
-    color: var(--accent);
-    font-style: italic;
-    font-weight: 500;
+    width: fit-content;
+    margin-top: 0.18em;
+    padding: 0.04em 0.22em 0.1em;
+    border: 3px solid var(--line);
+    background: var(--accent);
+    box-shadow: 6px 6px 0 var(--line);
+    color: var(--accent-ink);
+    font-style: normal;
+    transform: rotate(-1.5deg);
   }
 
   .hero__lead {
@@ -174,11 +181,25 @@ const totals = {
     flex: 1;
     min-width: 0;
     overflow: hidden;
-    border-radius: var(--radius-card);
-    border: 1px solid var(--line-soft);
+    border: 3px solid var(--line);
+    background: var(--surface);
     color: var(--text);
     text-decoration: none;
     transition: flex-grow 0.6s var(--ease-out);
+  }
+
+  /* Título original en el lomo de cada franja. */
+  .vista__ja {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: var(--space-2) var(--space-1);
+    border-left: 3px solid var(--line);
+    border-bottom: 3px solid var(--line);
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-size: 1.05rem;
   }
 
   .vista__strip:first-child,
@@ -224,11 +245,15 @@ const totals = {
 
   .vista__label {
     position: absolute;
-    left: var(--space-4);
-    right: var(--space-4);
-    bottom: var(--space-4);
+    left: var(--space-3);
+    right: auto;
+    bottom: var(--space-3);
     display: grid;
     gap: var(--space-1);
+    padding: var(--space-2) var(--space-3);
+    border: var(--ink);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
     font-size: var(--step--1);
     color: var(--muted);
     opacity: 0;
@@ -241,9 +266,9 @@ const totals = {
   .vista__label strong {
     color: var(--text);
     font-family: var(--font-display);
-    font-size: var(--step-3);
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: var(--step-2);
+    font-weight: 400;
+    line-height: 1.15;
   }
 
   .vista__strip:first-child .vista__label,
@@ -275,7 +300,7 @@ const totals = {
 
     .vista {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       height: auto;
     }
 
@@ -283,12 +308,16 @@ const totals = {
       aspect-ratio: 3 / 4;
     }
 
+    /* Con un número impar de series, la última ocupa todo el ancho en vez de dejar un hueco. */
+    .vista__strip:last-child:nth-child(odd) {
+      grid-column: span 2;
+      aspect-ratio: 2 / 1;
+    }
+
     .vista__label {
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: var(--space-7) var(--space-3) var(--space-3);
-      background: linear-gradient(180deg, transparent, color-mix(in oklab, var(--bg) 85%, transparent) 55%, var(--bg));
+      left: var(--space-2);
+      bottom: var(--space-2);
+      padding: var(--space-1) var(--space-2);
       opacity: 1;
       transform: none;
     }
@@ -328,19 +357,40 @@ const totals = {
     grid-template-columns: 78px minmax(0, 1fr) auto auto;
     align-items: center;
     gap: var(--space-5);
+    overflow: hidden;
     padding: var(--space-3);
-    border: 1px solid var(--line-soft);
-    border-radius: var(--radius-card);
+    border: var(--ink);
     background: var(--surface);
+    box-shadow: var(--shadow-sm);
     transition:
-      border-color 0.2s var(--ease-out),
-      transform 0.2s var(--ease-out);
+      transform 0.15s var(--ease-out),
+      box-shadow 0.15s var(--ease-out);
+  }
+
+  /* El título original, enorme y tenue, asoma por la derecha de cada fila. */
+  .saga-row::before {
+    content: attr(data-ja) / '';
+    position: absolute;
+    right: 3.5rem;
+    top: 50%;
+    z-index: 0;
+    color: color-mix(in oklab, var(--accent) 14%, transparent);
+    font-family: var(--font-display);
+    font-size: 4.2rem;
+    line-height: 1;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .saga-row > * {
+    position: relative;
   }
 
   .saga-row:hover,
   .saga-row:focus-within {
-    border-color: var(--accent);
-    transform: translateY(-2px);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--accent);
   }
 
   .saga-row :global(.saga-row__art) {
@@ -432,8 +482,9 @@ const totals = {
     top: 27px;
     left: 28px;
     right: 28px;
-    height: 2px;
-    background: linear-gradient(90deg, var(--accent), var(--accent) 66%, var(--line) 66%);
+    height: 3px;
+    background: linear-gradient(90deg, var(--line), var(--line) 66%, transparent 66%) 0 0 / 100% 100%,
+      repeating-linear-gradient(90deg, var(--line) 0 8px, transparent 8px 14px);
   }
 
   .howto__node {
@@ -443,17 +494,17 @@ const totals = {
     width: 56px;
     height: 56px;
     margin-bottom: var(--space-4);
-    border-radius: 50%;
-    border: 2px solid var(--accent);
-    background: var(--bg);
-    color: var(--accent);
+    border: 3px solid var(--line);
+    background: var(--accent);
+    box-shadow: var(--shadow-sm);
+    color: var(--accent-ink);
     font-size: 1.4rem;
   }
 
   .howto__path li:last-child .howto__node {
     border-style: dashed;
-    border-color: var(--line);
-    color: var(--muted);
+    background: var(--surface);
+    color: var(--text);
   }
 
   .howto__path p {
@@ -471,9 +522,10 @@ const totals = {
       bottom: 28px;
       left: 27px;
       right: auto;
-      width: 2px;
+      width: 3px;
       height: auto;
-      background: linear-gradient(180deg, var(--accent), var(--accent) 66%, var(--line) 66%);
+      background: linear-gradient(180deg, var(--line), var(--line) 66%, transparent 66%) 0 0 / 100% 100%,
+        repeating-linear-gradient(180deg, var(--line) 0 8px, transparent 8px 14px);
     }
 
     .howto__path li {

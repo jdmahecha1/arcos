@@ -230,7 +230,7 @@
           }
         },
         {
-          "text": "Es capturado por la Tríada Oscura debido a que su magia de oscuridad es vital para abrir el árbol de Qliphoth.",
+          "text": "Es capturado por la Tríada Oscura del Reino Espada.",
           "at": {
             "season": "bc-t1",
             "arc": 8
@@ -241,6 +241,13 @@
           "at": {
             "season": "bc-manga",
             "arc": 1
+          }
+        },
+        {
+          "text": "Su captura tiene un fin: la Tríada lo necesita vivo para el ritual con el que abrirá el árbol de Qliphoth.",
+          "at": {
+            "season": "bc-t1",
+            "arc": 9
           }
         }
       ]
@@ -270,7 +277,7 @@
           }
         },
         {
-          "text": "Descubre que comparte su cuerpo con Lucius Zogratis, el hermano mayor de la Tríada Oscura que termina suprimiéndolo.",
+          "text": "Se revela que comparte su cuerpo con Lucius Zogratis, el mayor de la Tríada Oscura, y al final de la incursión se transforma en él.",
           "at": {
             "season": "bc-manga",
             "arc": 0
@@ -329,10 +336,10 @@
           }
         },
         {
-          "text": "Recupera la voz gracias a la magia de sangre de la Reina de las Brujas durante el festival de estrellas.",
+          "text": "Recupera la voz gracias a un frasco de la Reina de las Brujas durante el festival de las estrellas.",
           "at": {
             "season": "bc-t1",
-            "arc": 5
+            "arc": 6
           }
         },
         {
@@ -421,7 +428,7 @@
           }
         },
         {
-          "text": "Es rescatada y liberada de la maldición de Megicula gracias al trabajo conjunto de Noelle y Nozel.",
+          "text": "La antimagia de Asta anula su maldición, y Megicula cae a manos de Noelle y Nozel.",
           "at": {
             "season": "bc-manga",
             "arc": 0
@@ -775,7 +782,7 @@
         "season": "bc-t1",
         "arc": 6
       },
-      "text": "El recién formado cuerpo de Caballeros Reales lanza un ataque relámpago contra la base flotante de la organización enemiga. Mereoleona lidera la vanguardia con una fuerza implacable, arrasando con los defensores mientras Asta y sus compañeros aseguran el avance.",
+      "text": "El recién formado cuerpo de Caballeros Reales lanza un ataque relámpago contra la base de la organización en la Zona de Roca Gravito. Mereoleona lidera la vanguardia con una fuerza implacable, arrasando con los defensores mientras Asta y sus compañeros aseguran el avance.",
       "characters": [
         "asta",
         "mereoleona-vermillion"
@@ -924,7 +931,7 @@
         "season": "bc-manga",
         "arc": 0
       },
-      "text": "En el interior del castillo enemigo, los caballeros mágicos libran combates feroces contra los hermanos Zogratis para frenar el ritual de Qliphoth. Yuno despierta su magia estelar innata contra Zenon y Noelle derrota a Megicula, logrando rescatar al capitán Yami de su cautiverio.",
+      "text": "En el castillo enemigo, los Caballeros Mágicos libran combates feroces contra los hermanos Zogratis para frenar el ritual de Qliphoth. Yuno despierta su magia estelar innata contra Zenon, y Noelle y Nozel destruyen a Megicula.",
       "characters": [
         "noelle-silva",
         "yami-sukehiro",
@@ -959,7 +966,7 @@
         "season": "bc-manga",
         "arc": 1
       },
-      "text": "Lucius Zogratis toma control total del cuerpo que compartía con Julius y revela su plan para remodelar a la humanidad purificando almas con magia demoníaca. Para consternación de Asta, Lucius transforma a la hermana Lily en una paladín y destierra al joven huérfano fuera del reino antes de lanzar su invasión general.",
+      "text": "Lucius Zogratis toma el control total del cuerpo que compartía con Julius y revela su plan de remodelar a la humanidad purificando almas con magia demoníaca. Convierte a la hermana Lily en paladín y, tras herir de gravedad a Asta, Lily lo hace desaparecer con magia espacial antes de la invasión general.",
       "characters": [
         "asta",
         "lily-aquaria",
@@ -1093,7 +1100,7 @@
       "from": "yami-sukehiro",
       "to": "julius-novachrono",
       "kind": "mentor",
-      "detail": "Le guarda una lealtad inquebrantable a Julius por haberlo acogido y nombrado capitán pese a ser un extranjero marginado.",
+      "detail": "Le guarda una lealtad inquebrantable al Rey Mago.",
       "at": {
         "season": "bc-t1",
         "arc": 2

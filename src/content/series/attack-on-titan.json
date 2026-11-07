@@ -294,7 +294,7 @@
           }
         },
         {
-          "text": "Derrota y mutila de gravedad al Titán Bestia durante la emboscada táctica en Shiganshina.",
+          "text": "Deja gravemente mutilado al Titán Bestia durante la emboscada en Shiganshina.",
           "at": {
             "season": "aot-t3",
             "arc": 1
@@ -334,7 +334,7 @@
           }
         },
         {
-          "text": "Sacrifica su vida combatiendo a los titanes colosales para que el hidroavión de la alianza pueda despegar.",
+          "text": "Da su vida enfrentando a los titanes colosales para que el hidroavión de la alianza pueda despegar.",
           "at": {
             "season": "aot-final",
             "arc": 2
@@ -483,10 +483,74 @@
           }
         },
         {
-          "text": "Obtiene el poder del Titán Mandíbula durante la batalla de Shiganshina, tras ingerir fluido espinal sin saberlo.",
+          "text": "El fluido espinal de Zeke lo convierte en titán durante la batalla de Shiganshina, y así hereda el Titán Mandíbula.",
           "at": {
             "season": "aot-final",
             "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "bertholdt-hoover",
+      "name": "Bertholdt Hoover",
+      "role": "Cadete alto y reservado de la tropa 104",
+      "intro": "Uno de los mejores de su promoción, callado e indeciso, casi siempre al lado de Reiner.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Es el Titán Colosal y, junto a Reiner, provocó la caída de la Muralla Maria.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Muere en Shiganshina y Armin hereda su poder.",
+          "at": {
+            "season": "aot-t3",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "sasha-blouse",
+      "name": "Sasha Blouse",
+      "role": "Cadete de la tropa 104 con un apetito legendario",
+      "intro": "Una chica de pueblo cazador, impulsiva y glotona, famosa por comerse una papa en plena formación.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Muere por un disparo de Gabi durante la retirada de Liberio.",
+          "at": {
+            "season": "aot-final",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "connie-springer",
+      "name": "Connie Springer",
+      "role": "Cadete alegre de la tropa 104",
+      "intro": "Un muchacho de la aldea de Ragako, ingenuo y bromista, inseparable de Sasha.",
+      "appears": {
+        "season": "aot-t1",
+        "arc": 1
+      },
+      "reveals": [
+        {
+          "text": "Encuentra su aldea vacía y un titán atrapado dentro de su casa.",
+          "at": {
+            "season": "aot-t2",
+            "arc": 0
           }
         }
       ]
@@ -570,10 +634,9 @@
         "season": "aot-t1",
         "arc": 1
       },
-      "text": "Eren utiliza su forma de titán para transportar una inmensa roca y taponar la brecha de la muralla bajo la protección de las tropas. La maniobra concluye con éxito gracias a la oportuna llegada del capitán Levi, marcando la primera victoria militar de la humanidad.",
+      "text": "Eren utiliza su forma de titán para transportar una inmensa roca y taponar la brecha de la muralla bajo la protección de los cadetes y la Guarnición. La maniobra concluye con éxito y marca la primera victoria militar de la humanidad contra los titanes.",
       "characters": [
         "eren-yeager",
-        "levi",
         "jean-kirstein"
       ],
       "major": false
@@ -660,13 +723,14 @@
       "characters": [
         "reiner-braun",
         "eren-yeager",
-        "mikasa-ackerman"
+        "mikasa-ackerman",
+        "bertholdt-hoover"
       ],
       "major": true
     },
     {
       "id": "activacion-de-la-coordenada",
-      "title": "Despertar del poder de la Coordenada",
+      "title": "El grito que atrae a los titanes",
       "date": "Año 850",
       "order": 110,
       "at": {
@@ -811,11 +875,12 @@
         "season": "aot-final",
         "arc": 0
       },
-      "text": "Durante la evacuación en dirigible de las tropas de Paradis, Gabi y Falco logran subir a bordo utilizando un equipo de maniobras. Tras un disparo fatal que cobra una baja en la cabina, ambos jóvenes son apresados y trasladados a la isla.",
+      "text": "Durante la evacuación en dirigible de las tropas de Paradis, Gabi y Falco logran subir a bordo utilizando un equipo de maniobras. Tras un disparo que hiere de muerte a Sasha, ambos jóvenes son apresados y trasladados a la isla.",
       "characters": [
         "gabi-braun",
         "falco-grice",
-        "jean-kirstein"
+        "jean-kirstein",
+        "sasha-blouse"
       ],
       "major": false
     },
@@ -895,7 +960,7 @@
         "season": "aot-final",
         "arc": 2
       },
-      "text": "Para retrasar la marcha implacable de los colosales y permitir que la aeronave de la alianza despegue hacia el continente, Hange se lanza en solitario al combate. Antes de perecer consumida por el calor extremo, traspasa formalmente el liderazgo del cuerpo a Armin.",
+      "text": "Para retrasar la marcha implacable de los colosales y permitir que la aeronave de la alianza despegue hacia el continente, Hange se lanza en solitario al combate. Antes de caer ante los colosales, traspasa formalmente el liderazgo del cuerpo a Armin.",
       "characters": [
         "hange-zoe",
         "armin-arlert",
@@ -930,7 +995,7 @@
         "season": "aot-final",
         "arc": 3
       },
-      "text": "Levi decapita a Zeke para frenar el avance de las bestias y Mikasa ingresa en la cavidad del titán para acabar definitivamente con la vida de Eren. Con su deceso, la fuente de vida milenaria se extingue por completo, desvaneciendo la maldición de los titanes de la faz de la tierra.",
+      "text": "Levi cumple su promesa a Erwin y decapita a Zeke y Mikasa ingresa en la cavidad del titán para acabar definitivamente con la vida de Eren. Con su deceso, la fuente de vida milenaria se extingue por completo, desvaneciendo la maldición de los titanes de la faz de la tierra.",
       "characters": [
         "mikasa-ackerman",
         "levi",
@@ -1045,7 +1110,7 @@
       "from": "zeke",
       "to": "eren-yeager",
       "kind": "enemigo",
-      "detail": "Comanda desde fuera de los muros el ataque contra las tropas de la isla.",
+      "detail": "Comanda desde fuera de los muros el ataque contra el Cuerpo de Exploración.",
       "at": {
         "season": "aot-t2",
         "arc": 0
@@ -1139,6 +1204,36 @@
       "at": {
         "season": "aot-final",
         "arc": 3
+      }
+    },
+    {
+      "from": "bertholdt-hoover",
+      "to": "reiner-braun",
+      "kind": "aliado",
+      "detail": "Cómplices infiltrados entre los cadetes desde el principio.",
+      "at": {
+        "season": "aot-t2",
+        "arc": 0
+      }
+    },
+    {
+      "from": "sasha-blouse",
+      "to": "connie-springer",
+      "kind": "aliado",
+      "detail": "El dúo más ruidoso de la tropa 104, siempre juntos.",
+      "at": {
+        "season": "aot-t1",
+        "arc": 1
+      }
+    },
+    {
+      "from": "gabi-braun",
+      "to": "sasha-blouse",
+      "kind": "enemigo",
+      "detail": "La niña que le dispara durante la retirada de Liberio.",
+      "at": {
+        "season": "aot-final",
+        "arc": 0
       }
     }
   ]

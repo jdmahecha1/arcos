@@ -1,4 +1,10 @@
+import { readFileSync } from 'node:fs';
 import { expect, test, type Page } from '@playwright/test';
+
+// Los totales se leen del contenido para que las pruebas no se rompan al sumar eventos o personajes.
+const kimetsu = JSON.parse(readFileSync(new URL('../src/content/series/kimetsu-no-yaiba.json', import.meta.url), 'utf8'));
+const HIDDEN_EVENTS = kimetsu.events.length;
+const HIDDEN_CHARACTERS = kimetsu.characters.filter((c: { appears?: unknown }) => c.appears).length;
 
 /** Espera a que todas las islas de React estén hidratadas antes de interactuar. */
 async function hydrated(page: Page) {
@@ -18,7 +24,7 @@ test.describe('escudo de spoilers', () => {
     await expect(page.getByRole('heading', { name: '¿Hasta dónde viste?' })).toBeVisible();
     // Los eventos ocultos se agrupan en un solo bloque, no en una tarjeta cada uno.
     await expect(page.locator('.timeline__fog')).toHaveCount(1);
-    await expect(page.locator('.timeline__fog')).toContainText('27 eventos sin revelar');
+    await expect(page.locator('.timeline__fog')).toContainText(`${HIDDEN_EVENTS} eventos sin revelar`);
     // El texto de un evento oculto no está en el DOM, ni siquiera escondido con CSS.
     await expect(page.locator('body')).not.toContainText('Redención y caída de Akaza');
   });
@@ -107,7 +113,7 @@ test.describe('escudo de spoilers', () => {
     await page.goto('series/kimetsu-no-yaiba/');
     await hydrated(page);
     const group = page.locator('#personajes [data-fog-group]');
-    await expect(group.locator('[data-fog-count]')).toHaveText('13 personajes por conocer');
+    await expect(group.locator('[data-fog-count]')).toHaveText(`${HIDDEN_CHARACTERS} personajes por conocer`);
     await expect(page.locator('#personajes')).not.toContainText('Akaza');
     // El retrato de un personaje oculto no se pide mientras siga oculto.
     await expect(page.locator('#personajes img[src*="akaza"]')).toHaveCount(0);

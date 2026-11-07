@@ -1,28 +1,45 @@
-@import '@fontsource-variable/bricolage-grotesque';
-@import '@fontsource-variable/inter-tight';
+/* Solo los subconjuntos que se usan: el texto va en latín y el japonés solo en los títulos. */
+@import '@fontsource/dela-gothic-one/latin-400.css';
+@import '@fontsource/zen-kaku-gothic-new/latin-400.css';
+@import '@fontsource/zen-kaku-gothic-new/latin-500.css';
+@import '@fontsource/zen-kaku-gothic-new/latin-700.css';
 @import './islands.css';
 
+/* Japonés de los títulos: solo los caracteres que se usan (lo genera npm run fuente-jp). */
+@font-face {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/dela-gothic-one-jp.woff2') format('woff2');
+  unicode-range: U+3000-30FF, U+4E00-9FFF;
+}
+
 /*
- * Sistema "Viñetas".
- * Colores: los pone cada saga en <body style="--bg:…"> (src/lib/themes.ts); aquí van
+ * Sistema "Tomo de manga": papel, tinta negra y un solo color especial por serie.
+ * Colores: los pone cada serie en <body style="--bg:…"> (src/lib/themes.ts); aquí van
  * los valores por defecto. Escalas cerradas: 7 tamaños de letra y 8 espaciados.
- * Radios: controles en píldora, tarjetas 14px, campos 10px.
+ * Formas: todo en ángulo recto, con borde de tinta y sombra dura (sin desenfoque),
+ * como las viñetas impresas.
  */
 :root {
-  color-scheme: dark;
-  --bg: #0d0f13;
-  --surface: #161a21;
-  --raised: #1e232c;
-  --line: #626b7d;
-  --line-soft: color-mix(in oklab, var(--line) 45%, transparent);
-  --text: #eef0f3;
-  --muted: #aab1bf;
-  --accent: #f0b45a;
-  --accent-ink: #1a1206;
-  --fog: color-mix(in oklab, var(--text) 13%, transparent);
+  color-scheme: light;
+  --bg: #e8e7e2;
+  --surface: #f5f4f0;
+  --raised: #d9d8d2;
+  --line: #141414;
+  --line-soft: color-mix(in oklab, var(--line) 30%, transparent);
+  --text: #141414;
+  --muted: #46464b;
+  --accent: #aa2e1b;
+  --accent-ink: #f5f4f0;
+  --fog: color-mix(in oklab, var(--text) 24%, transparent);
+  --ink: 2px solid var(--line);
+  --shadow: 4px 4px 0 var(--line);
+  --shadow-sm: 3px 3px 0 var(--line);
 
-  --font-display: 'Bricolage Grotesque Variable', 'Inter Tight Variable', system-ui, sans-serif;
-  --font-body: 'Inter Tight Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Dela Gothic One', 'Zen Kaku Gothic New', system-ui, sans-serif;
+  --font-body: 'Zen Kaku Gothic New', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   --step--1: 0.8125rem;
   --step-0: 0.9375rem;
@@ -41,8 +58,8 @@
   --space-7: 3rem;
   --space-8: 5rem;
 
-  --radius-card: 6px;
-  --radius-field: 4px;
+  --radius-card: 0;
+  --radius-field: 0;
   --wrap: 1200px;
   --header-h: 64px;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -60,17 +77,20 @@ html {
   scroll-padding-top: calc(var(--header-h) + 56px);
 }
 
+/* El papel lleva una trama de puntos muy suave, como el gris de una página impresa. */
 body {
   margin: 0;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  background: var(--bg);
+  background:
+    radial-gradient(circle, color-mix(in oklab, var(--text) 7%, transparent) 0.8px, transparent 1px) 0 0 / 5px 5px,
+    var(--bg);
   color: var(--text);
   font-family: var(--font-body);
   font-size: var(--step-1);
-  line-height: 1.6;
-  font-feature-settings: 'ss01', 'cv11';
+  font-weight: 500;
+  line-height: 1.65;
 }
 
 main {
@@ -82,9 +102,9 @@ h2,
 h3 {
   margin: 0 0 var(--space-3);
   font-family: var(--font-display);
-  font-weight: 650;
-  line-height: 1.08;
-  letter-spacing: -0.025em;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0.005em;
   text-wrap: balance;
 }
 
@@ -92,13 +112,16 @@ h1 {
   font-size: var(--step-5);
 }
 
+/* Los títulos de sección van subrayados con el color de la serie, como un rotulador. */
 h2 {
+  width: fit-content;
+  padding-inline: 0.08em;
+  background: linear-gradient(transparent 58%, color-mix(in oklab, var(--accent) 30%, transparent) 58%);
   font-size: var(--step-4);
 }
 
 h3 {
   font-size: var(--step-2);
-  letter-spacing: -0.015em;
 }
 
 p {
@@ -108,13 +131,13 @@ p {
 
 a {
   color: var(--accent);
+  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 6px;
 }
 
 svg {
@@ -142,7 +165,16 @@ svg {
   border: 0;
 }
 
-/* Botones: píldora, 44px de alto (zona táctil cómoda). */
+/* Título original de la serie, como lomo de tomo: decorativo, en vertical. */
+.title-ja {
+  font-family: var(--font-display);
+  writing-mode: vertical-rl;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  user-select: none;
+}
+
+/* Botones: bloques de tinta con sombra dura que se hunden al pulsarlos (44px de alto). */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -150,39 +182,35 @@ svg {
   gap: var(--space-2);
   min-height: 44px;
   padding: 0 var(--space-5);
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: transparent;
+  border: var(--ink);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
   color: var(--text);
   font: inherit;
   font-size: var(--step-0);
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
   transition:
-    background 0.2s var(--ease-out),
-    border-color 0.2s var(--ease-out),
-    transform 0.15s var(--ease-out);
+    transform 0.12s var(--ease-out),
+    box-shadow 0.12s var(--ease-out),
+    background 0.2s var(--ease-out);
 }
 
 .btn:hover {
-  border-color: var(--accent);
-  background: color-mix(in oklab, var(--accent) 10%, transparent);
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow);
 }
 
 .btn:active {
-  transform: translateY(1px) scale(0.98);
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 var(--line);
 }
 
 .btn--primary {
-  border-color: var(--accent);
   background: var(--accent);
   color: var(--accent-ink);
-}
-
-.btn--primary:hover {
-  background: color-mix(in oklab, var(--accent) 86%, white);
 }
 
 .btn--sm {
@@ -201,38 +229,52 @@ svg {
   gap: var(--space-1);
   min-height: 28px;
   padding: 0 var(--space-3);
-  border-radius: 999px;
-  border: 1px solid var(--line-soft);
-  color: var(--muted);
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
   font-size: var(--step--1);
+  font-weight: 700;
   text-decoration: none;
   white-space: nowrap;
 }
 
 a.chip:hover {
-  color: var(--text);
-  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
 }
 
 /*
- * Trama: el lenguaje visual de lo que aún no has visto. Una viñeta sin entintar,
- * con la trama de puntos del manga.
+ * Lo que aún no has visto: una viñeta sin entintar, cubierta de trama de puntos,
+ * con el sello 秘 ("secreto") en una esquina.
  */
 .fog-card {
   position: relative;
   overflow: hidden;
   isolation: isolate;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-card);
+  border: var(--ink);
   background:
-    radial-gradient(circle, var(--fog) 1.3px, transparent 1.6px) 0 0 / 8px 8px,
+    radial-gradient(circle, var(--fog) 1.1px, transparent 1.4px) 0 0 / 6px 6px,
     var(--surface);
+  box-shadow: var(--shadow-sm);
   color: var(--muted);
+}
+
+.fog-card::after {
+  content: '秘' / '';
+  position: absolute;
+  right: 0.25em;
+  bottom: -0.2em;
+  z-index: -1;
+  color: color-mix(in oklab, var(--accent) 22%, transparent);
+  font-family: var(--font-display);
+  font-size: 3.4rem;
+  line-height: 1;
+  pointer-events: none;
 }
 
 .fog-card strong {
   color: var(--text);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Bloque de spoiler suelto: el texto real vive en un <template> hasta que se revela. */
@@ -315,14 +357,135 @@ a.chip:hover {
   }
 }
 
+/* Lo revelado entra como una viñeta que se descubre de arriba abajo. */
+@keyframes panel-in {
+  from {
+    opacity: 0.2;
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+@keyframes ken-burns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08) translate(-1.5%, -1%);
+  }
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    transform: rotate(-1.5deg) scale(1.35);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(-1.5deg);
+  }
+}
+
+@keyframes pulse-ring {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent) 45%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 7px transparent;
+  }
+}
+
+@keyframes screentone {
+  to {
+    background-position: 16px 16px;
+  }
+}
+
+/*
+ * Movimiento: todo es transform, opacity o clip-path (sin reflujos) y se apaga
+ * por completo si el sistema pide reducir el movimiento.
+ */
 @media (prefers-reduced-motion: no-preference) {
   [data-spoiler-body] > *,
   .reveal-in {
-    animation: from-fog 0.6s var(--ease-out) both;
+    animation: panel-in 0.55s var(--ease-out) both;
   }
 
   .landscape__fog {
     animation: drift 14s ease-in-out infinite alternate;
+  }
+
+  /* El paisaje de fondo se acerca muy despacio, como un plano de cine. */
+  .saga-art__scenery {
+    animation: ken-burns 26s ease-in-out infinite alternate;
+  }
+
+  /* La portada entra por partes, y el lema cae como un sello. */
+  .hero__copy > * {
+    animation: rise 0.7s var(--ease-out) both;
+  }
+
+  .hero__copy > :nth-child(2) {
+    animation-delay: 0.08s;
+  }
+
+  .hero__copy > :nth-child(3) {
+    animation-delay: 0.16s;
+  }
+
+  .hero__copy > :nth-child(4) {
+    animation-delay: 0.24s;
+  }
+
+  .hero h1 em {
+    animation: stamp 0.45s 0.35s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+  }
+
+  /* Al pasar el cursor por una tarjeta oculta, la trama de puntos se desliza. */
+  .fog-card:hover {
+    animation: screentone 1.6s linear infinite;
+  }
+
+  /* Los retratos se acercan un poco al pasar el cursor. */
+  .crest img {
+    transition: transform 0.35s var(--ease-out);
+  }
+
+  a:hover .crest img,
+  a:focus-visible .crest img {
+    transform: scale(1.1);
+  }
+
+  /* El punto del último arco visto late suavemente para que se encuentre a la primera. */
+  .save__node input:checked + span {
+    animation: pulse-ring 2.4s ease-in-out infinite;
+  }
+
+  /* Las tarjetas aparecen al entrar en pantalla, donde el navegador lo permite. */
+  @supports (animation-timeline: view()) {
+    .person,
+    .relation,
+    .moment,
+    .reveal,
+    .timeline__stop,
+    .saga-row,
+    .howto__path > li,
+    .games > li {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
   }
 }
 

@@ -12,21 +12,28 @@
   gap: var(--space-2);
   min-height: 44px;
   padding: 0 var(--space-4);
-  border-radius: 999px;
-  border: 1px solid var(--accent);
-  background: color-mix(in oklab, var(--accent) 12%, transparent);
-  color: var(--accent);
+  border: var(--ink);
+  background: var(--accent);
+  box-shadow: var(--shadow-sm);
+  color: var(--accent-ink);
   font: inherit;
   font-size: var(--step-0);
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   white-space: nowrap;
+  transition:
+    transform 0.12s var(--ease-out),
+    box-shadow 0.12s var(--ease-out);
+}
+
+.shield-toggle:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 var(--line);
 }
 
 .shield-toggle.is-off {
-  border-color: var(--line);
-  background: transparent;
-  color: var(--muted);
+  background: var(--surface);
+  color: var(--text);
 }
 
 @media (max-width: 560px) {
@@ -44,10 +51,10 @@ select {
   min-height: 44px;
   min-width: 0;
   padding: 0 2.25rem 0 var(--space-4);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-field);
+  border: var(--ink);
+  border-radius: 0;
   background: var(--surface)
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23aab1bf' stroke-width='1.8'/%3E%3C/svg%3E")
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23141414' stroke-width='2.2'/%3E%3C/svg%3E")
     no-repeat right var(--space-4) center;
   color: var(--text);
   font: inherit;
@@ -79,16 +86,44 @@ select:hover {
 /* Panel de progreso */
 .save {
   padding: var(--space-5);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius-card);
-  background:
-    radial-gradient(120% 60% at 0% 0%, color-mix(in oklab, var(--accent) 10%, transparent), transparent 70%),
-    var(--surface);
+  border: 3px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
+/* Antes de marcar nada, el panel lleva la cabecera en el color de la serie para llamar la atención. */
 .save.is-fresh {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 16%, transparent);
+  box-shadow: 6px 6px 0 var(--accent);
+}
+
+/* Sello hanko 「済」 ("terminado") junto a cada entrega completa. */
+.save__done {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-left: auto;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  line-height: 1;
+  transform: rotate(-12deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .save__done {
+    animation: hanko 0.35s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+  }
+}
+
+@keyframes hanko {
+  from {
+    opacity: 0;
+    transform: rotate(-12deg) scale(1.8);
+  }
 }
 
 .save__head {
@@ -128,7 +163,7 @@ select:hover {
   gap: var(--space-2);
   margin-bottom: var(--space-2);
   font-size: var(--step-0);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .save__year {
@@ -186,9 +221,8 @@ select:hover {
   position: relative;
   width: 14px;
   height: 14px;
-  border-radius: 50%;
   border: 2px solid var(--line);
-  background: var(--bg);
+  background: var(--surface);
   transition:
     transform 0.2s var(--ease-out),
     background 0.2s var(--ease-out);
@@ -203,7 +237,7 @@ select:hover {
 
 .save__node.is-start input:checked + span {
   transform: scale(1.3);
-  background: var(--bg);
+  background: var(--surface);
 }
 
 .save__node.is-lit span {
@@ -212,14 +246,13 @@ select:hover {
 }
 
 .save__node:hover span {
-  transform: scale(1.35);
-  border-color: var(--accent);
+  transform: scale(1.35) rotate(45deg);
 }
 
+/* El último arco visto: un rombo en el color de la serie. */
 .save__node input:checked + span {
-  transform: scale(1.45);
-  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 25%, transparent);
-  border-color: var(--accent);
+  transform: scale(1.5) rotate(45deg);
+  border-color: var(--line);
 }
 
 .save__node input:focus-visible + span {
@@ -259,17 +292,16 @@ select:hover {
   align-items: center;
   gap: var(--space-3);
   padding: var(--space-3) var(--space-4) calc(var(--space-3) + env(safe-area-inset-bottom));
-  border-top: 1px solid var(--line-soft);
-  background: color-mix(in oklab, var(--bg) 88%, transparent);
-  backdrop-filter: blur(14px);
+  border-top: 3px solid var(--line);
+  background: var(--surface);
 }
 
 .savebar__meter {
   position: absolute;
-  top: -1px;
+  top: -3px;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
 }
 
 .savebar__meter span {
@@ -306,21 +338,20 @@ select:hover {
 
 .segmented {
   display: inline-flex;
-  padding: 3px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+  border: var(--ink);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
 }
 
 .segmented button {
-  min-height: 38px;
+  min-height: 40px;
   padding: 0 var(--space-4);
   border: 0;
-  border-radius: 999px;
   background: transparent;
   color: var(--muted);
   font: inherit;
   font-size: var(--step-0);
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -349,8 +380,8 @@ select:hover {
   left: 11px;
   top: 8px;
   bottom: 8px;
-  width: 2px;
-  background: linear-gradient(var(--accent), color-mix(in oklab, var(--accent) 30%, var(--line)));
+  width: 3px;
+  background: var(--line);
 }
 
 .timeline__stop {
@@ -362,31 +393,36 @@ select:hover {
   position: absolute;
   left: -2.25rem;
   top: 1.25rem;
-  width: 24px;
-  height: 24px;
-  border: 5px solid var(--bg);
-  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+  border: 3px solid var(--line);
   background: var(--accent);
+  transform: rotate(45deg);
 }
 
 .timeline__stop.is-major .timeline__dot {
-  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 30%, transparent);
+  width: 22px;
+  height: 22px;
+  margin-left: 1px;
 }
 
 .timeline__stop.is-fog .timeline__dot {
-  background: var(--bg);
-  border: 2px dashed var(--line);
+  background: var(--surface);
+  border-style: dashed;
 }
 
 .timeline__card {
   padding: var(--space-4) var(--space-5);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius-card);
+  border: var(--ink);
   background: var(--surface);
+  box-shadow: var(--shadow-sm);
 }
 
+/* Los momentos clave son una viñeta más gruesa, con la sombra en el color de la serie. */
 .timeline__stop.is-major .timeline__card {
-  border-color: color-mix(in oklab, var(--accent) 45%, var(--line-soft));
+  border-width: 3px;
+  box-shadow: 5px 5px 0 var(--accent);
 }
 
 .timeline__card h3 {
@@ -468,12 +504,12 @@ select:hover {
   gap: var(--space-2);
   min-height: 36px;
   padding: 0 var(--space-3);
-  border: 1px solid var(--line-soft);
-  border-radius: 999px;
+  border: 1.5px solid var(--line);
   background: var(--surface);
   color: var(--text);
   font: inherit;
   font-size: var(--step--1);
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -487,11 +523,11 @@ select:hover {
 }
 
 .graph__canvas {
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius-card);
+  border: 3px solid var(--line);
   background:
-    radial-gradient(60% 60% at 50% 45%, color-mix(in oklab, var(--accent) 7%, transparent), transparent 70%),
+    radial-gradient(circle, color-mix(in oklab, var(--text) 9%, transparent) 1px, transparent 1.3px) 0 0 / 7px 7px,
     var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .graph__canvas {
@@ -634,9 +670,8 @@ select:hover {
 }
 
 .search__input:focus {
-  border-color: var(--accent);
   outline: none;
-  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 22%, transparent);
+  box-shadow: 4px 4px 0 var(--accent);
 }
 
 .search__status {

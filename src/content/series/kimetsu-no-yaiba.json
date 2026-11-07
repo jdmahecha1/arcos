@@ -187,13 +187,20 @@
     {
       "id": "sakonji-urokodaki",
       "name": "Sakonji Urokodaki",
-      "role": "Cultivador de espadachines y antiguo Pilar del Agua.",
+      "role": "Cultivador de espadachines retirado",
       "intro": "Vive retirado en el monte Sagiri tras una máscara de tengu, donde entrena rigurosamente a nuevos reclutas para la Selección Final.",
       "appears": {
         "season": "ky-t1",
         "arc": 0
       },
       "reveals": [
+        {
+          "text": "Fue Pilar del Agua antes de dedicarse a entrenar a nuevos cazadores.",
+          "at": {
+            "season": "ky-t1",
+            "arc": 3
+          }
+        },
         {
           "text": "Envía una carta al líder del Cuerpo comprometiendo su propia vida si Nezuko llega a devorar a un humano.",
           "at": {
@@ -221,7 +228,7 @@
       },
       "reveals": [
         {
-          "text": "Domina a la perfección la primera postura de la Respiración del Rayo, la cual desata al quedarse inconsciente.",
+          "text": "Al quedarse inconsciente, desata la primera postura de la Respiración del Rayo.",
           "at": {
             "season": "ky-t1",
             "arc": 1
@@ -353,14 +360,14 @@
       },
       "reveals": [
         {
-          "text": "Se une a la sede de los cazadores para diseñar venenos letales y una droga capaz de restaurar la humanidad.",
+          "text": "Acepta la invitación del Cuerpo para colaborar en una droga capaz de restaurar la humanidad.",
           "at": {
             "season": "ky-pilares",
             "arc": 0
           }
         },
         {
-          "text": "Inyecta su compuesto debilitador directamente en el cuerpo de Muzan durante una emboscada suicida.",
+          "text": "Inyecta a Muzan una droga para volverlo humano durante una emboscada suicida.",
           "at": {
             "season": "ky-pilares",
             "arc": 0
@@ -379,7 +386,7 @@
       "id": "shinobu-kocho",
       "name": "Shinobu Kocho",
       "role": "Pilar del Insecto que combate utilizando venenos de glicinia.",
-      "intro": "Muestra una sonrisa amable y serena, pero oculta un profundo desprecio hacia los demonios a quienes elimina con una espada punzante impregnada de toxinas.",
+      "intro": "Muestra una sonrisa amable y serena, y elimina a los demonios con una espada punzante impregnada de toxinas.",
       "appears": {
         "season": "ky-t1",
         "arc": 2
@@ -393,9 +400,16 @@
           }
         },
         {
-          "text": "Es devorada por la Segunda Luna Superior tras haber saturado su propio cuerpo con veneno durante meses.",
+          "text": "Es derrotada y devorada por la Segunda Luna Superior, a quien su veneno no logra detener.",
           "at": {
             "season": "ky-castillo-1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Llevaba más de un año ingiriendo veneno de glicinia para convertir su propio cuerpo en una trampa letal.",
+          "at": {
+            "season": "ky-manga",
             "arc": 0
           }
         }
@@ -442,13 +456,20 @@
     {
       "id": "tengen-uzui",
       "name": "Tengen Uzui",
-      "role": "Pilar del Sonido extravagante y antiguo shinobi.",
-      "intro": "Un espadachín corpulento y teatral que exige vistosidad en todo lo que hace, ocultando un pasado de shinobi.",
+      "role": "Pilar del Sonido extravagante",
+      "intro": "Un espadachín corpulento y teatral que exige vistosidad en todo lo que hace.",
       "appears": {
         "season": "ky-t1",
         "arc": 3
       },
       "reveals": [
+        {
+          "text": "Fue shinobi antes de unirse al Cuerpo, y tiene tres esposas que también lo fueron.",
+          "at": {
+            "season": "ky-distrito",
+            "arc": 0
+          }
+        },
         {
           "text": "Pierde un ojo y una mano en la batalla contra la Sexta Luna Superior en el Distrito Rojo, retirándose del frente activo.",
           "at": {
@@ -487,13 +508,20 @@
     {
       "id": "mitsuri-kanroji",
       "name": "Mitsuri Kanroji",
-      "role": "Pilar del Amor con una fuerza física y flexibilidad descomunales.",
-      "intro": "Una joven cariñosa y emotiva que se unió al Cuerpo para encontrar a un compañero que acepte su inmensa fuerza y complexión especial.",
+      "role": "Pilar del Amor",
+      "intro": "Una joven cariñosa y emotiva que se ruboriza con facilidad.",
       "appears": {
         "season": "ky-t1",
         "arc": 3
       },
       "reveals": [
+        {
+          "text": "Tiene una fuerza muscular descomunal; se unió al Cuerpo para encontrar a alguien que la aceptara tal como es.",
+          "at": {
+            "season": "ky-herreros",
+            "arc": 0
+          }
+        },
         {
           "text": "Contiene a las manifestaciones más letales de la Cuarta Luna Superior con su espada flexible y despierta su marca.",
           "at": {
@@ -524,6 +552,122 @@
           "text": "Recupera los recuerdos de su vida humana como Hakuji y decide terminar con su propia regeneración tras ser decapitado.",
           "at": {
             "season": "ky-castillo-1",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "sanemi-shinazugawa",
+      "name": "Sanemi Shinazugawa",
+      "role": "Pilar del Viento, de carácter violento",
+      "intro": "Un Pilar cubierto de cicatrices que desprecia a los demonios y no confía en Nezuko.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Es el hermano mayor de Genya y lo rechaza para mantenerlo lejos del peligro.",
+          "at": {
+            "season": "ky-pilares",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Sobrevive a la batalla final contra Muzan.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "gyomei-himejima",
+      "name": "Gyomei Himejima",
+      "role": "Pilar de la Piedra, el más fuerte del Cuerpo",
+      "intro": "Un gigante ciego y piadoso que llora con frecuencia y reza por las almas.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Dirige la última y más dura etapa del entrenamiento de los Pilares.",
+          "at": {
+            "season": "ky-pilares",
+            "arc": 0
+          }
+        },
+        {
+          "text": "Enfrenta a la Primera Luna Superior junto a Sanemi, Muichiro y Genya.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "obanai-iguro",
+      "name": "Obanai Iguro",
+      "role": "Pilar de la Serpiente, siempre con su serpiente",
+      "intro": "Un Pilar severo y desconfiado que exige castigar a Tanjiro por proteger a un demonio.",
+      "appears": {
+        "season": "ky-t1",
+        "arc": 3
+      },
+      "reveals": [
+        {
+          "text": "Muere junto a Mitsuri tras la batalla final, después de confesarse su amor.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "doma",
+      "name": "Doma",
+      "role": "Segunda Luna Superior, de sonrisa vacía",
+      "intro": "Un demonio de trato amable y alegre que en realidad no siente nada.",
+      "appears": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Asesinó a Kanae Kocho, la hermana mayor de Shinobu.",
+          "at": {
+            "season": "ky-castillo-1",
+            "arc": 0
+          }
+        },
+        {
+          "text": "También mató a la madre de Inosuke; cae ante Kanao e Inosuke gracias al veneno de Shinobu.",
+          "at": {
+            "season": "ky-manga",
+            "arc": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "kokushibo",
+      "name": "Kokushibo",
+      "role": "Primera Luna Superior, de seis ojos",
+      "intro": "El demonio más fuerte después de Muzan, sereno y temible.",
+      "appears": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "reveals": [
+        {
+          "text": "Es el hermano gemelo de Yoriichi y antepasado de Muichiro; cae ante los Pilares en el Castillo Infinito.",
+          "at": {
+            "season": "ky-manga",
             "arc": 0
           }
         }
@@ -808,7 +952,7 @@
         "season": "ky-herreros",
         "arc": 0
       },
-      "text": "Con su katana dañada tras la contienda de Yoshiwara, Tanjiro viaja con los ojos vendados hacia el asentamiento oculto donde residen los forjadores del Cuerpo. Allí entabla conversación con el taciturno Pilar de la Niebla y con la afectuosa Mitsuri Kanroji en las aguas termales. Mientras aguarda su arma, el joven entrena contra un autómata mecánico milenario.",
+      "text": "Con su katana dañada tras la contienda de Yoshiwara, Tanjiro viaja con los ojos vendados hacia el asentamiento oculto donde residen los forjadores del Cuerpo. Allí entabla conversación con el taciturno Pilar de la Niebla y con la afectuosa Mitsuri Kanroji en las aguas termales. Mientras aguarda su arma, el joven entrena contra un autómata mecánico de hace siglos.",
       "characters": [
         "tanjiro-kamado",
         "muichiro-tokito",
@@ -858,11 +1002,10 @@
         "season": "ky-pilares",
         "arc": 0
       },
-      "text": "Conscientes de la inminente ofensiva de Muzan para apoderarse de Nezuko, los cazadores organizan un severo programa de instrucción impartido por todos los Pilares. Tanjiro recorre cada campamento superando extenuantes pruebas físicas y ayuda a Giyu Tomioka a reconciliarse con su doloroso pasado. Entretanto, Shinobu Kocho permanece en su laboratorio preparando contramedidas químicas con la colaboración de Tamayo.",
+      "text": "Conscientes de la inminente ofensiva de Muzan para apoderarse de Nezuko, los cazadores organizan un severo programa de instrucción impartido por los Pilares. Tanjiro recorre cada campamento superando extenuantes pruebas físicas y ayuda a Giyu Tomioka a reconciliarse con su doloroso pasado.",
       "characters": [
         "tanjiro-kamado",
-        "giyu-tomioka",
-        "shinobu-kocho"
+        "giyu-tomioka"
       ],
       "major": false
     },
@@ -902,14 +1045,14 @@
     },
     {
       "id": "sacrificio-shinobu-kocho",
-      "title": "El trágico sacrificio de Shinobu Kocho",
+      "title": "La caída de Shinobu Kocho",
       "date": "Duelo en el santuario del castillo",
       "order": 230,
       "at": {
         "season": "ky-castillo-1",
         "arc": 0
       },
-      "text": "Shinobu localiza a la Segunda Luna Superior Doma y lo enfrenta con furia para vengar el asesinato de su hermana mayor. Pese a inyectarle múltiples venenos diseñados con glicinia, el demonio desarrolla una rápida tolerancia celular y termina devorando a la espadachina. Kanao llega al recinto justo a tiempo para atestiguar la caída de su mentora y asume el relevo en el combate.",
+      "text": "Shinobu localiza a la Segunda Luna Superior y la enfrenta con furia para vengar el asesinato de su hermana mayor. Sus venenos de glicinia no bastan: el demonio los resiste y termina devorándola. Kanao llega justo a tiempo para presenciar la caída de su mentora y toma el relevo.",
       "characters": [
         "shinobu-kocho",
         "kanao-tsuyuri"
@@ -942,7 +1085,7 @@
         "season": "ky-manga",
         "arc": 0
       },
-      "text": "El veneno masivo que Shinobu albergaba en su cuerpo corroe las entrañas de Doma, permitiendo que Kanao e Inosuke lo decapiten definitivamente. Simultáneamente, Muichiro Tokito y sus aliados logran abatir a la Primera Luna Superior tras una colosal batalla que cuesta la vida del joven Pilar de la Niebla. Desesperado por el colapso de sus servidores, Muzan destruye a Nakime y fuerza la emergencia del castillo.",
+      "text": "El veneno que Shinobu albergaba en su cuerpo corroe a la Segunda Luna Superior, y Kanao e Inosuke logran decapitarla. Muichiro y sus aliados abaten a la Primera Luna Superior en una batalla que le cuesta la vida al joven Pilar. Cuando Yushiro toma el control de Nakime, Muzan la destruye y el castillo se derrumba, arrojando a todos a la superficie.",
       "characters": [
         "kanao-tsuyuri",
         "inosuke-hashibira",
@@ -959,7 +1102,7 @@
         "season": "ky-manga",
         "arc": 1
       },
-      "text": "Tras expulsar a los cazadores a la superficie, un Muzan grotesco y mutilador combate contra los Pilares restantes en una carrera contrarreloj antes del alba. Severamente envejecido y debilitado por el fármaco cuádruple de Tamayo, el progenitor masacra a gran parte de los combatientes mientras Tanjiro conecta las posturas solares. Al despuntar los primeros rayos solares en el horizonte, la carne de Muzan es desintegrada en cenizas.",
+      "text": "Ya en la superficie, un Muzan grotesco y mutilador combate contra los Pilares restantes en una carrera contrarreloj antes del alba. Severamente envejecido y debilitado por el fármaco cuádruple de Tamayo, el progenitor masacra a gran parte de los combatientes mientras Tanjiro conecta las posturas solares. Al despuntar los primeros rayos solares en el horizonte, la carne de Muzan es desintegrada en cenizas.",
       "characters": [
         "muzan-kibutsuji",
         "tanjiro-kamado",
@@ -982,6 +1125,24 @@
         "tanjiro-kamado",
         "nezuko-kamado",
         "kanao-tsuyuri"
+      ],
+      "major": false
+    },
+    {
+      "id": "reunion-lunas-superiores",
+      "title": "Reunión de las Lunas Superiores",
+      "date": "Tras la caída del Distrito Rojo",
+      "order": 165,
+      "at": {
+        "season": "ky-herreros",
+        "arc": 0
+      },
+      "text": "Muzan convoca a las Lunas Superiores en el Castillo Infinito después de la derrota de los hermanos del Distrito Rojo. Les reprocha sus fracasos y les exige encontrar la Flor Lirio Araña Azul.",
+      "characters": [
+        "muzan-kibutsuji",
+        "doma",
+        "kokushibo",
+        "akaza"
       ],
       "major": false
     }
@@ -1061,7 +1222,7 @@
       "from": "tamayo",
       "to": "muzan-kibutsuji",
       "kind": "enemigo",
-      "detail": "Doctora demoníaca que consagró siglos de clandestinidad a fabricar el veneno que acabe con su creador.",
+      "detail": "Doctora demonio que lleva siglos oculta, investigando a los demonios para acabar con su creador.",
       "at": {
         "season": "ky-t1",
         "arc": 1
@@ -1100,11 +1261,11 @@
     {
       "from": "kagaya-ubuyashiki",
       "to": "giyu-tomioka",
-      "kind": "mentor",
-      "detail": "Líder venerado cuya voz serena brinda consuelo y dirección a la atormentada conciencia del Pilar.",
+      "kind": "aliado",
+      "detail": "Líder preocupado por el aislamiento del Pilar, que pide a Tanjiro que hable con él.",
       "at": {
-        "season": "ky-t1",
-        "arc": 3
+        "season": "ky-pilares",
+        "arc": 0
       }
     },
     {
@@ -1195,6 +1356,56 @@
       "at": {
         "season": "ky-manga",
         "arc": 1
+      }
+    },
+    {
+      "from": "sanemi-shinazugawa",
+      "to": "nezuko-kamado",
+      "kind": "enemigo",
+      "detail": "La hiere ante los Pilares para demostrar que es un demonio peligroso.",
+      "at": {
+        "season": "ky-t1",
+        "arc": 3
+      }
+    },
+    {
+      "from": "gyomei-himejima",
+      "to": "tanjiro-kamado",
+      "kind": "mentor",
+      "detail": "Lo somete a la última etapa del entrenamiento y termina reconociendo su valor.",
+      "at": {
+        "season": "ky-pilares",
+        "arc": 0
+      }
+    },
+    {
+      "from": "obanai-iguro",
+      "to": "mitsuri-kanroji",
+      "kind": "romance",
+      "detail": "Siente por ella un cariño profundo que solo confiesa al final.",
+      "at": {
+        "season": "ky-manga",
+        "arc": 1
+      }
+    },
+    {
+      "from": "doma",
+      "to": "shinobu-kocho",
+      "kind": "enemigo",
+      "detail": "El demonio que mató a su hermana y al que ella busca durante años.",
+      "at": {
+        "season": "ky-castillo-1",
+        "arc": 0
+      }
+    },
+    {
+      "from": "kokushibo",
+      "to": "muichiro-tokito",
+      "kind": "familia",
+      "detail": "Antepasado y descendiente, enfrentados en el Castillo Infinito.",
+      "at": {
+        "season": "ky-manga",
+        "arc": 0
       }
     }
   ]
