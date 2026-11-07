@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DEFAULT_THEME, THEMES, type Theme } from '../src/lib/themes';
+import { DEFAULT_THEME, THEMES, type Palette, type Theme } from '../src/lib/themes';
 
 function luminance(hex: string): number {
   const [r, g, b] = [1, 3, 5].map((i) => {
@@ -14,7 +14,14 @@ export function contrast(a: string, b: string): number {
   return (hi + 0.05) / (lo + 0.05);
 }
 
-const themes: [string, Theme][] = [['default', DEFAULT_THEME], ...Object.entries(THEMES)];
+// Cada serie se prueba en sus dos modos: tinta (oscuro, predeterminado) y papel (claro).
+const series: [string, Theme][] = [['default', DEFAULT_THEME], ...Object.entries(THEMES)];
+const themes: [string, Palette][] = series.flatMap(
+  ([name, theme]): [string, Palette][] => [
+    [`${name} oscuro`, theme],
+    [`${name} claro`, theme.light],
+  ],
+);
 
 describe('contraste WCAG AA de cada tema', () => {
   for (const [name, t] of themes) {

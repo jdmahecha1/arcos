@@ -1,5 +1,5 @@
 ---
-import { CompassIcon, MagnifyingGlassIcon } from '@phosphor-icons/react/dist/ssr';
+import { CompassIcon, MagnifyingGlassIcon, MoonIcon, SunIcon } from '@phosphor-icons/react/dist/ssr';
 import '../styles/global.css';
 import ShieldToggle from '../components/ShieldToggle';
 import { DEFAULT_THEME, themeStyle, type Theme } from '../lib/themes';
@@ -24,6 +24,12 @@ const path = Astro.url.pathname;
 <html lang="es">
   <head>
     <meta charset="utf-8" />
+    <!-- El modo oscuro es el predeterminado; si la persona eligió el claro, se aplica antes de pintar. -->
+    <script is:inline>
+      try {
+        if (localStorage.getItem('arcos:tema') === 'claro') document.documentElement.dataset.theme = 'light';
+      } catch {}
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
@@ -59,6 +65,10 @@ const path = Astro.url.pathname;
             <span>Buscar</span>
           </a>
         </nav>
+        <button type="button" class="theme-toggle" data-theme-toggle aria-label="Cambiar a modo claro">
+          <SunIcon className="icon theme-toggle__sun" aria-hidden="true" weight="bold" />
+          <MoonIcon className="icon theme-toggle__moon" aria-hidden="true" weight="bold" />
+        </button>
         <ShieldToggle client:load />
       </div>
     </header>
@@ -85,6 +95,7 @@ const path = Astro.url.pathname;
 
     <script>
       import '../scripts/spoilers-dom';
+      import '../scripts/theme';
     </script>
   </body>
 </html>
@@ -141,7 +152,7 @@ const path = Astro.url.pathname;
     height: 34px;
     border: var(--ink);
     background: var(--accent);
-    box-shadow: 2px 2px 0 var(--line);
+    box-shadow: 2px 2px 0 var(--shadow-ink);
     color: var(--accent-ink);
     font-size: 1.15rem;
     line-height: 1;
@@ -186,6 +197,36 @@ const path = Astro.url.pathname;
     .site-nav a {
       padding: 0 var(--space-2);
     }
+  }
+
+  /* Interruptor de tema: muestra el sol en oscuro (pasar a claro) y la luna en claro. */
+  .theme-toggle {
+    display: inline-grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: var(--ink);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    color: var(--text);
+    cursor: pointer;
+    transition:
+      transform 0.12s var(--ease-out),
+      box-shadow 0.12s var(--ease-out);
+  }
+
+  .theme-toggle:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0 0 0 var(--shadow-ink);
+  }
+
+  .theme-toggle :global(.theme-toggle__moon),
+  :global(:root[data-theme='light']) .theme-toggle :global(.theme-toggle__sun) {
+    display: none;
+  }
+
+  :global(:root[data-theme='light']) .theme-toggle :global(.theme-toggle__moon) {
+    display: block;
   }
 
   .site-footer {

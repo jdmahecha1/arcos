@@ -24,3 +24,17 @@ for (const [name, path] of pages) {
     expect(summary).toEqual([]);
   });
 }
+
+// Las mismas reglas en modo claro, que solo se activa si la persona lo elige.
+for (const [name, path] of pages.slice(0, 4)) {
+  test(`sin fallos WCAG 2.1 AA en modo claro: ${name}`, async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.addInitScript(() => localStorage.setItem('arcos:tema', 'claro'));
+    await page.goto(path);
+    await page.waitForFunction(() => document.querySelectorAll('astro-island[ssr]').length === 0);
+    await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+    const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
+    const summary = results.violations.map((v) => `${v.id} (${v.nodes.length}): ${v.help}`);
+    expect(summary).toEqual([]);
+  });
+}

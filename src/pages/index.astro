@@ -47,7 +47,7 @@ const totals = {
     <nav class="vista" aria-label="Series destacadas">
       {
         sagas.map(({ saga, theme, years }, i) => (
-          <a class="vista__strip" href={sagaUrl(saga.id)} style={themeStyle(theme)}>
+          <a class="vista__strip" href={sagaUrl(saga.id)} style={themeStyle(theme)} data-themed>
             <SagaArt sagaId={saga.id} theme={theme} uid={`vista-${i}`} class="vista__art" fog={false} priority={i === 0} sizes="(min-width: 861px) 40vw, 100vw" />
             <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="vista__cover" decorative priority={i === 0} />
             {TITLE_JA[saga.id] && <span class="title-ja vista__ja" aria-hidden="true" lang="ja">{TITLE_JA[saga.id]}</span>}
@@ -72,7 +72,7 @@ const totals = {
     <ul class="sagas__list">
       {
         sagas.map(({ saga, theme, years }, i) => (
-          <li class="saga-row" style={themeStyle(theme)} data-ja={TITLE_JA[saga.id]}>
+          <li class="saga-row" style={themeStyle(theme)} data-themed data-ja={TITLE_JA[saga.id]}>
             <CoverCard seasonId={SAGA_COVER[saga.id]} title={saga.title} class="saga-row__art" decorative />
             <div class="saga-row__body">
               <p class="saga-row__meta">
@@ -149,7 +149,7 @@ const totals = {
     padding: 0.04em 0.22em 0.1em;
     border: 3px solid var(--line);
     background: var(--accent);
-    box-shadow: 6px 6px 0 var(--line);
+    box-shadow: 6px 6px 0 var(--shadow-ink);
     color: var(--accent-ink);
     font-style: normal;
     transform: rotate(-1.5deg);

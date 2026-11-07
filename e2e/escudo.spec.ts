@@ -148,6 +148,21 @@ test('la búsqueda encuentra personajes públicos', async ({ page }) => {
   await expect(page.locator('.search__results a').first()).toContainText('Tanjiro');
 });
 
+test('el modo oscuro es el predeterminado y el claro se recuerda', async ({ page }) => {
+  await page.goto('');
+  const html = page.locator('html');
+  await expect(html).not.toHaveAttribute('data-theme', 'light');
+  const toggle = page.getByRole('button', { name: 'Cambiar a modo claro' });
+  await toggle.click();
+  await expect(html).toHaveAttribute('data-theme', 'light');
+  await page.reload();
+  await expect(html).toHaveAttribute('data-theme', 'light');
+  await page.getByRole('button', { name: 'Cambiar a modo oscuro' }).click();
+  await expect(html).not.toHaveAttribute('data-theme', 'light');
+  await page.reload();
+  await expect(html).not.toHaveAttribute('data-theme', 'light');
+});
+
 test('la portada no tiene scroll horizontal', async ({ page }) => {
   await page.goto('');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);

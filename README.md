@@ -66,7 +66,7 @@ Sin servidor, base de datos ni claves: la superficie de ataque es mínima y el h
 
 - **[Astro 7](https://astro.build)**: generación estática, una página por serie y por personaje.
 - **React 19** en islas: panel de progreso, línea de tiempo, grafo, búsqueda e interruptor del escudo, sincronizados con `useSyncExternalStore` (también entre pestañas).
-- **Diseño "Tomo de manga":** papel, tinta negra y un solo color especial por serie; viñetas de borde recto con sombra dura, trama de puntos para lo oculto y el título original de cada serie en japonés como lomo. Dela Gothic One y Zen Kaku Gothic New (autoalojadas), iconos de Phosphor, escalas cerradas de 7 tamaños de letra y 8 espaciados. Animaciones con CSS (entradas al hacer scroll, lo revelado aparece como una viñeta que se descubre) que se apagan con `prefers-reduced-motion`.
+- **Diseño "Tomo de manga":** modo oscuro (páginas de tinta) por defecto y modo claro (papel) opcional, que se recuerda en el navegador y se aplica antes de pintar para no parpadear; un solo color especial por serie en ambos modos; viñetas de borde recto con sombra dura, trama de puntos para lo oculto y el título original de cada serie en japonés como lomo. Dela Gothic One y Zen Kaku Gothic New (autoalojadas), iconos de Phosphor, escalas cerradas de 7 tamaños de letra y 8 espaciados. Animaciones con CSS (entradas al hacer scroll, lo revelado aparece como una viñeta que se descubre) que se apagan con `prefers-reduced-motion`.
 - **Zod 4**: esquema del contenido + verificación de integridad (referencias rotas, arcos inexistentes, ids duplicados, spoilers fuera de orden). Si un JSON está mal, la compilación falla con el motivo.
 - **d3-force**: disposición del grafo, calculada en el servidor.
 - **Pagefind**: búsqueda estática.

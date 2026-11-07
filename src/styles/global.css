@@ -23,20 +23,32 @@
  * como las viñetas impresas.
  */
 :root {
-  color-scheme: light;
-  --bg: #e8e7e2;
-  --surface: #f5f4f0;
-  --raised: #d9d8d2;
-  --line: #141414;
+  color-scheme: dark;
+  /* Modo oscuro (predeterminado): páginas de tinta. */
+  --bg: #131313;
+  --surface: #1d1d1d;
+  --raised: #2a2a2a;
+  --line: #d6d4cc;
+  --text: #f2f1ec;
+  --muted: #b4b3ad;
+  --accent: #ff634a;
+  --accent-ink: #131313;
+  /* Modo claro: papel. Lo activa data-theme="light" en <html>. */
+  --l-bg: #e8e7e2;
+  --l-surface: #f5f4f0;
+  --l-raised: #d9d8d2;
+  --l-line: #141414;
+  --l-text: #141414;
+  --l-muted: #46464b;
+  --l-accent: #aa2e1b;
+  --l-accent-ink: #f5f4f0;
   --line-soft: color-mix(in oklab, var(--line) 30%, transparent);
-  --text: #141414;
-  --muted: #46464b;
-  --accent: #aa2e1b;
-  --accent-ink: #f5f4f0;
+  /* Sombras duras: tinta sobre papel, gris suave sobre tinta. */
+  --shadow-ink: color-mix(in oklab, var(--line) 32%, transparent);
   --fog: color-mix(in oklab, var(--text) 24%, transparent);
   --ink: 2px solid var(--line);
-  --shadow: 4px 4px 0 var(--line);
-  --shadow-sm: 3px 3px 0 var(--line);
+  --shadow: 4px 4px 0 var(--shadow-ink);
+  --shadow-sm: 3px 3px 0 var(--shadow-ink);
 
   --font-display: 'Dela Gothic One', 'Zen Kaku Gothic New', system-ui, sans-serif;
   --font-body: 'Zen Kaku Gothic New', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -63,6 +75,28 @@
   --wrap: 1200px;
   --header-h: 64px;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/*
+ * Modo claro: las variables --l-* reemplazan a las oscuras, también en los elementos que
+ * llevan colores propios de una serie (con data-themed). El !important es necesario para
+ * ganarle a los colores que esos elementos traen en su atributo style.
+ */
+:root[data-theme='light'] {
+  color-scheme: light;
+}
+
+:root[data-theme='light'],
+:root[data-theme='light'] :is(body, [data-themed]) {
+  --bg: var(--l-bg) !important;
+  --surface: var(--l-surface) !important;
+  --raised: var(--l-raised) !important;
+  --line: var(--l-line) !important;
+  --text: var(--l-text) !important;
+  --muted: var(--l-muted) !important;
+  --accent: var(--l-accent) !important;
+  --accent-ink: var(--l-accent-ink) !important;
+  --shadow-ink: var(--l-line);
 }
 
 *,
@@ -205,7 +239,7 @@ svg {
 
 .btn:active {
   transform: translate(3px, 3px);
-  box-shadow: 0 0 0 var(--line);
+  box-shadow: 0 0 0 var(--shadow-ink);
 }
 
 .btn--primary {
